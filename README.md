@@ -3,10 +3,10 @@
 ## Table of Contents
 
 - [Introduction](#Introduction)
-- [General of the replication package](#General of the replication package)
+- [General of the replication package](#Generalof-the-replication-package)
 - [Requirements](#Requirements)
-- [How to Reproduce Research Methodology](#How to Reproduce Research Methodology)
-- [Pre-trained Model](#Pre-trained Model)
+- [How to Reproduce Research Methodology](#How-to-Reproduce-Research-Methodology)
+- [Pre-trained Model](#Pre-trained-Model)
 
 ## Introduction
 
@@ -14,13 +14,13 @@ This document is included in the 'One-to-One or One-to-Many? Suggesting Extract 
 
 ## General of the replication package
 
-**/Implementation: **The implementation of the proposed approach.
+**/Implementation**: The implementation of the proposed approach.
 
-**/Evaluation: **Replication package for the evaluation section.
+**/Evaluation**: Replication package for the evaluation section.
 
-**/CaseStudy: **Replication package for the case study.
+**/CaseStudy**: Replication package for the case study.
 
-**/Src: **The code files which is involved in the experiment.
+**/Src**: The code files which is involved in the experiment.
 
 ## Requirements
 
