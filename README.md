@@ -59,11 +59,11 @@ The detection phase first constructs attributed hypergraph through hypergraph co
 ##  Pre-trained Model
 
 ###  1.pre-trained model link 
-CodeBERT: https://huggingface.co/microsoft/codebert-base 
-CodeGPT: https://huggingface.co/microsoft/CodeGPT-small-java-adaptedGPT2 
-GraphCodeBERT: https://huggingface.co/microsoft/graphcodebert-base 
-CodeT5: https://huggingface.co/Salesforce/codet5-base-multi-sum 
-CoTexT: https://huggingface.co/razent/cotext-2-cc 
+CodeBERT: https://huggingface.co/microsoft/codebert-base \
+CodeGPT: https://huggingface.co/microsoft/CodeGPT-small-java-adaptedGPT2 \
+GraphCodeBERT: https://huggingface.co/microsoft/graphcodebert-base \
+CodeT5: https://huggingface.co/Salesforce/codet5-base-multi-sum \
+CoTexT: https://huggingface.co/razent/cotext-2-cc \
 PLBART: https://huggingface.co/uclanlp/plbart-base
 
 ###  2.hyper-parameter settings
