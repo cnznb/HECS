@@ -1,0 +1,106 @@
+3bdcaa336a6e6a9727c333b433bb9f5d3afc0fb1
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.cassandra.cql3.statements.CFProperties from class org.apache.cassandra.cql3.statements.CreateTableStatement.RawStatement",
+	"leftSideLocations": [{
+		"filePath": "src/java/org/apache/cassandra/cql3/statements/CreateTableStatement.java",
+		"startLine": 188,
+		"endLine": 393,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.cassandra.cql3.statements.CreateTableStatement.RawStatement"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/statements/CreateTableStatement.java",
+		"startLine": 384,
+		"endLine": 387,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public setOrdering(alias ColumnIdentifier, reversed boolean) : void"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/statements/CreateTableStatement.java",
+		"startLine": 389,
+		"endLine": 392,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public setCompactStorage() : void"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/statements/CreateTableStatement.java",
+		"startLine": 195,
+		"endLine": 195,
+		"startColumn": 54,
+		"endColumn": 118,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private definedOrdering : Map<ColumnIdentifier,Boolean>"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/statements/CreateTableStatement.java",
+		"startLine": 198,
+		"endLine": 198,
+		"startColumn": 25,
+		"endColumn": 42,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private useCompactStorage : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/java/org/apache/cassandra/cql3/statements/CreateTableStatement.java",
+		"startLine": 188,
+		"endLine": 382,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.cassandra.cql3.statements.CreateTableStatement.RawStatement"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/statements/CFProperties.java",
+		"startLine": 29,
+		"endLine": 58,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.cassandra.cql3.statements.CFProperties"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/statements/CFProperties.java",
+		"startLine": 40,
+		"endLine": 43,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public setOrdering(alias ColumnIdentifier, reversed boolean) : void"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/statements/CFProperties.java",
+		"startLine": 45,
+		"endLine": 48,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public setCompactStorage() : void"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/statements/CFProperties.java",
+		"startLine": 32,
+		"endLine": 32,
+		"startColumn": 42,
+		"endColumn": 81,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "package definedOrdering : Map<ColumnIdentifier,Boolean>"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/statements/CFProperties.java",
+		"startLine": 33,
+		"endLine": 33,
+		"startColumn": 13,
+		"endColumn": 38,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "package useCompactStorage : boolean"
+}]
+}

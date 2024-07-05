@@ -1,0 +1,70 @@
+6fec9ee0c
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.impl.validation.XMLContentSpec from class org.apache.xerces.framework.XMLContentSpec",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/framework/XMLContentSpec.java",
+		"startLine": 62,
+		"endLine": 646,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.framework.XMLContentSpec"
+}, {
+		"filePath": "src/org/apache/xerces/framework/XMLContentSpec.java",
+		"startLine": 203,
+		"endLine": 203,
+		"startColumn": 16,
+		"endColumn": 21,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "public value : int"
+}, {
+		"filePath": "src/org/apache/xerces/framework/XMLContentSpec.java",
+		"startLine": 209,
+		"endLine": 209,
+		"startColumn": 16,
+		"endColumn": 26,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "public otherValue : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/impl/v1/XMLContentSpec.java",
+		"startLine": 62,
+		"endLine": 687,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.impl.v1.XMLContentSpec"
+}, {
+		"filePath": "src/org/apache/xerces/impl/validation/XMLContentSpec.java",
+		"startLine": 60,
+		"endLine": 329,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.impl.validation.XMLContentSpec"
+}, {
+		"filePath": "src/org/apache/xerces/impl/validation/XMLContentSpec.java",
+		"startLine": 197,
+		"endLine": 197,
+		"startColumn": 19,
+		"endColumn": 24,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public value : Object"
+}, {
+		"filePath": "src/org/apache/xerces/impl/validation/XMLContentSpec.java",
+		"startLine": 203,
+		"endLine": 203,
+		"startColumn": 19,
+		"endColumn": 29,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public otherValue : Object"
+}]
+}

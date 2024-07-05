@@ -1,0 +1,52 @@
+ab98bcacf6e5bf1c3a06f6bcca68f178f880ffc9
+{
+	"type": "Extract Class",
+	"description": "Extract Class com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming.testRedBlackTree from class com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming",
+	"leftSideLocations": [{
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 35,
+		"endLine": 2253,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming"
+}, {
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 1215,
+		"endLine": 1215,
+		"startColumn": 52,
+		"endColumn": 94,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private redBlackTree : BinarySearchTree<Integer>"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 36,
+		"endLine": 1863,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming"
+}, {
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 760,
+		"endLine": 775,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming.testRedBlackTree"
+}, {
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 761,
+		"endLine": 761,
+		"startColumn": 35,
+		"endColumn": 77,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "package redBlackTree : BinarySearchTree<Integer>"
+}]
+}

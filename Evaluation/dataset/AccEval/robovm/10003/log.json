@@ -1,0 +1,70 @@
+bf5ee44b3b576e01ab09cae9f50300417b01dc07
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.robovm.apple.corebluetooth.CBCentralManagerScanOptions.Keys from class org.robovm.apple.corebluetooth.CBCentralManagerScanOptions",
+	"leftSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBCentralManagerScanOptions.java",
+		"startLine": 37,
+		"endLine": 124,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.robovm.apple.corebluetooth.CBCentralManagerScanOptions"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBCentralManagerScanOptions.java",
+		"startLine": 111,
+		"endLine": 112,
+		"startColumn": 5,
+		"endColumn": 59,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected AllowDuplicatesKey() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBCentralManagerScanOptions.java",
+		"startLine": 113,
+		"endLine": 117,
+		"startColumn": 5,
+		"endColumn": 65,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected SolicitedServiceUUIDsKey() : NSString"
+}],
+	"rightSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBCentralManagerScanOptions.java",
+		"startLine": 37,
+		"endLine": 154,
+		"startColumn": 18,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.robovm.apple.corebluetooth.CBCentralManagerScanOptions"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBCentralManagerScanOptions.java",
+		"startLine": 142,
+		"endLine": 152,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.robovm.apple.corebluetooth.CBCentralManagerScanOptions.Keys"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBCentralManagerScanOptions.java",
+		"startLine": 145,
+		"endLine": 146,
+		"startColumn": 9,
+		"endColumn": 57,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public AllowDuplicates() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBCentralManagerScanOptions.java",
+		"startLine": 147,
+		"endLine": 151,
+		"startColumn": 9,
+		"endColumn": 63,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public SolicitedServiceUUIDs() : NSString"
+}]
+}

@@ -1,0 +1,268 @@
+1daa24e03
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xml.serialize.DOMWriterImpl from class org.apache.xml.serialize.XMLSerializer",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xml/serialize/XMLSerializer.java",
+		"startLine": 101,
+		"endLine": 1582,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xml.serialize.XMLSerializer"
+}, {
+		"filePath": "src/org/apache/xml/serialize/XMLSerializer.java",
+		"startLine": 1290,
+		"endLine": 1295,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private checkAllFeatures() : void"
+}, {
+		"filePath": "src/org/apache/xml/serialize/XMLSerializer.java",
+		"startLine": 1297,
+		"endLine": 1321,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public setFeature(name String, state boolean) : void"
+}, {
+		"filePath": "src/org/apache/xml/serialize/XMLSerializer.java",
+		"startLine": 1323,
+		"endLine": 1347,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public canSetFeature(name String, state boolean) : boolean"
+}, {
+		"filePath": "src/org/apache/xml/serialize/XMLSerializer.java",
+		"startLine": 1349,
+		"endLine": 1366,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getFeature(name String) : boolean"
+}, {
+		"filePath": "src/org/apache/xml/serialize/XMLSerializer.java",
+		"startLine": 1368,
+		"endLine": 1380,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getEncoding() : String"
+}, {
+		"filePath": "src/org/apache/xml/serialize/XMLSerializer.java",
+		"startLine": 1382,
+		"endLine": 1395,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public setEncoding(encoding String) : void"
+}, {
+		"filePath": "src/org/apache/xml/serialize/XMLSerializer.java",
+		"startLine": 1406,
+		"endLine": 1430,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getNewLine() : String"
+}, {
+		"filePath": "src/org/apache/xml/serialize/XMLSerializer.java",
+		"startLine": 1432,
+		"endLine": 1456,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public setNewLine(newLine String) : void"
+}, {
+		"filePath": "src/org/apache/xml/serialize/XMLSerializer.java",
+		"startLine": 1458,
+		"endLine": 1467,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getErrorHandler() : DOMErrorHandler"
+}, {
+		"filePath": "src/org/apache/xml/serialize/XMLSerializer.java",
+		"startLine": 1469,
+		"endLine": 1478,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public setErrorHandler(errorHandler DOMErrorHandler) : void"
+}, {
+		"filePath": "src/org/apache/xml/serialize/XMLSerializer.java",
+		"startLine": 1480,
+		"endLine": 1524,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public writeNode(destination OutputStream, wnode Node) : boolean"
+}, {
+		"filePath": "src/org/apache/xml/serialize/XMLSerializer.java",
+		"startLine": 1526,
+		"endLine": 1564,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public writeToString(wnode Node) : String"
+}, {
+		"filePath": "src/org/apache/xml/serialize/XMLSerializer.java",
+		"startLine": 168,
+		"endLine": 168,
+		"startColumn": 20,
+		"endColumn": 29,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fEncoding : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xml/serialize/XMLSerializer.java",
+		"startLine": 95,
+		"endLine": 1273,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xml.serialize.XMLSerializer"
+}, {
+		"filePath": "src/org/apache/xml/serialize/DOMWriterImpl.java",
+		"startLine": 80,
+		"endLine": 415,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xml.serialize.DOMWriterImpl"
+}, {
+		"filePath": "src/org/apache/xml/serialize/DOMWriterImpl.java",
+		"startLine": 407,
+		"endLine": 412,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private checkAllFeatures() : void"
+}, {
+		"filePath": "src/org/apache/xml/serialize/DOMWriterImpl.java",
+		"startLine": 129,
+		"endLine": 151,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public setFeature(name String, state boolean) : void"
+}, {
+		"filePath": "src/org/apache/xml/serialize/DOMWriterImpl.java",
+		"startLine": 153,
+		"endLine": 177,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public canSetFeature(name String, state boolean) : boolean"
+}, {
+		"filePath": "src/org/apache/xml/serialize/DOMWriterImpl.java",
+		"startLine": 179,
+		"endLine": 195,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public getFeature(name String) : boolean"
+}, {
+		"filePath": "src/org/apache/xml/serialize/DOMWriterImpl.java",
+		"startLine": 197,
+		"endLine": 210,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public getEncoding() : String"
+}, {
+		"filePath": "src/org/apache/xml/serialize/DOMWriterImpl.java",
+		"startLine": 212,
+		"endLine": 226,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public setEncoding(encoding String) : void"
+}, {
+		"filePath": "src/org/apache/xml/serialize/DOMWriterImpl.java",
+		"startLine": 364,
+		"endLine": 389,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public getNewLine() : String"
+}, {
+		"filePath": "src/org/apache/xml/serialize/DOMWriterImpl.java",
+		"startLine": 336,
+		"endLine": 361,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public setNewLine(newLine String) : void"
+}, {
+		"filePath": "src/org/apache/xml/serialize/DOMWriterImpl.java",
+		"startLine": 228,
+		"endLine": 237,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public getErrorHandler() : DOMErrorHandler"
+}, {
+		"filePath": "src/org/apache/xml/serialize/DOMWriterImpl.java",
+		"startLine": 239,
+		"endLine": 249,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public setErrorHandler(errorHandler DOMErrorHandler) : void"
+}, {
+		"filePath": "src/org/apache/xml/serialize/DOMWriterImpl.java",
+		"startLine": 251,
+		"endLine": 294,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public writeNode(destination OutputStream, wnode Node) : boolean"
+}, {
+		"filePath": "src/org/apache/xml/serialize/DOMWriterImpl.java",
+		"startLine": 296,
+		"endLine": 334,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public writeToString(wnode Node) : String"
+}, {
+		"filePath": "src/org/apache/xml/serialize/DOMWriterImpl.java",
+		"startLine": 94,
+		"endLine": 94,
+		"startColumn": 20,
+		"endColumn": 29,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fEncoding : String"
+}]
+}

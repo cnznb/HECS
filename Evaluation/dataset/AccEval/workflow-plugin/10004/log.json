@@ -1,0 +1,52 @@
+d0e374ce8ecb687b4dc046d1edea9e52da17706f
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.jenkinsci.plugins.workflow.multibranch.SCMBinder.Decorator from class org.jenkinsci.plugins.workflow.multibranch.SCMBinder",
+	"leftSideLocations": [{
+		"filePath": "multibranch/src/main/java/org/jenkinsci/plugins/workflow/multibranch/SCMBinder.java",
+		"startLine": 44,
+		"endLine": 80,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.jenkinsci.plugins.workflow.multibranch.SCMBinder"
+}, {
+		"filePath": "multibranch/src/main/java/org/jenkinsci/plugins/workflow/multibranch/SCMBinder.java",
+		"startLine": 50,
+		"endLine": 65,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public configureShell(context CpsFlowExecution, shell GroovyShell) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "multibranch/src/main/java/org/jenkinsci/plugins/workflow/multibranch/SCMBinder.java",
+		"startLine": 59,
+		"endLine": 134,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.jenkinsci.plugins.workflow.multibranch.SCMBinder"
+}, {
+		"filePath": "multibranch/src/main/java/org/jenkinsci/plugins/workflow/multibranch/SCMBinder.java",
+		"startLine": 108,
+		"endLine": 119,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.jenkinsci.plugins.workflow.multibranch.SCMBinder.Decorator"
+}, {
+		"filePath": "multibranch/src/main/java/org/jenkinsci/plugins/workflow/multibranch/SCMBinder.java",
+		"startLine": 110,
+		"endLine": 117,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public configureShell(context CpsFlowExecution, shell GroovyShell) : void"
+}]
+}

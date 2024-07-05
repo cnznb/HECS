@@ -1,0 +1,70 @@
+1c7c03dd9e6d5810ad22d37ecae59722c219ac35
+{
+	"type": "Extract Class",
+	"description": "Extract Class com.facebook.buck.android.AdbOptions from class com.facebook.buck.cli.AdbOptions",
+	"leftSideLocations": [{
+		"filePath": "src/com/facebook/buck/cli/AdbOptions.java",
+		"startLine": 23,
+		"endLine": 52,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.facebook.buck.cli.AdbOptions"
+}, {
+		"filePath": "src/com/facebook/buck/cli/AdbOptions.java",
+		"startLine": 44,
+		"endLine": 46,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getAdbThreadCount() : int"
+}, {
+		"filePath": "src/com/facebook/buck/cli/AdbOptions.java",
+		"startLine": 48,
+		"endLine": 50,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public isMultiInstallModeEnabled() : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/facebook/buck/cli/AdbCommandLineOptions.java",
+		"startLine": 24,
+		"endLine": 51,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "com.facebook.buck.cli.AdbCommandLineOptions"
+}, {
+		"filePath": "src/com/facebook/buck/android/AdbOptions.java",
+		"startLine": 19,
+		"endLine": 45,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "com.facebook.buck.android.AdbOptions"
+}, {
+		"filePath": "src/com/facebook/buck/android/AdbOptions.java",
+		"startLine": 37,
+		"endLine": 39,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public getAdbThreadCount() : int"
+}, {
+		"filePath": "src/com/facebook/buck/android/AdbOptions.java",
+		"startLine": 41,
+		"endLine": 43,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public isMultiInstallModeEnabled() : boolean"
+}]
+}

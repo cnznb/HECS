@@ -1,0 +1,70 @@
+79ae6b2a6
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.impl.xs.XMLSchemaLoader from class org.apache.xerces.impl.xs.XMLSchemaValidator",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/impl/xs/XMLSchemaValidator.java",
+		"startLine": 126,
+		"endLine": 4112,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.impl.xs.XMLSchemaValidator"
+}, {
+		"filePath": "src/org/apache/xerces/impl/xs/XMLSchemaValidator.java",
+		"startLine": 285,
+		"endLine": 285,
+		"startColumn": 39,
+		"endColumn": 74,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected fDeclPool : XSDeclarationPool"
+}, {
+		"filePath": "src/org/apache/xerces/impl/xs/XMLSchemaValidator.java",
+		"startLine": 1079,
+		"endLine": 1079,
+		"startColumn": 22,
+		"endColumn": 36,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "package fSchemaHandler : XSDHandler"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/impl/xs/XMLSchemaValidator.java",
+		"startLine": 118,
+		"endLine": 3908,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.impl.xs.XMLSchemaValidator"
+}, {
+		"filePath": "src/org/apache/xerces/impl/xs/XMLSchemaLoader.java",
+		"startLine": 90,
+		"endLine": 709,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.impl.xs.XMLSchemaLoader"
+}, {
+		"filePath": "src/org/apache/xerces/impl/xs/XMLSchemaLoader.java",
+		"startLine": 188,
+		"endLine": 188,
+		"startColumn": 31,
+		"endColumn": 47,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fDeclPool : XSDeclarationPool"
+}, {
+		"filePath": "src/org/apache/xerces/impl/xs/XMLSchemaLoader.java",
+		"startLine": 185,
+		"endLine": 185,
+		"startColumn": 24,
+		"endColumn": 38,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fSchemaHandler : XSDHandler"
+}]
+}

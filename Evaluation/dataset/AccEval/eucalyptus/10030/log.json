@@ -1,0 +1,178 @@
+5a38d0bca0e48853c3f7c00a0f098bada64797df
+{
+	"type": "Extract Class",
+	"description": "Extract Class com.eucalyptus.cluster.callback.cloudwatch.AbsoluteMetricQueue from class com.eucalyptus.cloudwatch.domain.metricdata.MetricDataQueue",
+	"leftSideLocations": [{
+		"filePath": "clc/modules/cloudwatch-backend/src/main/java/com/eucalyptus/cloudwatch/domain/metricdata/MetricDataQueue.java",
+		"startLine": 58,
+		"endLine": 647,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.eucalyptus.cloudwatch.domain.metricdata.MetricDataQueue"
+}, {
+		"filePath": "clc/modules/cloudwatch-backend/src/main/java/com/eucalyptus/cloudwatch/domain/metricdata/MetricDataQueue.java",
+		"startLine": 176,
+		"endLine": 268,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected dealWithAbsoluteMetrics(dataBatch List<MetricQueueItem>) : List<MetricQueueItem>"
+}, {
+		"filePath": "clc/modules/cloudwatch-backend/src/main/java/com/eucalyptus/cloudwatch/domain/metricdata/MetricDataQueue.java",
+		"startLine": 314,
+		"endLine": 334,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private adjustAbsoluteVolumeQueueLengthStatisticSet(cache AbsoluteMetricCache, datum MetricDatum, volumeId String) : boolean"
+}, {
+		"filePath": "clc/modules/cloudwatch-backend/src/main/java/com/eucalyptus/cloudwatch/domain/metricdata/MetricDataQueue.java",
+		"startLine": 336,
+		"endLine": 347,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private convertVolumeTotalReadWriteTimeToVolumeIdleTime(datum MetricDatum) : void"
+}, {
+		"filePath": "clc/modules/cloudwatch-backend/src/main/java/com/eucalyptus/cloudwatch/domain/metricdata/MetricDataQueue.java",
+		"startLine": 387,
+		"endLine": 410,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private adjustAbsoluteInstanceCPUStatisticSet(cache AbsoluteMetricCache, datum MetricDatum, absoluteMetricName String, relativeMetricName String, instanceId String) : boolean"
+}, {
+		"filePath": "clc/modules/cloudwatch-backend/src/main/java/com/eucalyptus/cloudwatch/domain/metricdata/MetricDataQueue.java",
+		"startLine": 412,
+		"endLine": 430,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private adjustAbsoluteInstanceStatisticSet(cache AbsoluteMetricCache, datum MetricDatum, absoluteMetricName String, relativeMetricName String, instanceId String) : boolean"
+}, {
+		"filePath": "clc/modules/cloudwatch-backend/src/main/java/com/eucalyptus/cloudwatch/domain/metricdata/MetricDataQueue.java",
+		"startLine": 433,
+		"endLine": 451,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private adjustAbsoluteVolumeStatisticSet(cache AbsoluteMetricCache, datum MetricDatum, absoluteMetricName String, relativeMetricName String, volumeId String) : boolean"
+}, {
+		"filePath": "clc/modules/cloudwatch-backend/src/main/java/com/eucalyptus/cloudwatch/domain/metricdata/MetricDataQueue.java",
+		"startLine": 270,
+		"endLine": 280,
+		"startColumn": 44,
+		"endColumn": 15,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private EBS_ABSOLUTE_METRICS : Map<String,String>"
+}, {
+		"filePath": "clc/modules/cloudwatch-backend/src/main/java/com/eucalyptus/cloudwatch/domain/metricdata/MetricDataQueue.java",
+		"startLine": 282,
+		"endLine": 290,
+		"startColumn": 44,
+		"endColumn": 15,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private EC2_ABSOLUTE_METRICS : Map<String,String>"
+}],
+	"rightSideLocations": [{
+		"filePath": "clc/modules/cloudwatch-backend/src/main/java/com/eucalyptus/cloudwatch/domain/metricdata/MetricDataQueue.java",
+		"startLine": 44,
+		"endLine": 197,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "com.eucalyptus.cloudwatch.domain.metricdata.MetricDataQueue"
+}, {
+		"filePath": "clc/modules/cluster-manager/src/main/java/com/eucalyptus/cluster/callback/cloudwatch/AbsoluteMetricQueue.java",
+		"startLine": 60,
+		"endLine": 639,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "com.eucalyptus.cluster.callback.cloudwatch.AbsoluteMetricQueue"
+}, {
+		"filePath": "clc/modules/cluster-manager/src/main/java/com/eucalyptus/cluster/callback/cloudwatch/AbsoluteMetricQueue.java",
+		"startLine": 156,
+		"endLine": 247,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected dealWithAbsoluteMetrics(dataBatch List<AbsoluteMetricQueueItem>) : List<AbsoluteMetricQueueItem>"
+}, {
+		"filePath": "clc/modules/cluster-manager/src/main/java/com/eucalyptus/cluster/callback/cloudwatch/AbsoluteMetricQueue.java",
+		"startLine": 271,
+		"endLine": 291,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private adjustAbsoluteVolumeQueueLengthStatisticSet(cache AbsoluteMetricCache, datum MetricDatum, volumeId String) : boolean"
+}, {
+		"filePath": "clc/modules/cluster-manager/src/main/java/com/eucalyptus/cluster/callback/cloudwatch/AbsoluteMetricQueue.java",
+		"startLine": 293,
+		"endLine": 304,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private convertVolumeTotalReadWriteTimeToVolumeIdleTime(datum MetricDatum) : void"
+}, {
+		"filePath": "clc/modules/cluster-manager/src/main/java/com/eucalyptus/cluster/callback/cloudwatch/AbsoluteMetricQueue.java",
+		"startLine": 343,
+		"endLine": 366,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private adjustAbsoluteInstanceCPUStatisticSet(cache AbsoluteMetricCache, datum MetricDatum, absoluteMetricName String, relativeMetricName String, instanceId String) : boolean"
+}, {
+		"filePath": "clc/modules/cluster-manager/src/main/java/com/eucalyptus/cluster/callback/cloudwatch/AbsoluteMetricQueue.java",
+		"startLine": 368,
+		"endLine": 386,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private adjustAbsoluteInstanceStatisticSet(cache AbsoluteMetricCache, datum MetricDatum, absoluteMetricName String, relativeMetricName String, instanceId String) : boolean"
+}, {
+		"filePath": "clc/modules/cluster-manager/src/main/java/com/eucalyptus/cluster/callback/cloudwatch/AbsoluteMetricQueue.java",
+		"startLine": 389,
+		"endLine": 407,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private adjustAbsoluteVolumeStatisticSet(cache AbsoluteMetricCache, datum MetricDatum, absoluteMetricName String, relativeMetricName String, volumeId String) : boolean"
+}, {
+		"filePath": "clc/modules/cluster-manager/src/main/java/com/eucalyptus/cluster/callback/cloudwatch/AbsoluteMetricQueue.java",
+		"startLine": 249,
+		"endLine": 259,
+		"startColumn": 44,
+		"endColumn": 15,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private EBS_ABSOLUTE_METRICS : Map<String,String>"
+}, {
+		"filePath": "clc/modules/cluster-manager/src/main/java/com/eucalyptus/cluster/callback/cloudwatch/AbsoluteMetricQueue.java",
+		"startLine": 261,
+		"endLine": 269,
+		"startColumn": 44,
+		"endColumn": 15,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private EC2_ABSOLUTE_METRICS : Map<String,String>"
+}]
+}

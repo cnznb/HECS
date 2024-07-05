@@ -1,0 +1,70 @@
+e0072aac53b3b88de787e7ca653c7e17f9499018
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.neo4j.ndp.messaging.v1.Neo4jPack.Unpacker from class org.neo4j.ndp.messaging.v1.PackStreamMessageFormatV1.Reader",
+	"leftSideLocations": [{
+		"filePath": "community/ndp/messaging-v1/src/main/java/org/neo4j/ndp/messaging/v1/PackStreamMessageFormatV1.java",
+		"startLine": 403,
+		"endLine": 704,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.neo4j.ndp.messaging.v1.PackStreamMessageFormatV1.Reader"
+}, {
+		"filePath": "community/ndp/messaging-v1/src/main/java/org/neo4j/ndp/messaging/v1/PackStreamMessageFormatV1.java",
+		"startLine": 552,
+		"endLine": 566,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private unpackRawMap() : Map<String,Object>"
+}, {
+		"filePath": "community/ndp/messaging-v1/src/main/java/org/neo4j/ndp/messaging/v1/PackStreamMessageFormatV1.java",
+		"startLine": 684,
+		"endLine": 703,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private unpackProperties() : Map<String,Object>"
+}],
+	"rightSideLocations": [{
+		"filePath": "community/ndp/messaging-v1/src/main/java/org/neo4j/ndp/messaging/v1/PackStreamMessageFormatV1.java",
+		"startLine": 200,
+		"endLine": 349,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.neo4j.ndp.messaging.v1.PackStreamMessageFormatV1.Reader"
+}, {
+		"filePath": "community/ndp/messaging-v1/src/main/java/org/neo4j/ndp/messaging/v1/Neo4jPack.java",
+		"startLine": 239,
+		"endLine": 376,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.neo4j.ndp.messaging.v1.Neo4jPack.Unpacker"
+}, {
+		"filePath": "community/ndp/messaging-v1/src/main/java/org/neo4j/ndp/messaging/v1/Neo4jPack.java",
+		"startLine": 329,
+		"endLine": 343,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public unpackRawMap() : Map<String,Object>"
+}, {
+		"filePath": "community/ndp/messaging-v1/src/main/java/org/neo4j/ndp/messaging/v1/Neo4jPack.java",
+		"startLine": 345,
+		"endLine": 364,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public unpackProperties() : Map<String,Object>"
+}]
+}

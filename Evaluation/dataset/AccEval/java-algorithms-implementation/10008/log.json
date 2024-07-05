@@ -1,0 +1,52 @@
+ab98bcacf6e5bf1c3a06f6bcca68f178f880ffc9
+{
+	"type": "Extract Class",
+	"description": "Extract Class com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming.testHashMapChaining from class com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming",
+	"leftSideLocations": [{
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 35,
+		"endLine": 2253,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming"
+}, {
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 1026,
+		"endLine": 1026,
+		"startColumn": 50,
+		"endColumn": 125,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private cHashMap : HashMap<Integer,String>"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 36,
+		"endLine": 1863,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming"
+}, {
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 426,
+		"endLine": 441,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming.testHashMapChaining"
+}, {
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 427,
+		"endLine": 427,
+		"startColumn": 33,
+		"endColumn": 108,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "package cHashMap : HashMap<Integer,String>"
+}]
+}

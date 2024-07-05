@@ -1,0 +1,88 @@
+6fec9ee0c
+{
+	"type": "Extract Class",
+	"description": "Extract Class socket.KeepSocketOpen.Client from class org.apache.xerces.parsers.SAXParser",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/parsers/SAXParser.java",
+		"startLine": 87,
+		"endLine": 1600,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.parsers.SAXParser"
+}, {
+		"filePath": "src/org/apache/xerces/parsers/SAXParser.java",
+		"startLine": 1200,
+		"endLine": 1217,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public startDocument() : void"
+}, {
+		"filePath": "src/org/apache/xerces/parsers/SAXParser.java",
+		"startLine": 1568,
+		"endLine": 1582,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public characters(ch char[], start int, length int) : void"
+}, {
+		"filePath": "src/org/apache/xerces/parsers/SAXParser.java",
+		"startLine": 1584,
+		"endLine": 1598,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public ignorableWhitespace(ch char[], start int, length int) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/parsers/SAXParser.java",
+		"startLine": 64,
+		"endLine": 104,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.parsers.SAXParser"
+}, {
+		"filePath": "samples/socket/KeepSocketOpen.java",
+		"startLine": 285,
+		"endLine": 535,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "socket.KeepSocketOpen.Client"
+}, {
+		"filePath": "samples/socket/KeepSocketOpen.java",
+		"startLine": 407,
+		"endLine": 414,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public startDocument() : void"
+}, {
+		"filePath": "samples/socket/KeepSocketOpen.java",
+		"startLine": 427,
+		"endLine": 430,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public characters(ch char[], offset int, length int) : void"
+}, {
+		"filePath": "samples/socket/KeepSocketOpen.java",
+		"startLine": 422,
+		"endLine": 425,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ignorableWhitespace(ch char[], offset int, length int) : void"
+}]
+}

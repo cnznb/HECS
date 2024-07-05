@@ -1,0 +1,412 @@
+bf5ee44b3b576e01ab09cae9f50300417b01dc07
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.robovm.apple.imageio.CGImagePropertyCIFF.Values from class org.robovm.apple.imageio.CGImagePropertyCIFF",
+	"leftSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 37,
+		"endLine": 282,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.robovm.apple.imageio.CGImagePropertyCIFF"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 176,
+		"endLine": 180,
+		"startColumn": 5,
+		"endColumn": 55,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected DescriptionKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 181,
+		"endLine": 185,
+		"startColumn": 5,
+		"endColumn": 52,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected FirmwareKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 186,
+		"endLine": 190,
+		"startColumn": 5,
+		"endColumn": 53,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected OwnerNameKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 191,
+		"endLine": 195,
+		"startColumn": 5,
+		"endColumn": 53,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ImageNameKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 196,
+		"endLine": 200,
+		"startColumn": 5,
+		"endColumn": 57,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ImageFileNameKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 201,
+		"endLine": 205,
+		"startColumn": 5,
+		"endColumn": 57,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ReleaseMethodKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 206,
+		"endLine": 210,
+		"startColumn": 5,
+		"endColumn": 57,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ReleaseTimingKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 211,
+		"endLine": 215,
+		"startColumn": 5,
+		"endColumn": 52,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected RecordIDKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 216,
+		"endLine": 220,
+		"startColumn": 5,
+		"endColumn": 58,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected SelfTimingTimeKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 221,
+		"endLine": 225,
+		"startColumn": 5,
+		"endColumn": 62,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected CameraSerialNumberKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 226,
+		"endLine": 230,
+		"startColumn": 5,
+		"endColumn": 61,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ImageSerialNumberKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 231,
+		"endLine": 235,
+		"startColumn": 5,
+		"endColumn": 59,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ContinuousDriveKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 236,
+		"endLine": 240,
+		"startColumn": 5,
+		"endColumn": 53,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected FocusModeKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 241,
+		"endLine": 245,
+		"startColumn": 5,
+		"endColumn": 56,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected MeteringModeKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 246,
+		"endLine": 250,
+		"startColumn": 5,
+		"endColumn": 56,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ShootingModeKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 251,
+		"endLine": 255,
+		"startColumn": 5,
+		"endColumn": 53,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected LensModelKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 256,
+		"endLine": 260,
+		"startColumn": 5,
+		"endColumn": 53,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected LensMaxMMKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 261,
+		"endLine": 265,
+		"startColumn": 5,
+		"endColumn": 53,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected LensMinMMKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 266,
+		"endLine": 270,
+		"startColumn": 5,
+		"endColumn": 61,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected WhiteBalanceIndexKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 271,
+		"endLine": 275,
+		"startColumn": 5,
+		"endColumn": 61,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected FlashExposureCompKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 276,
+		"endLine": 280,
+		"startColumn": 5,
+		"endColumn": 54,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected MeasuredEVKey() : CFString"
+}],
+	"rightSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 37,
+		"endLine": 307,
+		"startColumn": 18,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.robovm.apple.imageio.CGImagePropertyCIFF"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 195,
+		"endLine": 306,
+		"startColumn": 22,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.robovm.apple.imageio.CGImagePropertyCIFF.Values"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 200,
+		"endLine": 204,
+		"startColumn": 9,
+		"endColumn": 53,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public Description() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 205,
+		"endLine": 209,
+		"startColumn": 9,
+		"endColumn": 50,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public Firmware() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 210,
+		"endLine": 214,
+		"startColumn": 9,
+		"endColumn": 51,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public OwnerName() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 215,
+		"endLine": 219,
+		"startColumn": 9,
+		"endColumn": 51,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ImageName() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 220,
+		"endLine": 224,
+		"startColumn": 9,
+		"endColumn": 55,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ImageFileName() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 225,
+		"endLine": 229,
+		"startColumn": 9,
+		"endColumn": 55,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ReleaseMethod() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 230,
+		"endLine": 234,
+		"startColumn": 9,
+		"endColumn": 55,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ReleaseTiming() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 235,
+		"endLine": 239,
+		"startColumn": 9,
+		"endColumn": 50,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public RecordID() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 240,
+		"endLine": 244,
+		"startColumn": 9,
+		"endColumn": 56,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public SelfTimingTime() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 245,
+		"endLine": 249,
+		"startColumn": 9,
+		"endColumn": 60,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public CameraSerialNumber() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 250,
+		"endLine": 254,
+		"startColumn": 9,
+		"endColumn": 59,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ImageSerialNumber() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 255,
+		"endLine": 259,
+		"startColumn": 9,
+		"endColumn": 57,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ContinuousDrive() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 260,
+		"endLine": 264,
+		"startColumn": 9,
+		"endColumn": 51,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public FocusMode() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 265,
+		"endLine": 269,
+		"startColumn": 9,
+		"endColumn": 54,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public MeteringMode() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 270,
+		"endLine": 274,
+		"startColumn": 9,
+		"endColumn": 54,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ShootingMode() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 275,
+		"endLine": 279,
+		"startColumn": 9,
+		"endColumn": 51,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public LensModel() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 280,
+		"endLine": 284,
+		"startColumn": 9,
+		"endColumn": 51,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public LensMaxMM() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 285,
+		"endLine": 289,
+		"startColumn": 9,
+		"endColumn": 51,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public LensMinMM() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 290,
+		"endLine": 294,
+		"startColumn": 9,
+		"endColumn": 59,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public WhiteBalanceIndex() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 295,
+		"endLine": 299,
+		"startColumn": 9,
+		"endColumn": 59,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public FlashExposureComp() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImagePropertyCIFF.java",
+		"startLine": 300,
+		"endLine": 304,
+		"startColumn": 9,
+		"endColumn": 52,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public MeasuredEV() : CFString"
+}]
+}

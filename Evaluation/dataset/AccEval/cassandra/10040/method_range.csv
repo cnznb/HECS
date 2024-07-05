@@ -1,0 +1,7 @@
+0,prepare,212,351
+1,getTypeAndRemove,353,364
+2,addDefinition,366,372
+3,addKeyAliases,374,377
+4,addColumnAlias,379,382
+5,setOrdering,384,387
+6,setCompactStorage,389,392

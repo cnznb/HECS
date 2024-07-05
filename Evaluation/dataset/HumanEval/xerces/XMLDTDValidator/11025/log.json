@@ -1,0 +1,268 @@
+7ff1ee2bf
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.util.XMLSymbols from class org.apache.xerces.impl.dtd.XMLDTDValidator",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/impl/dtd/XMLDTDValidator.java",
+		"startLine": 97,
+		"endLine": 2012,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.impl.dtd.XMLDTDValidator"
+}, {
+		"filePath": "src/org/apache/xerces/impl/dtd/XMLDTDValidator.java",
+		"startLine": 140,
+		"endLine": 140,
+		"startColumn": 20,
+		"endColumn": 32,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fCDATASymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/impl/dtd/XMLDTDValidator.java",
+		"startLine": 143,
+		"endLine": 143,
+		"startColumn": 20,
+		"endColumn": 29,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fIDSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/impl/dtd/XMLDTDValidator.java",
+		"startLine": 146,
+		"endLine": 146,
+		"startColumn": 20,
+		"endColumn": 32,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fIDREFSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/impl/dtd/XMLDTDValidator.java",
+		"startLine": 149,
+		"endLine": 149,
+		"startColumn": 20,
+		"endColumn": 33,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fIDREFSSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/impl/dtd/XMLDTDValidator.java",
+		"startLine": 152,
+		"endLine": 152,
+		"startColumn": 20,
+		"endColumn": 33,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fENTITYSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/impl/dtd/XMLDTDValidator.java",
+		"startLine": 155,
+		"endLine": 155,
+		"startColumn": 20,
+		"endColumn": 35,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fENTITIESSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/impl/dtd/XMLDTDValidator.java",
+		"startLine": 158,
+		"endLine": 158,
+		"startColumn": 20,
+		"endColumn": 34,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fNMTOKENSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/impl/dtd/XMLDTDValidator.java",
+		"startLine": 161,
+		"endLine": 161,
+		"startColumn": 20,
+		"endColumn": 35,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fNMTOKENSSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/impl/dtd/XMLDTDValidator.java",
+		"startLine": 164,
+		"endLine": 164,
+		"startColumn": 20,
+		"endColumn": 35,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fNOTATIONSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/impl/dtd/XMLDTDValidator.java",
+		"startLine": 167,
+		"endLine": 167,
+		"startColumn": 20,
+		"endColumn": 38,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fENUMERATIONSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/impl/dtd/XMLDTDValidator.java",
+		"startLine": 170,
+		"endLine": 170,
+		"startColumn": 20,
+		"endColumn": 34,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fIMPLIEDSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/impl/dtd/XMLDTDValidator.java",
+		"startLine": 173,
+		"endLine": 173,
+		"startColumn": 20,
+		"endColumn": 35,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fREQUIREDSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/impl/dtd/XMLDTDValidator.java",
+		"startLine": 176,
+		"endLine": 176,
+		"startColumn": 20,
+		"endColumn": 32,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fFIXEDSymbol : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/impl/dtd/XMLDTDValidator.java",
+		"startLine": 98,
+		"endLine": 1955,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.impl.dtd.XMLDTDValidator"
+}, {
+		"filePath": "src/org/apache/xerces/util/XMLSymbols.java",
+		"startLine": 60,
+		"endLine": 154,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.util.XMLSymbols"
+}, {
+		"filePath": "src/org/apache/xerces/util/XMLSymbols.java",
+		"startLine": 115,
+		"endLine": 115,
+		"startColumn": 32,
+		"endColumn": 63,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public fCDATASymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/util/XMLSymbols.java",
+		"startLine": 118,
+		"endLine": 118,
+		"startColumn": 32,
+		"endColumn": 57,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public fIDSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/util/XMLSymbols.java",
+		"startLine": 121,
+		"endLine": 121,
+		"startColumn": 32,
+		"endColumn": 63,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public fIDREFSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/util/XMLSymbols.java",
+		"startLine": 124,
+		"endLine": 124,
+		"startColumn": 32,
+		"endColumn": 65,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public fIDREFSSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/util/XMLSymbols.java",
+		"startLine": 127,
+		"endLine": 127,
+		"startColumn": 32,
+		"endColumn": 65,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public fENTITYSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/util/XMLSymbols.java",
+		"startLine": 130,
+		"endLine": 130,
+		"startColumn": 32,
+		"endColumn": 69,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public fENTITIESSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/util/XMLSymbols.java",
+		"startLine": 133,
+		"endLine": 133,
+		"startColumn": 32,
+		"endColumn": 67,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public fNMTOKENSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/util/XMLSymbols.java",
+		"startLine": 136,
+		"endLine": 136,
+		"startColumn": 32,
+		"endColumn": 69,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public fNMTOKENSSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/util/XMLSymbols.java",
+		"startLine": 139,
+		"endLine": 139,
+		"startColumn": 32,
+		"endColumn": 69,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public fNOTATIONSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/util/XMLSymbols.java",
+		"startLine": 142,
+		"endLine": 142,
+		"startColumn": 32,
+		"endColumn": 75,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public fENUMERATIONSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/util/XMLSymbols.java",
+		"startLine": 145,
+		"endLine": 145,
+		"startColumn": 32,
+		"endColumn": 68,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public fIMPLIEDSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/util/XMLSymbols.java",
+		"startLine": 148,
+		"endLine": 148,
+		"startColumn": 32,
+		"endColumn": 70,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public fREQUIREDSymbol : String"
+}, {
+		"filePath": "src/org/apache/xerces/util/XMLSymbols.java",
+		"startLine": 151,
+		"endLine": 151,
+		"startColumn": 32,
+		"endColumn": 64,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public fFIXEDSymbol : String"
+}]
+}

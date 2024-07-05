@@ -1,0 +1,124 @@
+4aa2e8746b5492bbc1cf2b36af956cf3b01e40f5
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.jboss.as.clustering.controller.ResourceDescriptor from class org.jboss.as.clustering.controller.AddStepHandler",
+	"leftSideLocations": [{
+		"filePath": "clustering/common/src/main/java/org/jboss/as/clustering/controller/AddStepHandler.java",
+		"startLine": 42,
+		"endLine": 100,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.jboss.as.clustering.controller.AddStepHandler"
+}, {
+		"filePath": "clustering/common/src/main/java/org/jboss/as/clustering/controller/AddStepHandler.java",
+		"startLine": 57,
+		"endLine": 59,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public addAttributes(enumClass Class<E>) : AddStepHandler"
+}, {
+		"filePath": "clustering/common/src/main/java/org/jboss/as/clustering/controller/AddStepHandler.java",
+		"startLine": 61,
+		"endLine": 63,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public addAttributes(attributes Attribute...) : AddStepHandler"
+}, {
+		"filePath": "clustering/common/src/main/java/org/jboss/as/clustering/controller/AddStepHandler.java",
+		"startLine": 65,
+		"endLine": 68,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public addAttributes(attributes Collection<? extends Attribute>) : AddStepHandler"
+}, {
+		"filePath": "clustering/common/src/main/java/org/jboss/as/clustering/controller/AddStepHandler.java",
+		"startLine": 48,
+		"endLine": 48,
+		"startColumn": 47,
+		"endColumn": 55,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private resolver : ResourceDescriptionResolver"
+}, {
+		"filePath": "clustering/common/src/main/java/org/jboss/as/clustering/controller/AddStepHandler.java",
+		"startLine": 50,
+		"endLine": 50,
+		"startColumn": 35,
+		"endColumn": 66,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private attributes : List<Attribute>"
+}],
+	"rightSideLocations": [{
+		"filePath": "clustering/common/src/main/java/org/jboss/as/clustering/controller/AddStepHandler.java",
+		"startLine": 37,
+		"endLine": 87,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.jboss.as.clustering.controller.AddStepHandler"
+}, {
+		"filePath": "clustering/common/src/main/java/org/jboss/as/clustering/controller/ResourceDescriptor.java",
+		"startLine": 34,
+		"endLine": 107,
+		"startColumn": 0,
+		"endColumn": 0,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.jboss.as.clustering.controller.ResourceDescriptor"
+}, {
+		"filePath": "clustering/common/src/main/java/org/jboss/as/clustering/controller/ResourceDescriptor.java",
+		"startLine": 71,
+		"endLine": 73,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public addAttributes(enumClass Class<E>) : ResourceDescriptor"
+}, {
+		"filePath": "clustering/common/src/main/java/org/jboss/as/clustering/controller/ResourceDescriptor.java",
+		"startLine": 75,
+		"endLine": 77,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public addAttributes(attributes Attribute...) : ResourceDescriptor"
+}, {
+		"filePath": "clustering/common/src/main/java/org/jboss/as/clustering/controller/ResourceDescriptor.java",
+		"startLine": 79,
+		"endLine": 84,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public addAttributes(attributes Iterable<? extends Attribute>) : ResourceDescriptor"
+}, {
+		"filePath": "clustering/common/src/main/java/org/jboss/as/clustering/controller/ResourceDescriptor.java",
+		"startLine": 42,
+		"endLine": 42,
+		"startColumn": 47,
+		"endColumn": 55,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private resolver : ResourceDescriptionResolver"
+}, {
+		"filePath": "clustering/common/src/main/java/org/jboss/as/clustering/controller/ResourceDescriptor.java",
+		"startLine": 44,
+		"endLine": 44,
+		"startColumn": 45,
+		"endColumn": 76,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private attributes : List<AttributeDefinition>"
+}]
+}

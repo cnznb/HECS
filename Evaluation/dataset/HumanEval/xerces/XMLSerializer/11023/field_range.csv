@@ -1,0 +1,13 @@
+28,DEBUG,141,141
+29,fNSBinder,148,148
+30,fLocalNSBinder,151,151
+31,fSymbolTable,154,154
+32,fEmptySymbol,156,156
+33,fXmlSymbol,157,157
+34,fXmlnsSymbol,158,158
+35,fDOML1,161,161
+36,fNamespaceCounter,163,163
+37,fPreserveSpace,166,166
+38,fNamespaces,167,167
+39,fEncoding,168,168
+40,fLastEncoding,169,169

@@ -1,0 +1,70 @@
+561dbf22b
+{
+	"type": "Extract Class",
+	"description": "Extract Class net.sourceforge.ganttproject.chart.gantt.GanttChartController.GanttChartSelection from class net.sourceforge.ganttproject.GanttTree2",
+	"leftSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttTree2.java",
+		"startLine": 125,
+		"endLine": 1126,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.sourceforge.ganttproject.GanttTree2"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttTree2.java",
+		"startLine": 891,
+		"endLine": 896,
+		"startColumn": 91,
+		"endColumn": 4,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private getParentNode : Function<DefaultMutableTreeTableNode,DefaultMutableTreeTableNode>"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttTree2.java",
+		"startLine": 897,
+		"endLine": 897,
+		"startColumn": 67,
+		"endColumn": 147,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myRetainRootsAlgorithm : RetainRootsAlgorithm<DefaultMutableTreeTableNode>"
+}],
+	"rightSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttTree2.java",
+		"startLine": 119,
+		"endLine": 973,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "net.sourceforge.ganttproject.GanttTree2"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/gantt/GanttChartController.java",
+		"startLine": 210,
+		"endLine": 271,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "net.sourceforge.ganttproject.chart.gantt.GanttChartController.GanttChartSelection"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/gantt/GanttChartController.java",
+		"startLine": 211,
+		"endLine": 216,
+		"startColumn": 93,
+		"endColumn": 6,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private getParentNode : Function<DefaultMutableTreeTableNode,DefaultMutableTreeTableNode>"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/gantt/GanttChartController.java",
+		"startLine": 219,
+		"endLine": 219,
+		"startColumn": 69,
+		"endColumn": 149,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myRetainRootsAlgorithm : RetainRootsAlgorithm<DefaultMutableTreeTableNode>"
+}]
+}

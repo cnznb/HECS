@@ -1,0 +1,88 @@
+bf5ee44b3b576e01ab09cae9f50300417b01dc07
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.robovm.apple.corebluetooth.CBConnectPeripheralOptions.Keys from class org.robovm.apple.corebluetooth.CBConnectPeripheralOptions",
+	"leftSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBConnectPeripheralOptions.java",
+		"startLine": 37,
+		"endLine": 145,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.robovm.apple.corebluetooth.CBConnectPeripheralOptions"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBConnectPeripheralOptions.java",
+		"startLine": 127,
+		"endLine": 131,
+		"startColumn": 5,
+		"endColumn": 62,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected NotifyOnConnectionKey() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBConnectPeripheralOptions.java",
+		"startLine": 132,
+		"endLine": 133,
+		"startColumn": 5,
+		"endColumn": 65,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected NotifyOnDisconnectionKey() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBConnectPeripheralOptions.java",
+		"startLine": 134,
+		"endLine": 138,
+		"startColumn": 5,
+		"endColumn": 64,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected NotifyOnNotificationKey() : NSString"
+}],
+	"rightSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBConnectPeripheralOptions.java",
+		"startLine": 37,
+		"endLine": 176,
+		"startColumn": 18,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.robovm.apple.corebluetooth.CBConnectPeripheralOptions"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBConnectPeripheralOptions.java",
+		"startLine": 159,
+		"endLine": 174,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.robovm.apple.corebluetooth.CBConnectPeripheralOptions.Keys"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBConnectPeripheralOptions.java",
+		"startLine": 162,
+		"endLine": 166,
+		"startColumn": 9,
+		"endColumn": 60,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public NotifyOnConnection() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBConnectPeripheralOptions.java",
+		"startLine": 167,
+		"endLine": 168,
+		"startColumn": 9,
+		"endColumn": 63,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public NotifyOnDisconnection() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBConnectPeripheralOptions.java",
+		"startLine": 169,
+		"endLine": 173,
+		"startColumn": 9,
+		"endColumn": 62,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public NotifyOnNotification() : NSString"
+}]
+}

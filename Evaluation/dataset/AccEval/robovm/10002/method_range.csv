@@ -1,0 +1,10 @@
+0,toObject,46,52
+1,toNative,54,59
+2,getDictionary,74,76
+3,getPeripherals,83,89
+4,getScanServices,94,100
+5,getScanOptions,105,111
+6,PeripheralsKey,117,133
+7,ScanServicesKey,122,133
+8,ScanOptionsKey,127,133
+9,toString,130,133

@@ -1,0 +1,142 @@
+6fec9ee0c
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.parsers.AbstractSAXParser.AttributesProxy from class org.apache.xerces.framework.XMLAttrList",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/framework/XMLAttrList.java",
+		"startLine": 67,
+		"endLine": 728,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.framework.XMLAttrList"
+}, {
+		"filePath": "src/org/apache/xerces/framework/XMLAttrList.java",
+		"startLine": 533,
+		"endLine": 555,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getName(i int) : String"
+}, {
+		"filePath": "src/org/apache/xerces/framework/XMLAttrList.java",
+		"startLine": 557,
+		"endLine": 564,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getURI(i int) : String"
+}, {
+		"filePath": "src/org/apache/xerces/framework/XMLAttrList.java",
+		"startLine": 566,
+		"endLine": 596,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getType(i int) : String"
+}, {
+		"filePath": "src/org/apache/xerces/framework/XMLAttrList.java",
+		"startLine": 598,
+		"endLine": 617,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getValue(i int) : String"
+}, {
+		"filePath": "src/org/apache/xerces/framework/XMLAttrList.java",
+		"startLine": 619,
+		"endLine": 652,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getType(name String) : String"
+}, {
+		"filePath": "src/org/apache/xerces/framework/XMLAttrList.java",
+		"startLine": 654,
+		"endLine": 683,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getValue(name String) : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/impl/validation/Grammar.java",
+		"startLine": 79,
+		"endLine": 1825,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.impl.validation.Grammar"
+}, {
+		"filePath": "src/org/apache/xerces/parsers/AbstractSAXParser.java",
+		"startLine": 1752,
+		"endLine": 1823,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.parsers.AbstractSAXParser.AttributesProxy"
+}, {
+		"filePath": "src/org/apache/xerces/parsers/AbstractSAXParser.java",
+		"startLine": 1775,
+		"endLine": 1777,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public getName(i int) : String"
+}, {
+		"filePath": "src/org/apache/xerces/parsers/AbstractSAXParser.java",
+		"startLine": 1783,
+		"endLine": 1785,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public getURI(index int) : String"
+}, {
+		"filePath": "src/org/apache/xerces/parsers/AbstractSAXParser.java",
+		"startLine": 1791,
+		"endLine": 1793,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public getType(i int) : String"
+}, {
+		"filePath": "src/org/apache/xerces/parsers/AbstractSAXParser.java",
+		"startLine": 1803,
+		"endLine": 1805,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public getValue(i int) : String"
+}, {
+		"filePath": "src/org/apache/xerces/parsers/AbstractSAXParser.java",
+		"startLine": 1795,
+		"endLine": 1797,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public getType(name String) : String"
+}, {
+		"filePath": "src/org/apache/xerces/parsers/AbstractSAXParser.java",
+		"startLine": 1807,
+		"endLine": 1809,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public getValue(name String) : String"
+}]
+}

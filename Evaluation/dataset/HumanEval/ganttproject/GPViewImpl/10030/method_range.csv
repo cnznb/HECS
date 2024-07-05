@@ -1,0 +1,7 @@
+0,setActive,393,400
+1,reset,402,404
+2,setVisible,406,418
+3,isVisible,420,422
+4,selectionChanged,424,426
+5,getChart,428,430
+6,languageChanged,432,436

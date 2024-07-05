@@ -1,0 +1,124 @@
+dc38ef3f4
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.validators.datatype.HexBinaryDatatypeValidator from class org.apache.xerces.validators.datatype.IDDatatypeValidator",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/validators/datatype/IDDatatypeValidator.java",
+		"startLine": 69,
+		"endLine": 249,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.validators.datatype.IDDatatypeValidator"
+}, {
+		"filePath": "src/org/apache/xerces/validators/datatype/IDDatatypeValidator.java",
+		"startLine": 234,
+		"endLine": 239,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public setLocale(locale Locale) : void"
+}, {
+		"filePath": "src/org/apache/xerces/validators/datatype/IDDatatypeValidator.java",
+		"startLine": 83,
+		"endLine": 83,
+		"startColumn": 43,
+		"endColumn": 67,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fLocale : Locale"
+}, {
+		"filePath": "src/org/apache/xerces/validators/datatype/IDDatatypeValidator.java",
+		"startLine": 86,
+		"endLine": 86,
+		"startColumn": 24,
+		"endColumn": 45,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fFacetsDefined : int"
+}, {
+		"filePath": "src/org/apache/xerces/validators/datatype/IDDatatypeValidator.java",
+		"startLine": 87,
+		"endLine": 87,
+		"startColumn": 24,
+		"endColumn": 45,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fLength : int"
+}, {
+		"filePath": "src/org/apache/xerces/validators/datatype/IDDatatypeValidator.java",
+		"startLine": 88,
+		"endLine": 88,
+		"startColumn": 24,
+		"endColumn": 56,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fEnumeration : Vector"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/validators/datatype/IDDatatypeValidator.java",
+		"startLine": 66,
+		"endLine": 203,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.validators.datatype.IDDatatypeValidator"
+}, {
+		"filePath": "src/org/apache/xerces/validators/datatype/HexBinaryDatatypeValidator.java",
+		"startLine": 69,
+		"endLine": 404,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.validators.datatype.HexBinaryDatatypeValidator"
+}, {
+		"filePath": "src/org/apache/xerces/validators/datatype/HexBinaryDatatypeValidator.java",
+		"startLine": 303,
+		"endLine": 308,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public setLocale(locale Locale) : void"
+}, {
+		"filePath": "src/org/apache/xerces/validators/datatype/HexBinaryDatatypeValidator.java",
+		"startLine": 78,
+		"endLine": 78,
+		"startColumn": 24,
+		"endColumn": 47,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fLocale : Locale"
+}, {
+		"filePath": "src/org/apache/xerces/validators/datatype/HexBinaryDatatypeValidator.java",
+		"startLine": 85,
+		"endLine": 85,
+		"startColumn": 24,
+		"endColumn": 44,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fFacetsDefined : int"
+}, {
+		"filePath": "src/org/apache/xerces/validators/datatype/HexBinaryDatatypeValidator.java",
+		"startLine": 80,
+		"endLine": 80,
+		"startColumn": 24,
+		"endColumn": 44,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fLength : int"
+}, {
+		"filePath": "src/org/apache/xerces/validators/datatype/HexBinaryDatatypeValidator.java",
+		"startLine": 84,
+		"endLine": 84,
+		"startColumn": 24,
+		"endColumn": 47,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fEnumeration : Vector"
+}]
+}

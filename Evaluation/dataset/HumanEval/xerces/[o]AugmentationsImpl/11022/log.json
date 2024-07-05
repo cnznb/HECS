@@ -1,0 +1,52 @@
+68617f2f7
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.util.AugmentationsImpl.LargeContainer from class org.apache.xerces.util.AugmentationsImpl",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/util/AugmentationsImpl.java",
+		"startLine": 65,
+		"endLine": 130,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.util.AugmentationsImpl"
+}, {
+		"filePath": "src/org/apache/xerces/util/AugmentationsImpl.java",
+		"startLine": 77,
+		"endLine": 77,
+		"startColumn": 29,
+		"endColumn": 61,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fAugmentations : Hashtable"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/util/AugmentationsImpl.java",
+		"startLine": 65,
+		"endLine": 326,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.util.AugmentationsImpl"
+}, {
+		"filePath": "src/org/apache/xerces/util/AugmentationsImpl.java",
+		"startLine": 279,
+		"endLine": 325,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.util.AugmentationsImpl.LargeContainer"
+}, {
+		"filePath": "src/org/apache/xerces/util/AugmentationsImpl.java",
+		"startLine": 280,
+		"endLine": 280,
+		"startColumn": 25,
+		"endColumn": 57,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "package fAugmentations : Hashtable"
+}]
+}

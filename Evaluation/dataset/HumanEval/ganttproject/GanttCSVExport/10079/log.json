@@ -1,0 +1,52 @@
+32216dd1f
+{
+	"type": "Extract Class",
+	"description": "Extract Class net.sourceforge.ganttproject.io.CSVOptionsHandler from class biz.ganttproject.impex.csv.GanttCSVExport",
+	"leftSideLocations": [{
+		"filePath": "ganttproject/src/biz/ganttproject/impex/csv/GanttCSVExport.java",
+		"startLine": 49,
+		"endLine": 379,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "biz.ganttproject.impex.csv.GanttCSVExport"
+}, {
+		"filePath": "ganttproject/src/biz/ganttproject/impex/csv/GanttCSVExport.java",
+		"startLine": 61,
+		"endLine": 61,
+		"startColumn": 28,
+		"endColumn": 38,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private csvOptions : CSVOptions"
+}],
+	"rightSideLocations": [{
+		"filePath": "ganttproject/src/biz/ganttproject/impex/csv/GanttCSVExport.java",
+		"startLine": 52,
+		"endLine": 398,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "biz.ganttproject.impex.csv.GanttCSVExport"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/io/CSVOptionsHandler.java",
+		"startLine": 5,
+		"endLine": 24,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "net.sourceforge.ganttproject.io.CSVOptionsHandler"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/io/CSVOptionsHandler.java",
+		"startLine": 9,
+		"endLine": 9,
+		"startColumn": 24,
+		"endColumn": 34,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private csvOptions : CSVOptions"
+}]
+}

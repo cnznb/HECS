@@ -1,0 +1,124 @@
+84937551787072a4befac29fb48436b3187ac4c6
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.springframework.boot.cli.compiler.MavenSettingsReader from class org.springframework.boot.cli.compiler.grape.SettingsXmlRepositorySystemSessionAutoConfiguration",
+	"leftSideLocations": [{
+		"filePath": "spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/SettingsXmlRepositorySystemSessionAutoConfiguration.java",
+		"startLine": 52,
+		"endLine": 183,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.springframework.boot.cli.compiler.grape.SettingsXmlRepositorySystemSessionAutoConfiguration"
+}, {
+		"filePath": "spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/SettingsXmlRepositorySystemSessionAutoConfiguration.java",
+		"startLine": 95,
+		"endLine": 108,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private loadSettings() : Settings"
+}, {
+		"filePath": "spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/SettingsXmlRepositorySystemSessionAutoConfiguration.java",
+		"startLine": 110,
+		"endLine": 115,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private decryptSettings(settings Settings) : SettingsDecryptionResult"
+}, {
+		"filePath": "spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/SettingsXmlRepositorySystemSessionAutoConfiguration.java",
+		"startLine": 117,
+		"endLine": 122,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private createSettingsDecrypter() : SettingsDecrypter"
+}, {
+		"filePath": "spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/SettingsXmlRepositorySystemSessionAutoConfiguration.java",
+		"startLine": 124,
+		"endLine": 134,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private setField(clazz Class<?>, fieldName String, target Object, value Object) : void"
+}, {
+		"filePath": "spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/SettingsXmlRepositorySystemSessionAutoConfiguration.java",
+		"startLine": 61,
+		"endLine": 61,
+		"startColumn": 23,
+		"endColumn": 30,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private homeDir : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/grape/SettingsXmlRepositorySystemSessionAutoConfiguration.java",
+		"startLine": 25,
+		"endLine": 52,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.springframework.boot.cli.compiler.grape.SettingsXmlRepositorySystemSessionAutoConfiguration"
+}, {
+		"filePath": "spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/MavenSettingsReader.java",
+		"startLine": 36,
+		"endLine": 120,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.springframework.boot.cli.compiler.MavenSettingsReader"
+}, {
+		"filePath": "spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/MavenSettingsReader.java",
+		"startLine": 65,
+		"endLine": 78,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private loadSettings() : Settings"
+}, {
+		"filePath": "spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/MavenSettingsReader.java",
+		"startLine": 80,
+		"endLine": 85,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private decryptSettings(settings Settings) : SettingsDecryptionResult"
+}, {
+		"filePath": "spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/MavenSettingsReader.java",
+		"startLine": 87,
+		"endLine": 92,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private createSettingsDecrypter() : SettingsDecrypter"
+}, {
+		"filePath": "spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/MavenSettingsReader.java",
+		"startLine": 94,
+		"endLine": 104,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private setField(clazz Class<?>, fieldName String, target Object, value Object) : void"
+}, {
+		"filePath": "spring-boot-cli/src/main/java/org/springframework/boot/cli/compiler/MavenSettingsReader.java",
+		"startLine": 45,
+		"endLine": 45,
+		"startColumn": 23,
+		"endColumn": 30,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private homeDir : String"
+}]
+}

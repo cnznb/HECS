@@ -1,0 +1,6 @@
+0,IDDatatypeValidator,95,97
+1,validate,114,165
+2,clone,171,173
+3,addId,177,197
+4,setLocale,203,205
+5,getErrorString,208,214

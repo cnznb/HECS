@@ -1,0 +1,13 @@
+0,toObject,46,52
+1,toNative,54,59
+2,getDictionary,77,79
+3,isNotifyingOnConnection,84,90
+4,setNotifyOnConnection,94,97
+5,isNotifyingOnDisconnection,98,104
+6,setNotifyOnDisconnection,105,108
+7,isNotifyingOnNotification,112,118
+8,setNotifyOnNotification,122,125
+9,NotifyOnConnectionKey,131,144
+10,NotifyOnDisconnectionKey,133,144
+11,NotifyOnNotificationKey,138,144
+12,toString,141,144

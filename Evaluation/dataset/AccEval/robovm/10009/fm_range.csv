@@ -1,0 +1,14 @@
+0,toObject,45,51,0
+1,toNative,53,58,0
+2,getLossyCompressionQuality,77,83,0
+3,setLossyCompressionQuality,87,90,0
+4,getBackgroundColor,94,100,0
+5,setBackgroundColor,104,107,0
+6,getMaxPixelSize,111,117,0
+7,setMaxPixelSize,121,124,0
+8,isEmbeddingThumbnail,128,134,0
+9,setEmbedThumbnail,138,141,0
+10,LossyCompressionQualityKey,147,163,1
+11,BackgroundColorKey,152,163,1
+12,ImageMaxPixelSizeKey,157,163,1
+13,EmbedThumbnailKey,162,163,0

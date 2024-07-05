@@ -1,0 +1,15 @@
+1,fNullValue,80,80,0
+2,fMessageProvider,81,81,0
+3,fTableOfId,82,82,0
+4,fLocale,83,83,1
+5,fFacetsDefined,86,86,1
+6,fLength,87,87,1
+7,fEnumeration,88,88,1
+8,IDREF_STORE,90,90,0
+9,ID_CLEAR,91,91,0
+10,IDDatatypeValidator,95,97,0
+11,validate,141,192,0
+12,clone,198,200,0
+13,addId,211,231,0
+14,setLocale,237,239,1
+15,getErrorString,242,248,0

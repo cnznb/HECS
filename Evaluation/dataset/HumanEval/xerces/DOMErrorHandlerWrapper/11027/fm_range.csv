@@ -1,0 +1,14 @@
+0,setErrorHandler,105,107,0
+1,getErrorHandler,110,112,0
+2,warning,135,151,0
+3,error,169,185,0
+4,fatalError,211,229,0
+5,handleError,232,235,0
+6,printError,239,282,0
+7,fgDOMErrorTypeTable,54,54,1
+8,fDomErrorHandler,57,57,0
+9,eStatus,60,60,0
+10,fOut,63,63,0
+11,fCurrentNode,67,67,0
+12,fErrorCode,70,70,0
+13,fDOMError,72,72,0

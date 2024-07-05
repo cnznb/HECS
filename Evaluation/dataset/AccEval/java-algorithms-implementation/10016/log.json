@@ -1,0 +1,52 @@
+ab98bcacf6e5bf1c3a06f6bcca68f178f880ffc9
+{
+	"type": "Extract Class",
+	"description": "Extract Class com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming.testJavaLinkedQueue from class com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming",
+	"leftSideLocations": [{
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 35,
+		"endLine": 2253,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming"
+}, {
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 1120,
+		"endLine": 1120,
+		"startColumn": 51,
+		"endColumn": 104,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private javaLinkedQueue : Deque<Integer>"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 36,
+		"endLine": 1863,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming"
+}, {
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 578,
+		"endLine": 592,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming.testJavaLinkedQueue"
+}, {
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 579,
+		"endLine": 579,
+		"startColumn": 34,
+		"endColumn": 87,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "package javaLinkedQueue : Deque<Integer>"
+}]
+}

@@ -1,0 +1,178 @@
+bf5ee44b3b576e01ab09cae9f50300417b01dc07
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.robovm.apple.corebluetooth.CBAdvertisementData.Keys from class org.robovm.apple.corebluetooth.CBAdvertisementData",
+	"leftSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBAdvertisementData.java",
+		"startLine": 37,
+		"endLine": 180,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.robovm.apple.corebluetooth.CBAdvertisementData"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBAdvertisementData.java",
+		"startLine": 149,
+		"endLine": 150,
+		"startColumn": 5,
+		"endColumn": 53,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected LocalNameKey() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBAdvertisementData.java",
+		"startLine": 151,
+		"endLine": 152,
+		"startColumn": 5,
+		"endColumn": 56,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected TxPowerLevelKey() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBAdvertisementData.java",
+		"startLine": 153,
+		"endLine": 154,
+		"startColumn": 5,
+		"endColumn": 56,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ServiceUUIDsKey() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBAdvertisementData.java",
+		"startLine": 155,
+		"endLine": 156,
+		"startColumn": 5,
+		"endColumn": 55,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ServiceDataKey() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBAdvertisementData.java",
+		"startLine": 157,
+		"endLine": 158,
+		"startColumn": 5,
+		"endColumn": 60,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ManufacturerDataKey() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBAdvertisementData.java",
+		"startLine": 159,
+		"endLine": 163,
+		"startColumn": 5,
+		"endColumn": 64,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected OverflowServiceUUIDsKey() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBAdvertisementData.java",
+		"startLine": 164,
+		"endLine": 168,
+		"startColumn": 5,
+		"endColumn": 54,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected IsConnectable() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBAdvertisementData.java",
+		"startLine": 169,
+		"endLine": 173,
+		"startColumn": 5,
+		"endColumn": 65,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected SolicitedServiceUUIDsKey() : NSString"
+}],
+	"rightSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBAdvertisementData.java",
+		"startLine": 37,
+		"endLine": 197,
+		"startColumn": 18,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.robovm.apple.corebluetooth.CBAdvertisementData"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBAdvertisementData.java",
+		"startLine": 167,
+		"endLine": 195,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.robovm.apple.corebluetooth.CBAdvertisementData.Keys"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBAdvertisementData.java",
+		"startLine": 170,
+		"endLine": 171,
+		"startColumn": 9,
+		"endColumn": 51,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public LocalName() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBAdvertisementData.java",
+		"startLine": 172,
+		"endLine": 173,
+		"startColumn": 9,
+		"endColumn": 54,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public TxPowerLevel() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBAdvertisementData.java",
+		"startLine": 174,
+		"endLine": 175,
+		"startColumn": 9,
+		"endColumn": 54,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ServiceUUIDs() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBAdvertisementData.java",
+		"startLine": 176,
+		"endLine": 177,
+		"startColumn": 9,
+		"endColumn": 53,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ServiceData() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBAdvertisementData.java",
+		"startLine": 178,
+		"endLine": 179,
+		"startColumn": 9,
+		"endColumn": 58,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ManufacturerData() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBAdvertisementData.java",
+		"startLine": 180,
+		"endLine": 184,
+		"startColumn": 9,
+		"endColumn": 62,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public OverflowServiceUUIDs() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBAdvertisementData.java",
+		"startLine": 185,
+		"endLine": 189,
+		"startColumn": 9,
+		"endColumn": 55,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public IsConnectable() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBAdvertisementData.java",
+		"startLine": 190,
+		"endLine": 194,
+		"startColumn": 9,
+		"endColumn": 63,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public SolicitedServiceUUIDs() : NSString"
+}]
+}

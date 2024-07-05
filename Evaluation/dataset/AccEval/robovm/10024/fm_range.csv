@@ -1,0 +1,16 @@
+0,toObject,45,51,0
+1,toNative,53,58,0
+2,value,95,97,0
+3,valueOf,99,107,0
+4,VersionKey,113,134,1
+5,XDensityKey,118,134,1
+6,YDensityKey,123,134,1
+7,DensityUnitKey,128,134,1
+8,IsProgressiveKey,133,134,0
+9,Version,68,68,0
+10,XDensity,72,72,0
+11,YDensity,76,76,0
+12,DensityUnit,80,80,0
+13,IsProgressive,84,84,0
+14,values,86,86,0
+15,lazyGlobalValue,87,87,0

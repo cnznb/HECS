@@ -1,0 +1,52 @@
+b67c28a54
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.impl.xs.XMLSchemaValidator.XSIErrorReporter from class org.apache.xerces.impl.xs.XMLSchemaValidator",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/impl/xs/XMLSchemaValidator.java",
+		"startLine": 102,
+		"endLine": 2874,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.impl.xs.XMLSchemaValidator"
+}, {
+		"filePath": "src/org/apache/xerces/impl/xs/XMLSchemaValidator.java",
+		"startLine": 215,
+		"endLine": 215,
+		"startColumn": 32,
+		"endColumn": 46,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected fErrorReporter : XMLErrorReporter"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/impl/xs/XMLSchemaValidator.java",
+		"startLine": 102,
+		"endLine": 2955,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.impl.xs.XMLSchemaValidator"
+}, {
+		"filePath": "src/org/apache/xerces/impl/xs/XMLSchemaValidator.java",
+		"startLine": 214,
+		"endLine": 282,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.impl.xs.XMLSchemaValidator.XSIErrorReporter"
+}, {
+		"filePath": "src/org/apache/xerces/impl/xs/XMLSchemaValidator.java",
+		"startLine": 222,
+		"endLine": 222,
+		"startColumn": 26,
+		"endColumn": 40,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "package fErrorReporter : XMLErrorReporter"
+}]
+}

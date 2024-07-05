@@ -1,0 +1,88 @@
+6b575f2ee5f02288a774ff0a85ce3a3e3cb6946f
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.junit.gen5.engine.junit5.descriptor.LifecycleMethodUtils from class org.junit.gen5.engine.junit5.descriptor.ClassTestDescriptor",
+	"leftSideLocations": [{
+		"filePath": "junit5-engine/src/main/java/org/junit/gen5/engine/junit5/descriptor/ClassTestDescriptor.java",
+		"startLine": 55,
+		"endLine": 274,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.junit.gen5.engine.junit5.descriptor.ClassTestDescriptor"
+}, {
+		"filePath": "junit5-engine/src/main/java/org/junit/gen5/engine/junit5/descriptor/ClassTestDescriptor.java",
+		"startLine": 254,
+		"endLine": 260,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private assertStatic(annotationType Class<? extends Annotation>, method Method) : void"
+}, {
+		"filePath": "junit5-engine/src/main/java/org/junit/gen5/engine/junit5/descriptor/ClassTestDescriptor.java",
+		"startLine": 262,
+		"endLine": 266,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private findBeforeAllMethods(testClass Class<?>) : List<Method>"
+}, {
+		"filePath": "junit5-engine/src/main/java/org/junit/gen5/engine/junit5/descriptor/ClassTestDescriptor.java",
+		"startLine": 268,
+		"endLine": 272,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private findAfterAllMethods(testClass Class<?>) : List<Method>"
+}],
+	"rightSideLocations": [{
+		"filePath": "junit5-engine/src/main/java/org/junit/gen5/engine/junit5/descriptor/ClassTestDescriptor.java",
+		"startLine": 49,
+		"endLine": 229,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.junit.gen5.engine.junit5.descriptor.ClassTestDescriptor"
+}, {
+		"filePath": "junit5-engine/src/main/java/org/junit/gen5/engine/junit5/descriptor/LifecycleMethodUtils.java",
+		"startLine": 27,
+		"endLine": 76,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.junit.gen5.engine.junit5.descriptor.LifecycleMethodUtils"
+}, {
+		"filePath": "junit5-engine/src/main/java/org/junit/gen5/engine/junit5/descriptor/LifecycleMethodUtils.java",
+		"startLine": 62,
+		"endLine": 67,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private assertStatic(annotationType Class<? extends Annotation>, method Method) : void"
+}, {
+		"filePath": "junit5-engine/src/main/java/org/junit/gen5/engine/junit5/descriptor/LifecycleMethodUtils.java",
+		"startLine": 38,
+		"endLine": 42,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "package findBeforeAllMethods(testClass Class<?>) : List<Method>"
+}, {
+		"filePath": "junit5-engine/src/main/java/org/junit/gen5/engine/junit5/descriptor/LifecycleMethodUtils.java",
+		"startLine": 44,
+		"endLine": 48,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "package findAfterAllMethods(testClass Class<?>) : List<Method>"
+}]
+}

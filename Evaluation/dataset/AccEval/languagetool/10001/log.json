@@ -1,0 +1,862 @@
+bec15926deb49d2b3f7b979d4cfc819947a434ec
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.languagetool.tagging.uk.CompoundTagger from class org.languagetool.tagging.uk.UkrainianTagger",
+	"leftSideLocations": [{
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 49,
+		"endLine": 781,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.languagetool.tagging.uk.UkrainianTagger"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 144,
+		"endLine": 156,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private loadSet(path String) : Set<String>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 200,
+		"endLine": 330,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private guessCompoundTag(word String) : List<AnalyzedToken>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 332,
+		"endLine": 346,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private tagBothCases(leftWord String) : List<TaggedWord>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 348,
+		"endLine": 350,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private capitalize(word String) : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 352,
+		"endLine": 363,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private cityAvenueMatch(word String, leftAnalyzedTokens List<AnalyzedToken>) : List<AnalyzedToken>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 365,
+		"endLine": 491,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private tagMatch(word String, leftAnalyzedTokens List<AnalyzedToken>, rightAnalyzedTokens List<AnalyzedToken>) : List<AnalyzedToken>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 493,
+		"endLine": 496,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private isMinMax(rightToken String) : boolean"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 498,
+		"endLine": 560,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private tryAnimInanim(leftPosTag String, rightPosTag String, leftLemma String, rightLemma String, leftNv boolean, rightNv boolean) : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 563,
+		"endLine": 573,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private getNumAgreedPosTag(leftPosTag String, rightPosTag String, leftNv boolean) : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 575,
+		"endLine": 598,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private getAgreedPosTag(leftPosTag String, rightPosTag String, leftNv boolean) : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 600,
+		"endLine": 603,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private isSameAnimStatus(leftPosTag String, rightPosTag String) : boolean"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 605,
+		"endLine": 607,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private isPlural(posTag String) : boolean"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 609,
+		"endLine": 628,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private oAdjMatch(word String, analyzedTokens List<AnalyzedToken>, leftWord String) : List<AnalyzedToken>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 630,
+		"endLine": 634,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private oToYj(leftWord String) : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 636,
+		"endLine": 647,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private getNvPrefixNounMatch(word String, analyzedTokens List<AnalyzedToken>, leftWord String) : List<AnalyzedToken>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 649,
+		"endLine": 660,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private poAdvMatch(word String, analyzedTokens List<AnalyzedToken>, adjTag String) : List<AnalyzedToken>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 664,
+		"endLine": 683,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private debugCompounds() : void"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 685,
+		"endLine": 696,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private debug_compound_unknown_write(word String) : void"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 731,
+		"endLine": 736,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private debug_compound_tagged_write(guessedCompoundTags List<AnalyzedToken>) : void"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 738,
+		"endLine": 778,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private debug_tagged_write(analyzedTokens List<AnalyzedToken>, writer BufferedWriter) : void"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 59,
+		"endLine": 59,
+		"startColumn": 31,
+		"endColumn": 45,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private NV_TAG : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 60,
+		"endLine": 60,
+		"startColumn": 31,
+		"endColumn": 51,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private COMPB_TAG : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 62,
+		"endLine": 62,
+		"startColumn": 32,
+		"endColumn": 94,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private EXTRA_TAGS : Pattern"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 64,
+		"endLine": 64,
+		"startColumn": 31,
+		"endColumn": 118,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private DEBUG_COMPOUNDS_PROPERTY : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 65,
+		"endLine": 65,
+		"startColumn": 31,
+		"endColumn": 49,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private TAG_ANIM : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 67,
+		"endLine": 67,
+		"startColumn": 32,
+		"endColumn": 83,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private MNP_NAZ_REGEX : Pattern"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 68,
+		"endLine": 68,
+		"startColumn": 32,
+		"endColumn": 83,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private MNP_ZNA_REGEX : Pattern"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 69,
+		"endLine": 69,
+		"startColumn": 32,
+		"endColumn": 83,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private MNP_ROD_REGEX : Pattern"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 70,
+		"endLine": 70,
+		"startColumn": 32,
+		"endColumn": 93,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private NOUN_SING_V_ROD_REGEX : Pattern"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 71,
+		"endLine": 71,
+		"startColumn": 32,
+		"endColumn": 84,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private NOUN_V_NAZ_REGEX : Pattern"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 72,
+		"endLine": 72,
+		"startColumn": 32,
+		"endColumn": 73,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private SING_REGEX_F : Pattern"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 73,
+		"endLine": 73,
+		"startColumn": 32,
+		"endColumn": 79,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private O_ADJ_PATTERN : Pattern"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 77,
+		"endLine": 77,
+		"startColumn": 31,
+		"endColumn": 90,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private ADJ_TAG_FOR_PO_ADV_MIS : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 78,
+		"endLine": 78,
+		"startColumn": 31,
+		"endColumn": 90,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private ADJ_TAG_FOR_PO_ADV_NAZ : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 83,
+		"endLine": 83,
+		"startColumn": 31,
+		"endColumn": 76,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private stdNounTag : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 84,
+		"endLine": 84,
+		"startColumn": 28,
+		"endColumn": 63,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private stdNounTagLen : int"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 85,
+		"endLine": 85,
+		"startColumn": 32,
+		"endColumn": 84,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private stdNounTagRegex : Pattern"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 87,
+		"endLine": 87,
+		"startColumn": 36,
+		"endColumn": 48,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private dashPrefixes : Set<String>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 88,
+		"endLine": 88,
+		"startColumn": 36,
+		"endColumn": 49,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private leftMasterSet : Set<String>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 89,
+		"endLine": 89,
+		"startColumn": 36,
+		"endColumn": 114,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private cityAvenue : Set<String>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 90,
+		"endLine": 90,
+		"startColumn": 45,
+		"endColumn": 87,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private rightPartsWithLeftTagMap : Map<String,Pattern>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 91,
+		"endLine": 91,
+		"startColumn": 36,
+		"endColumn": 44,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private slaveSet : Set<String>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 93,
+		"endLine": 96,
+		"startColumn": 24,
+		"endColumn": 4,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private LEFT_O_ADJ : List<String>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 98,
+		"endLine": 98,
+		"startColumn": 50,
+		"endColumn": 65,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private NUMR_ENDING_MAP : Map<String,List<String>>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 99,
+		"endLine": 99,
+		"startColumn": 26,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private compoundUnknownDebugWriter : BufferedWriter"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 100,
+		"endLine": 100,
+		"startColumn": 26,
+		"endColumn": 51,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private compoundTaggedDebugWriter : BufferedWriter"
+}],
+	"rightSideLocations": [{
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/UkrainianTagger.java",
+		"startLine": 31,
+		"endLine": 121,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.languagetool.tagging.uk.UkrainianTagger"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 29,
+		"endLine": 693,
+		"startColumn": 0,
+		"endColumn": 0,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.languagetool.tagging.uk.CompoundTagger"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 593,
+		"endLine": 605,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private loadSet(path String) : Set<String>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 123,
+		"endLine": 128,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public guessCompoundTag(word String) : List<AnalyzedToken>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 577,
+		"endLine": 591,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private tagBothCases(leftWord String) : List<TaggedWord>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 573,
+		"endLine": 575,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private capitalize(word String) : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 261,
+		"endLine": 272,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private cityAvenueMatch(word String, leftAnalyzedTokens List<AnalyzedToken>) : List<AnalyzedToken>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 274,
+		"endLine": 400,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private tagMatch(word String, leftAnalyzedTokens List<AnalyzedToken>, rightAnalyzedTokens List<AnalyzedToken>) : List<AnalyzedToken>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 441,
+		"endLine": 444,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private isMinMax(rightToken String) : boolean"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 446,
+		"endLine": 508,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private tryAnimInanim(leftPosTag String, rightPosTag String, leftLemma String, rightLemma String, leftNv boolean, rightNv boolean) : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 403,
+		"endLine": 414,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private getNumAgreedPosTag(leftPosTag String, rightPosTag String, leftNv boolean) : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 416,
+		"endLine": 439,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private getAgreedPosTag(leftPosTag String, rightPosTag String, leftNv boolean) : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 510,
+		"endLine": 513,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private isSameAnimStatus(leftPosTag String, rightPosTag String) : boolean"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 515,
+		"endLine": 517,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private isPlural(posTag String) : boolean"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 519,
+		"endLine": 538,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private oAdjMatch(word String, analyzedTokens List<AnalyzedToken>, leftWord String) : List<AnalyzedToken>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 540,
+		"endLine": 544,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private oToYj(leftWord String) : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 546,
+		"endLine": 557,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private getNvPrefixNounMatch(word String, analyzedTokens List<AnalyzedToken>, leftWord String) : List<AnalyzedToken>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 559,
+		"endLine": 570,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private poAdvMatch(word String, analyzedTokens List<AnalyzedToken>, adjTag String) : List<AnalyzedToken>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 610,
+		"endLine": 629,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private debugCompounds() : void"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 638,
+		"endLine": 649,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private debug_compound_unknown_write(word String) : void"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 631,
+		"endLine": 636,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private debug_compound_tagged_write(guessedCompoundTags List<AnalyzedToken>) : void"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 651,
+		"endLine": 691,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private debug_tagged_write(analyzedTokens List<AnalyzedToken>, writer BufferedWriter) : void"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 33,
+		"endLine": 33,
+		"startColumn": 31,
+		"endColumn": 45,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private NV_TAG : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 34,
+		"endLine": 34,
+		"startColumn": 31,
+		"endColumn": 51,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private COMPB_TAG : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 36,
+		"endLine": 36,
+		"startColumn": 32,
+		"endColumn": 94,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private EXTRA_TAGS : Pattern"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 30,
+		"endLine": 30,
+		"startColumn": 31,
+		"endColumn": 118,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private DEBUG_COMPOUNDS_PROPERTY : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 32,
+		"endLine": 32,
+		"startColumn": 31,
+		"endColumn": 49,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private TAG_ANIM : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 44,
+		"endLine": 44,
+		"startColumn": 32,
+		"endColumn": 83,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private MNP_NAZ_REGEX : Pattern"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 45,
+		"endLine": 45,
+		"startColumn": 32,
+		"endColumn": 83,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private MNP_ZNA_REGEX : Pattern"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 46,
+		"endLine": 46,
+		"startColumn": 32,
+		"endColumn": 83,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private MNP_ROD_REGEX : Pattern"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 38,
+		"endLine": 38,
+		"startColumn": 32,
+		"endColumn": 93,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private NOUN_SING_V_ROD_REGEX : Pattern"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 39,
+		"endLine": 39,
+		"startColumn": 32,
+		"endColumn": 84,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private NOUN_V_NAZ_REGEX : Pattern"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 40,
+		"endLine": 40,
+		"startColumn": 32,
+		"endColumn": 73,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private SING_REGEX_F : Pattern"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 41,
+		"endLine": 41,
+		"startColumn": 32,
+		"endColumn": 79,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private O_ADJ_PATTERN : Pattern"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 62,
+		"endLine": 62,
+		"startColumn": 31,
+		"endColumn": 90,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private ADJ_TAG_FOR_PO_ADV_MIS : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 31,
+		"endColumn": 90,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private ADJ_TAG_FOR_PO_ADV_NAZ : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 48,
+		"endLine": 48,
+		"startColumn": 31,
+		"endColumn": 76,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private stdNounTag : String"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 49,
+		"endLine": 49,
+		"startColumn": 28,
+		"endColumn": 63,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private stdNounTagLen : int"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 50,
+		"endLine": 50,
+		"startColumn": 32,
+		"endColumn": 84,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private stdNounTagRegex : Pattern"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 52,
+		"endLine": 52,
+		"startColumn": 36,
+		"endColumn": 48,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private dashPrefixes : Set<String>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 53,
+		"endLine": 53,
+		"startColumn": 36,
+		"endColumn": 49,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private leftMasterSet : Set<String>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 54,
+		"endLine": 54,
+		"startColumn": 36,
+		"endColumn": 114,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private cityAvenue : Set<String>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 55,
+		"endLine": 55,
+		"startColumn": 45,
+		"endColumn": 87,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private rightPartsWithLeftTagMap : Map<String,Pattern>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 56,
+		"endLine": 56,
+		"startColumn": 36,
+		"endColumn": 44,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private slaveSet : Set<String>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 65,
+		"endLine": 68,
+		"startColumn": 37,
+		"endColumn": 6,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private LEFT_O_ADJ : List<String>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 57,
+		"endLine": 57,
+		"startColumn": 50,
+		"endColumn": 65,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private NUMR_ENDING_MAP : Map<String,List<String>>"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 104,
+		"endLine": 104,
+		"startColumn": 26,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private compoundUnknownDebugWriter : BufferedWriter"
+}, {
+		"filePath": "languagetool-language-modules/uk/src/main/java/org/languagetool/tagging/uk/CompoundTagger.java",
+		"startLine": 105,
+		"endLine": 105,
+		"startColumn": 26,
+		"endColumn": 51,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private compoundTaggedDebugWriter : BufferedWriter"
+}]
+}

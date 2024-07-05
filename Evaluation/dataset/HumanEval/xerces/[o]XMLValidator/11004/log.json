@@ -1,0 +1,70 @@
+039228b49
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.validators.dtd.DTDGrammar from class org.apache.xerces.validators.common.XMLValidator",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/validators/common/XMLValidator.java",
+		"startLine": 91,
+		"endLine": 3625,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.validators.common.XMLValidator"
+}, {
+		"filePath": "src/org/apache/xerces/validators/common/XMLValidator.java",
+		"startLine": 2549,
+		"endLine": 2549,
+		"startColumn": 22,
+		"endColumn": 78,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fElementDeclIsExternal : byte[][]"
+}, {
+		"filePath": "src/org/apache/xerces/validators/common/XMLValidator.java",
+		"startLine": 2551,
+		"endLine": 2551,
+		"startColumn": 21,
+		"endColumn": 66,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fContentSpec : int[][]"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/validators/common/XMLValidator.java",
+		"startLine": 105,
+		"endLine": 4924,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.validators.common.XMLValidator"
+}, {
+		"filePath": "src/org/apache/xerces/validators/dtd/DTDGrammar.java",
+		"startLine": 77,
+		"endLine": 1119,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.validators.dtd.DTDGrammar"
+}, {
+		"filePath": "src/org/apache/xerces/validators/dtd/DTDGrammar.java",
+		"startLine": 154,
+		"endLine": 154,
+		"startColumn": 17,
+		"endColumn": 76,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fElementDeclIsExternal : int[][]"
+}, {
+		"filePath": "src/org/apache/xerces/validators/dtd/DTDGrammar.java",
+		"startLine": 133,
+		"endLine": 133,
+		"startColumn": 28,
+		"endColumn": 63,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fContentSpec : XMLContentSpec"
+}]
+}

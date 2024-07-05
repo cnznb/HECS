@@ -1,0 +1,9 @@
+0,toObject,45,51
+1,toNative,53,58
+2,value,96,98
+3,valueOf,100,108
+4,LoopCountKey,114,135
+5,DelayTimeKey,119,135
+6,ImageColorMapKey,124,135
+7,HasGlobalColorMapKey,129,135
+8,UnclampedDelayTimeKey,134,135

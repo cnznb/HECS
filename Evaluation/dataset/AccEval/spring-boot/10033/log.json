@@ -1,0 +1,250 @@
+1e464da2480568014a87dd0bac6febe63a76c889
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.springframework.boot.actuate.autoconfigure.EndpointWebMvcConfiguration from class org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration",
+	"leftSideLocations": [{
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.java",
+		"startLine": 83,
+		"endLine": 378,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.java",
+		"startLine": 129,
+		"endLine": 147,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public endpointHandlerMapping() : EndpointHandlerMapping"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.java",
+		"startLine": 149,
+		"endLine": 171,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private getCorsConfiguration(properties EndpointCorsProperties) : CorsConfiguration"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.java",
+		"startLine": 190,
+		"endLine": 194,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public mvcEndpoints() : MvcEndpoints"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.java",
+		"startLine": 196,
+		"endLine": 201,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public environmentMvcEndpoint(delegate EnvironmentEndpoint) : EnvironmentMvcEndpoint"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.java",
+		"startLine": 203,
+		"endLine": 215,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public healthMvcEndpoint(delegate HealthEndpoint) : HealthMvcEndpoint"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.java",
+		"startLine": 217,
+		"endLine": 222,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public metricsMvcEndpoint(delegate MetricsEndpoint) : MetricsMvcEndpoint"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.java",
+		"startLine": 224,
+		"endLine": 228,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public logfileMvcEndpoint() : LogFileMvcEndpoint"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.java",
+		"startLine": 230,
+		"endLine": 235,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public shutdownMvcEndpoint(delegate ShutdownEndpoint) : ShutdownMvcEndpoint"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.java",
+		"startLine": 112,
+		"endLine": 112,
+		"startColumn": 38,
+		"endColumn": 65,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private healthMvcEndpointProperties : HealthMvcEndpointProperties"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.java",
+		"startLine": 115,
+		"endLine": 115,
+		"startColumn": 37,
+		"endColumn": 63,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private managementServerProperties : ManagementServerProperties"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.java",
+		"startLine": 118,
+		"endLine": 118,
+		"startColumn": 33,
+		"endColumn": 47,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private corsProperties : EndpointCorsProperties"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.java",
+		"startLine": 121,
+		"endLine": 121,
+		"startColumn": 49,
+		"endColumn": 67,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private mappingCustomizers : List<EndpointHandlerMappingCustomizer>"
+}],
+	"rightSideLocations": [{
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.java",
+		"startLine": 66,
+		"endLine": 297,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcConfiguration.java",
+		"startLine": 47,
+		"endLine": 162,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.springframework.boot.actuate.autoconfigure.EndpointWebMvcConfiguration"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcConfiguration.java",
+		"startLine": 71,
+		"endLine": 89,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public endpointHandlerMapping() : EndpointHandlerMapping"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcConfiguration.java",
+		"startLine": 91,
+		"endLine": 113,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private getCorsConfiguration(properties EndpointCorsProperties) : CorsConfiguration"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcConfiguration.java",
+		"startLine": 115,
+		"endLine": 119,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public mvcEndpoints() : MvcEndpoints"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcConfiguration.java",
+		"startLine": 121,
+		"endLine": 126,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public environmentMvcEndpoint(delegate EnvironmentEndpoint) : EnvironmentMvcEndpoint"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcConfiguration.java",
+		"startLine": 128,
+		"endLine": 140,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public healthMvcEndpoint(delegate HealthEndpoint) : HealthMvcEndpoint"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcConfiguration.java",
+		"startLine": 142,
+		"endLine": 147,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public metricsMvcEndpoint(delegate MetricsEndpoint) : MetricsMvcEndpoint"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcConfiguration.java",
+		"startLine": 149,
+		"endLine": 153,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public logfileMvcEndpoint() : LogFileMvcEndpoint"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcConfiguration.java",
+		"startLine": 155,
+		"endLine": 160,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public shutdownMvcEndpoint(delegate ShutdownEndpoint) : ShutdownMvcEndpoint"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcConfiguration.java",
+		"startLine": 60,
+		"endLine": 60,
+		"startColumn": 38,
+		"endColumn": 65,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private healthMvcEndpointProperties : HealthMvcEndpointProperties"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcConfiguration.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 37,
+		"endColumn": 63,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private managementServerProperties : ManagementServerProperties"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcConfiguration.java",
+		"startLine": 66,
+		"endLine": 66,
+		"startColumn": 33,
+		"endColumn": 47,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private corsProperties : EndpointCorsProperties"
+}, {
+		"filePath": "spring-boot-actuator/src/main/java/org/springframework/boot/actuate/autoconfigure/EndpointWebMvcConfiguration.java",
+		"startLine": 69,
+		"endLine": 69,
+		"startColumn": 49,
+		"endColumn": 67,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private mappingCustomizers : List<EndpointHandlerMappingCustomizer>"
+}]
+}

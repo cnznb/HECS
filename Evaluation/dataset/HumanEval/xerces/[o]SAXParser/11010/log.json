@@ -1,0 +1,88 @@
+6fec9ee0c
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.impl.XMLDTDScannerImpl from class org.apache.xerces.parsers.SAXParser",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/parsers/SAXParser.java",
+		"startLine": 87,
+		"endLine": 1600,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.parsers.SAXParser"
+}, {
+		"filePath": "src/org/apache/xerces/parsers/SAXParser.java",
+		"startLine": 105,
+		"endLine": 112,
+		"startColumn": 33,
+		"endColumn": 6,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private RECOGNIZED_FEATURES : String[]"
+}, {
+		"filePath": "src/org/apache/xerces/parsers/SAXParser.java",
+		"startLine": 115,
+		"endLine": 121,
+		"startColumn": 33,
+		"endColumn": 6,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private RECOGNIZED_PROPERTIES : String[]"
+}, {
+		"filePath": "src/org/apache/xerces/parsers/SAXParser.java",
+		"startLine": 157,
+		"endLine": 157,
+		"startColumn": 38,
+		"endColumn": 72,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fAttributes : AttributesImpl"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/parsers/SAXParser.java",
+		"startLine": 64,
+		"endLine": 104,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.parsers.SAXParser"
+}, {
+		"filePath": "src/org/apache/xerces/impl/XMLDTDScannerImpl.java",
+		"startLine": 83,
+		"endLine": 1858,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.impl.XMLDTDScannerImpl"
+}, {
+		"filePath": "src/org/apache/xerces/impl/XMLDTDScannerImpl.java",
+		"startLine": 126,
+		"endLine": 128,
+		"startColumn": 35,
+		"endColumn": 6,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private RECOGNIZED_FEATURES : String[]"
+}, {
+		"filePath": "src/org/apache/xerces/impl/XMLDTDScannerImpl.java",
+		"startLine": 131,
+		"endLine": 133,
+		"startColumn": 35,
+		"endColumn": 6,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private RECOGNIZED_PROPERTIES : String[]"
+}, {
+		"filePath": "src/org/apache/xerces/impl/XMLDTDScannerImpl.java",
+		"startLine": 172,
+		"endLine": 172,
+		"startColumn": 31,
+		"endColumn": 68,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fAttributes : XMLAttributesImpl"
+}]
+}

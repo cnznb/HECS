@@ -1,0 +1,106 @@
+1f3be625e62f44d929c01f6574678eea05754474
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.eclipse.jetty.maven.plugin.ScanPattern from class org.eclipse.jetty.maven.plugin.ScanTargetPattern",
+	"leftSideLocations": [{
+		"filePath": "jetty-maven-plugin/src/main/java/org/eclipse/jetty/maven/plugin/ScanTargetPattern.java",
+		"startLine": 25,
+		"endLine": 88,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.eclipse.jetty.maven.plugin.ScanTargetPattern"
+}, {
+		"filePath": "jetty-maven-plugin/src/main/java/org/eclipse/jetty/maven/plugin/ScanTargetPattern.java",
+		"startLine": 68,
+		"endLine": 71,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public setIncludes(includes List) : void"
+}, {
+		"filePath": "jetty-maven-plugin/src/main/java/org/eclipse/jetty/maven/plugin/ScanTargetPattern.java",
+		"startLine": 73,
+		"endLine": 76,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public setExcludes(excludes List) : void"
+}, {
+		"filePath": "jetty-maven-plugin/src/main/java/org/eclipse/jetty/maven/plugin/ScanTargetPattern.java",
+		"startLine": 49,
+		"endLine": 49,
+		"startColumn": 18,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private _includes : List"
+}, {
+		"filePath": "jetty-maven-plugin/src/main/java/org/eclipse/jetty/maven/plugin/ScanTargetPattern.java",
+		"startLine": 50,
+		"endLine": 50,
+		"startColumn": 18,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private _excludes : List"
+}],
+	"rightSideLocations": [{
+		"filePath": "jetty-maven-plugin/src/main/java/org/eclipse/jetty/maven/plugin/ScanTargetPattern.java",
+		"startLine": 25,
+		"endLine": 91,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.eclipse.jetty.maven.plugin.ScanTargetPattern"
+}, {
+		"filePath": "jetty-maven-plugin/src/main/java/org/eclipse/jetty/maven/plugin/ScanPattern.java",
+		"startLine": 24,
+		"endLine": 53,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.eclipse.jetty.maven.plugin.ScanPattern"
+}, {
+		"filePath": "jetty-maven-plugin/src/main/java/org/eclipse/jetty/maven/plugin/ScanPattern.java",
+		"startLine": 34,
+		"endLine": 37,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public setIncludes(includes List<String>) : void"
+}, {
+		"filePath": "jetty-maven-plugin/src/main/java/org/eclipse/jetty/maven/plugin/ScanPattern.java",
+		"startLine": 39,
+		"endLine": 42,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public setExcludes(excludes List<String>) : void"
+}, {
+		"filePath": "jetty-maven-plugin/src/main/java/org/eclipse/jetty/maven/plugin/ScanPattern.java",
+		"startLine": 31,
+		"endLine": 31,
+		"startColumn": 26,
+		"endColumn": 61,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private _includes : List<String>"
+}, {
+		"filePath": "jetty-maven-plugin/src/main/java/org/eclipse/jetty/maven/plugin/ScanPattern.java",
+		"startLine": 32,
+		"endLine": 32,
+		"startColumn": 26,
+		"endColumn": 61,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private _excludes : List<String>"
+}]
+}

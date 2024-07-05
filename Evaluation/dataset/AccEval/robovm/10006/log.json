@@ -1,0 +1,70 @@
+bf5ee44b3b576e01ab09cae9f50300417b01dc07
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.robovm.apple.corebluetooth.CBPeripheralManagerRestoredState.Keys from class org.robovm.apple.corebluetooth.CBPeripheralManagerRestoredState",
+	"leftSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBPeripheralManagerRestoredState.java",
+		"startLine": 37,
+		"endLine": 118,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.robovm.apple.corebluetooth.CBPeripheralManagerRestoredState"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBPeripheralManagerRestoredState.java",
+		"startLine": 102,
+		"endLine": 106,
+		"startColumn": 5,
+		"endColumn": 52,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ServicesKey() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBPeripheralManagerRestoredState.java",
+		"startLine": 107,
+		"endLine": 111,
+		"startColumn": 5,
+		"endColumn": 61,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected AdvertisementDataKey() : NSString"
+}],
+	"rightSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBPeripheralManagerRestoredState.java",
+		"startLine": 37,
+		"endLine": 144,
+		"startColumn": 18,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.robovm.apple.corebluetooth.CBPeripheralManagerRestoredState"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBPeripheralManagerRestoredState.java",
+		"startLine": 129,
+		"endLine": 142,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.robovm.apple.corebluetooth.CBPeripheralManagerRestoredState.Keys"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBPeripheralManagerRestoredState.java",
+		"startLine": 132,
+		"endLine": 136,
+		"startColumn": 9,
+		"endColumn": 50,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public Services() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBPeripheralManagerRestoredState.java",
+		"startLine": 137,
+		"endLine": 141,
+		"startColumn": 9,
+		"endColumn": 59,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public AdvertisementData() : NSString"
+}]
+}

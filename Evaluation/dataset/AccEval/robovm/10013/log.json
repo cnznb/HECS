@@ -1,0 +1,70 @@
+bf5ee44b3b576e01ab09cae9f50300417b01dc07
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.robovm.apple.imageio.CGImageProperty8BIM.Values from class org.robovm.apple.imageio.CGImageProperty8BIM",
+	"leftSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageProperty8BIM.java",
+		"startLine": 37,
+		"endLine": 108,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.robovm.apple.imageio.CGImageProperty8BIM"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageProperty8BIM.java",
+		"startLine": 97,
+		"endLine": 101,
+		"startColumn": 5,
+		"endColumn": 54,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected LayerNamesKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageProperty8BIM.java",
+		"startLine": 102,
+		"endLine": 106,
+		"startColumn": 5,
+		"endColumn": 51,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected VersionKey() : CFString"
+}],
+	"rightSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageProperty8BIM.java",
+		"startLine": 37,
+		"endLine": 136,
+		"startColumn": 18,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.robovm.apple.imageio.CGImageProperty8BIM"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageProperty8BIM.java",
+		"startLine": 119,
+		"endLine": 135,
+		"startColumn": 22,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.robovm.apple.imageio.CGImageProperty8BIM.Values"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageProperty8BIM.java",
+		"startLine": 124,
+		"endLine": 128,
+		"startColumn": 9,
+		"endColumn": 52,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public LayerNames() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageProperty8BIM.java",
+		"startLine": 129,
+		"endLine": 133,
+		"startColumn": 9,
+		"endColumn": 49,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public Version() : CFString"
+}]
+}

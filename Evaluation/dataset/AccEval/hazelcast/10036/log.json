@@ -1,0 +1,70 @@
+30c4ae09745d6062077925a54f27205b7401d8df
+{
+	"type": "Extract Class",
+	"description": "Extract Class com.hazelcast.internal.monitors.HealthMonitor.HealthMonitorThread from class com.hazelcast.internal.monitors.HealthMonitor",
+	"leftSideLocations": [{
+		"filePath": "hazelcast/src/main/java/com/hazelcast/internal/monitors/HealthMonitor.java",
+		"startLine": 46,
+		"endLine": 319,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.hazelcast.internal.monitors.HealthMonitor"
+}, {
+		"filePath": "hazelcast/src/main/java/com/hazelcast/internal/monitors/HealthMonitor.java",
+		"startLine": 105,
+		"endLine": 138,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public run() : void"
+}, {
+		"filePath": "hazelcast/src/main/java/com/hazelcast/internal/monitors/HealthMonitor.java",
+		"startLine": 75,
+		"endLine": 75,
+		"startColumn": 23,
+		"endColumn": 35,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private delaySeconds : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "hazelcast/src/main/java/com/hazelcast/internal/monitors/HealthMonitor.java",
+		"startLine": 36,
+		"endLine": 497,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "com.hazelcast.internal.monitors.HealthMonitor"
+}, {
+		"filePath": "hazelcast/src/main/java/com/hazelcast/internal/monitors/HealthMonitor.java",
+		"startLine": 100,
+		"endLine": 160,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "com.hazelcast.internal.monitors.HealthMonitor.HealthMonitorThread"
+}, {
+		"filePath": "hazelcast/src/main/java/com/hazelcast/internal/monitors/HealthMonitor.java",
+		"startLine": 112,
+		"endLine": 144,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public run() : void"
+}, {
+		"filePath": "hazelcast/src/main/java/com/hazelcast/internal/monitors/HealthMonitor.java",
+		"startLine": 101,
+		"endLine": 101,
+		"startColumn": 27,
+		"endColumn": 39,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private delaySeconds : int"
+}]
+}

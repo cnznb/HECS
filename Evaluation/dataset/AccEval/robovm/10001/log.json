@@ -1,0 +1,70 @@
+bf5ee44b3b576e01ab09cae9f50300417b01dc07
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.robovm.apple.corebluetooth.CBCentralManagerOptions.Keys from class org.robovm.apple.corebluetooth.CBCentralManagerOptions",
+	"leftSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBCentralManagerOptions.java",
+		"startLine": 37,
+		"endLine": 133,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.robovm.apple.corebluetooth.CBCentralManagerOptions"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBCentralManagerOptions.java",
+		"startLine": 117,
+		"endLine": 121,
+		"startColumn": 5,
+		"endColumn": 58,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ShowPowerAlertKey() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBCentralManagerOptions.java",
+		"startLine": 122,
+		"endLine": 126,
+		"startColumn": 5,
+		"endColumn": 61,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected RestoreIdentifierKey() : NSString"
+}],
+	"rightSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBCentralManagerOptions.java",
+		"startLine": 37,
+		"endLine": 163,
+		"startColumn": 18,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.robovm.apple.corebluetooth.CBCentralManagerOptions"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBCentralManagerOptions.java",
+		"startLine": 148,
+		"endLine": 161,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.robovm.apple.corebluetooth.CBCentralManagerOptions.Keys"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBCentralManagerOptions.java",
+		"startLine": 151,
+		"endLine": 155,
+		"startColumn": 9,
+		"endColumn": 56,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ShowPowerAlert() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBCentralManagerOptions.java",
+		"startLine": 156,
+		"endLine": 160,
+		"startColumn": 9,
+		"endColumn": 59,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public RestoreIdentifier() : NSString"
+}]
+}

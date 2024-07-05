@@ -1,0 +1,340 @@
+34d2ebeaf
+{
+	"type": "Extract Class",
+	"description": "Extract Class net.sourceforge.ganttproject.chart.gantt.GanttChartSceneBuilder from class net.sourceforge.ganttproject.chart.TaskRendererImpl2",
+	"leftSideLocations": [{
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 55,
+		"endLine": 671,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.sourceforge.ganttproject.chart.TaskRendererImpl2"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 363,
+		"endLine": 412,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private renderDependencies() : void"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 414,
+		"endLine": 432,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private renderTasksAboveAndBelowViewport(tasksAboveViewport List<Task>, tasksBelowViewport List<Task>, defaultUnitOffsets OffsetList) : void"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 434,
+		"endLine": 454,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private renderVisibleTasks(visibleTasks List<Task>, defaultUnitOffsets OffsetList) : void"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 512,
+		"endLine": 514,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private getRowHeight() : int"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 516,
+		"endLine": 562,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private renderBaseline(t Task, rowNum int, defaultUnitOffsets OffsetList) : void"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 570,
+		"endLine": 582,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private renderActivities(rowNum int, t Task, activities List<TaskActivity>, defaultUnitOffsets OffsetList, areVisible boolean) : List<Polygon>"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 584,
+		"endLine": 588,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private renderLabels(rectangles List<Polygon>) : void"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 590,
+		"endLine": 629,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private renderProgressBar(rectangles List<Polygon>) : void"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 644,
+		"endLine": 646,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private getRectangleHeight() : int"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 652,
+		"endLine": 655,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private createTaskActivitySceneBuilder(canvas Canvas, chartApi TaskActivitySceneBuilder.ChartApi, style TaskActivitySceneBuilder.Style) : TaskActivitySceneBuilder<Task,TaskActivity>"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 64,
+		"endLine": 64,
+		"startColumn": 45,
+		"endColumn": 61,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myLabelsRenderer : TaskLabelSceneBuilder<Task>"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 66,
+		"endLine": 110,
+		"startColumn": 64,
+		"endColumn": 4,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myTaskApi : TaskActivitySceneBuilder.TaskApi<Task,TaskActivity>"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 145,
+		"endLine": 145,
+		"startColumn": 62,
+		"endColumn": 84,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myTaskActivityRenderer : TaskActivitySceneBuilder<Task,TaskActivity>"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 146,
+		"endLine": 146,
+		"startColumn": 62,
+		"endColumn": 88,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myBaselineActivityRenderer : TaskActivitySceneBuilder<Task,TaskActivity>"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 148,
+		"endLine": 148,
+		"startColumn": 24,
+		"endColumn": 37,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myLabelsLayer : Canvas"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 150,
+		"endLine": 150,
+		"startColumn": 32,
+		"endColumn": 42,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myChartApi : TaskActivityChartApi"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 564,
+		"endLine": 569,
+		"startColumn": 44,
+		"endColumn": 4,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private REMOVE_SUPERTASK_ENDINGS : Predicate<Canvas.Polygon>"
+}],
+	"rightSideLocations": [{
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 42,
+		"endLine": 216,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "net.sourceforge.ganttproject.chart.TaskRendererImpl2"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/gantt/GanttChartSceneBuilder.java",
+		"startLine": 45,
+		"endLine": 362,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "net.sourceforge.ganttproject.chart.gantt.GanttChartSceneBuilder"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/gantt/GanttChartSceneBuilder.java",
+		"startLine": 171,
+		"endLine": 182,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private renderDependencies() : void"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/gantt/GanttChartSceneBuilder.java",
+		"startLine": 184,
+		"endLine": 202,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private renderTasksAboveAndBelowViewport(tasksAboveViewport List<ITaskSceneTask>, tasksBelowViewport List<ITaskSceneTask>, defaultUnitOffsets OffsetList) : void"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/gantt/GanttChartSceneBuilder.java",
+		"startLine": 204,
+		"endLine": 224,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private renderVisibleTasks(visibleTasks List<ITaskSceneTask>, defaultUnitOffsets OffsetList) : void"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/gantt/GanttChartSceneBuilder.java",
+		"startLine": 226,
+		"endLine": 228,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public getRowHeight() : int"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/gantt/GanttChartSceneBuilder.java",
+		"startLine": 230,
+		"endLine": 281,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private renderBaseline(t ITaskSceneTask, rowNum int, defaultUnitOffsets OffsetList) : void"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/gantt/GanttChartSceneBuilder.java",
+		"startLine": 289,
+		"endLine": 301,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private renderActivities(rowNum int, t ITaskSceneTask, activities List<ITaskActivity<ITaskSceneTask>>, defaultUnitOffsets OffsetList, areVisible boolean) : List<Polygon>"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/gantt/GanttChartSceneBuilder.java",
+		"startLine": 303,
+		"endLine": 307,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private renderLabels(rectangles List<Polygon>) : void"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/gantt/GanttChartSceneBuilder.java",
+		"startLine": 309,
+		"endLine": 348,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private renderProgressBar(rectangles List<Polygon>) : void"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/gantt/GanttChartSceneBuilder.java",
+		"startLine": 350,
+		"endLine": 352,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private getRectangleHeight() : int"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/gantt/GanttChartSceneBuilder.java",
+		"startLine": 358,
+		"endLine": 361,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private createTaskActivitySceneBuilder(canvas Canvas, chartApi TaskActivitySceneBuilder.ChartApi, style TaskActivitySceneBuilder.Style) : TaskActivitySceneBuilder<ITaskSceneTask,ITaskActivity<ITaskSceneTask>>"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/gantt/GanttChartSceneBuilder.java",
+		"startLine": 73,
+		"endLine": 73,
+		"startColumn": 55,
+		"endColumn": 71,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myLabelsRenderer : TaskLabelSceneBuilder<ITaskSceneTask>"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/gantt/GanttChartSceneBuilder.java",
+		"startLine": 75,
+		"endLine": 75,
+		"startColumn": 97,
+		"endColumn": 139,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myTaskApi : TaskActivitySceneBuilder.TaskApi<ITaskSceneTask,ITaskActivity<ITaskSceneTask>>"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/gantt/GanttChartSceneBuilder.java",
+		"startLine": 77,
+		"endLine": 77,
+		"startColumn": 89,
+		"endColumn": 111,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myTaskActivityRenderer : TaskActivitySceneBuilder<ITaskSceneTask,ITaskActivity<ITaskSceneTask>>"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/gantt/GanttChartSceneBuilder.java",
+		"startLine": 78,
+		"endLine": 78,
+		"startColumn": 89,
+		"endColumn": 115,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myBaselineActivityRenderer : TaskActivitySceneBuilder<ITaskSceneTask,ITaskActivity<ITaskSceneTask>>"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/gantt/GanttChartSceneBuilder.java",
+		"startLine": 80,
+		"endLine": 80,
+		"startColumn": 24,
+		"endColumn": 37,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myLabelsLayer : Canvas"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/gantt/GanttChartSceneBuilder.java",
+		"startLine": 81,
+		"endLine": 81,
+		"startColumn": 51,
+		"endColumn": 61,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myChartApi : TaskActivitySceneBuilder.ChartApi"
+}, {
+		"filePath": "ganttproject/src/main/java/net/sourceforge/ganttproject/chart/gantt/GanttChartSceneBuilder.java",
+		"startLine": 283,
+		"endLine": 288,
+		"startColumn": 37,
+		"endColumn": 4,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private REMOVE_SUPERTASK_ENDINGS : Predicate<Polygon>"
+}]
+}

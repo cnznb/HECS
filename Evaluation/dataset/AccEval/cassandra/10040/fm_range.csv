@@ -1,0 +1,16 @@
+0,prepare,212,351,0
+1,getTypeAndRemove,353,364,0
+2,addDefinition,366,372,0
+3,addKeyAliases,374,377,0
+4,addColumnAlias,379,382,0
+5,setOrdering,384,387,1
+6,setCompactStorage,389,392,1
+7,definitions,190,190,0
+8,properties,191,191,0
+9,keyAliases,193,193,0
+10,columnAliases,194,194,0
+11,definedOrdering,195,195,1
+12,staticColumns,196,196,0
+13,useCompactStorage,198,198,1
+14,definedNames,199,199,0
+15,ifNotExists,201,201,0

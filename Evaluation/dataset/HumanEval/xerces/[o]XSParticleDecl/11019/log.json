@@ -1,0 +1,88 @@
+f891c97bd
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.impl.xs.XSModelGroup from class org.apache.xerces.impl.xs.XSParticleDecl",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/impl/xs/XSParticleDecl.java",
+		"startLine": 60,
+		"endLine": 300,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.impl.xs.XSParticleDecl"
+}, {
+		"filePath": "src/org/apache/xerces/impl/xs/XSParticleDecl.java",
+		"startLine": 168,
+		"endLine": 173,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private minEffectiveTotalRangeAllSeq() : int"
+}, {
+		"filePath": "src/org/apache/xerces/impl/xs/XSParticleDecl.java",
+		"startLine": 175,
+		"endLine": 183,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private minEffectiveTotalRangeChoice() : int"
+}, {
+		"filePath": "src/org/apache/xerces/impl/xs/XSParticleDecl.java",
+		"startLine": 214,
+		"endLine": 230,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private maxEffectiveTotalRangeChoice() : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/impl/xs/XSParticleDecl.java",
+		"startLine": 60,
+		"endLine": 197,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.impl.xs.XSParticleDecl"
+}, {
+		"filePath": "src/org/apache/xerces/impl/xs/XSModelGroup.java",
+		"startLine": 60,
+		"endLine": 203,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.impl.xs.XSModelGroup"
+}, {
+		"filePath": "src/org/apache/xerces/impl/xs/XSModelGroup.java",
+		"startLine": 108,
+		"endLine": 113,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private minEffectiveTotalRangeAllSeq() : int"
+}, {
+		"filePath": "src/org/apache/xerces/impl/xs/XSModelGroup.java",
+		"startLine": 116,
+		"endLine": 128,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private minEffectiveTotalRangeChoice() : int"
+}, {
+		"filePath": "src/org/apache/xerces/impl/xs/XSModelGroup.java",
+		"startLine": 152,
+		"endLine": 168,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private maxEffectiveTotalRangeChoice() : int"
+}]
+}

@@ -1,0 +1,88 @@
+6fec9ee0c
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.impl.XMLDTDValidator from class org.apache.xerces.validators.dtd.DTDGrammar",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/validators/dtd/DTDGrammar.java",
+		"startLine": 77,
+		"endLine": 955,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.validators.dtd.DTDGrammar"
+}, {
+		"filePath": "src/org/apache/xerces/validators/dtd/DTDGrammar.java",
+		"startLine": 225,
+		"endLine": 250,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public doctypeDecl(rootElement QName, publicId int, systemId int) : void"
+}, {
+		"filePath": "src/org/apache/xerces/validators/dtd/DTDGrammar.java",
+		"startLine": 141,
+		"endLine": 141,
+		"startColumn": 21,
+		"endColumn": 33,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fRootElement : Element"
+}, {
+		"filePath": "src/org/apache/xerces/validators/dtd/DTDGrammar.java",
+		"startLine": 146,
+		"endLine": 146,
+		"startColumn": 21,
+		"endColumn": 36,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fCurrentElement : Element"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/impl/v1/dtd/DTDGrammar.java",
+		"startLine": 69,
+		"endLine": 651,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.impl.v1.dtd.DTDGrammar"
+}, {
+		"filePath": "src/org/apache/xerces/impl/XMLDTDValidator.java",
+		"startLine": 101,
+		"endLine": 2699,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.impl.XMLDTDValidator"
+}, {
+		"filePath": "src/org/apache/xerces/impl/XMLDTDValidator.java",
+		"startLine": 693,
+		"endLine": 715,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public doctypeDecl(rootElement String, publicId String, systemId String) : void"
+}, {
+		"filePath": "src/org/apache/xerces/impl/XMLDTDValidator.java",
+		"startLine": 274,
+		"endLine": 274,
+		"startColumn": 25,
+		"endColumn": 51,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fRootElement : QName"
+}, {
+		"filePath": "src/org/apache/xerces/impl/XMLDTDValidator.java",
+		"startLine": 265,
+		"endLine": 265,
+		"startColumn": 25,
+		"endColumn": 54,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fCurrentElement : QName"
+}]
+}

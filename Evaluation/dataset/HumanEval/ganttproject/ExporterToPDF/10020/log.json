@@ -1,0 +1,70 @@
+b555c73f3
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.ganttproject.impex.htmlpdf.FopXmlSerializer from class org.ganttproject.impex.htmlpdf.ExporterToPDF",
+	"leftSideLocations": [{
+		"filePath": "org.ganttproject.impex.htmlpdf/src/org/ganttproject/impex/htmlpdf/ExporterToPDF.java",
+		"startLine": 60,
+		"endLine": 365,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.ganttproject.impex.htmlpdf.ExporterToPDF"
+}, {
+		"filePath": "org.ganttproject.impex.htmlpdf/src/org/ganttproject/impex/htmlpdf/ExporterToPDF.java",
+		"startLine": 190,
+		"endLine": 235,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected exportProject(state ExportState, handler TransformerHandler) : void"
+}, {
+		"filePath": "org.ganttproject.impex.htmlpdf/src/org/ganttproject/impex/htmlpdf/ExporterToPDF.java",
+		"startLine": 242,
+		"endLine": 255,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private writeCharts(state ExportState, handler TransformerHandler) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "org.ganttproject.impex.htmlpdf/src/org/ganttproject/impex/htmlpdf/FOPEngine.java",
+		"startLine": 60,
+		"endLine": 285,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.ganttproject.impex.htmlpdf.FOPEngine"
+}, {
+		"filePath": "org.ganttproject.impex.htmlpdf/src/org/ganttproject/impex/htmlpdf/FopXmlSerializer.java",
+		"startLine": 34,
+		"endLine": 112,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.ganttproject.impex.htmlpdf.FopXmlSerializer"
+}, {
+		"filePath": "org.ganttproject.impex.htmlpdf/src/org/ganttproject/impex/htmlpdf/FopXmlSerializer.java",
+		"startLine": 45,
+		"endLine": 88,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected exportProject(state ExportState, handler TransformerHandler) : void"
+}, {
+		"filePath": "org.ganttproject.impex.htmlpdf/src/org/ganttproject/impex/htmlpdf/FopXmlSerializer.java",
+		"startLine": 90,
+		"endLine": 101,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private writeCharts(state ExportState, handler TransformerHandler) : void"
+}]
+}

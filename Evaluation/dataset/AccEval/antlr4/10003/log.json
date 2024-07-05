@@ -1,0 +1,106 @@
+b395127e733b33c27f344695ebf155ecf5edeeab
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.antlr.v4.gui.Trees from class org.antlr.v4.runtime.tree.Trees",
+	"leftSideLocations": [{
+		"filePath": "runtime/Java/src/org/antlr/v4/runtime/tree/Trees.java",
+		"startLine": 52,
+		"endLine": 335,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.antlr.v4.runtime.tree.Trees"
+}, {
+		"filePath": "runtime/Java/src/org/antlr/v4/runtime/tree/Trees.java",
+		"startLine": 55,
+		"endLine": 61,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getPS(t Tree, ruleNames List<String>, fontName String, fontSize int) : String"
+}, {
+		"filePath": "runtime/Java/src/org/antlr/v4/runtime/tree/Trees.java",
+		"startLine": 63,
+		"endLine": 65,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getPS(t Tree, ruleNames List<String>) : String"
+}, {
+		"filePath": "runtime/Java/src/org/antlr/v4/runtime/tree/Trees.java",
+		"startLine": 67,
+		"endLine": 81,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public writePS(t Tree, ruleNames List<String>, fileName String, fontName String, fontSize int) : void"
+}, {
+		"filePath": "runtime/Java/src/org/antlr/v4/runtime/tree/Trees.java",
+		"startLine": 83,
+		"endLine": 87,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public writePS(t Tree, ruleNames List<String>, fileName String) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "runtime/Java/src/org/antlr/v4/runtime/tree/Trees.java",
+		"startLine": 47,
+		"endLine": 280,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.antlr.v4.runtime.tree.Trees"
+}, {
+		"filePath": "tool/src/org/antlr/v4/gui/Trees.java",
+		"startLine": 16,
+		"endLine": 120,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.antlr.v4.gui.Trees"
+}, {
+		"filePath": "tool/src/org/antlr/v4/gui/Trees.java",
+		"startLine": 62,
+		"endLine": 68,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public getPS(t Tree, ruleNames List<String>, fontName String, fontSize int) : String"
+}, {
+		"filePath": "tool/src/org/antlr/v4/gui/Trees.java",
+		"startLine": 70,
+		"endLine": 72,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public getPS(t Tree, ruleNames List<String>) : String"
+}, {
+		"filePath": "tool/src/org/antlr/v4/gui/Trees.java",
+		"startLine": 74,
+		"endLine": 88,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public writePS(t Tree, ruleNames List<String>, fileName String, fontName String, fontSize int) : void"
+}, {
+		"filePath": "tool/src/org/antlr/v4/gui/Trees.java",
+		"startLine": 90,
+		"endLine": 94,
+		"startColumn": 2,
+		"endColumn": 3,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public writePS(t Tree, ruleNames List<String>, fileName String) : void"
+}]
+}

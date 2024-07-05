@@ -1,0 +1,70 @@
+807fdaa6c
+{
+	"type": "Extract Class",
+	"description": "Extract Class net.sourceforge.ganttproject.action.project.ProjectMRUMenu from class net.sourceforge.ganttproject.GanttProject",
+	"leftSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttProject.java",
+		"startLine": 131,
+		"endLine": 1564,
+		"startColumn": 0,
+		"endColumn": 0,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.sourceforge.ganttproject.GanttProject"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttProject.java",
+		"startLine": 595,
+		"endLine": 609,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private updateMenuMRU() : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttProject.java",
+		"startLine": 155,
+		"endLine": 155,
+		"startColumn": 30,
+		"endColumn": 44,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private maxSizeMRU : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttProject.java",
+		"startLine": 125,
+		"endLine": 1451,
+		"startColumn": 0,
+		"endColumn": 0,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "net.sourceforge.ganttproject.GanttProject"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/action/project/ProjectMRUMenu.java",
+		"startLine": 30,
+		"endLine": 71,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "net.sourceforge.ganttproject.action.project.ProjectMRUMenu"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/action/project/ProjectMRUMenu.java",
+		"startLine": 51,
+		"endLine": 61,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private updateMenuMRU() : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/action/project/ProjectMRUMenu.java",
+		"startLine": 33,
+		"endLine": 33,
+		"startColumn": 30,
+		"endColumn": 44,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private maxSizeMRU : int"
+}]
+}

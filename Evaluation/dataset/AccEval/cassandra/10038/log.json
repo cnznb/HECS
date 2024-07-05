@@ -1,0 +1,160 @@
+5790b4a44ba85e7e8ece64613d9e6a1b737a6cde
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.cassandra.cql3.functions.JavaUDF from class org.apache.cassandra.cql3.functions.UDFunction",
+	"leftSideLocations": [{
+		"filePath": "src/java/org/apache/cassandra/cql3/functions/UDFunction.java",
+		"startLine": 41,
+		"endLine": 318,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.cassandra.cql3.functions.UDFunction"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/functions/UDFunction.java",
+		"startLine": 207,
+		"endLine": 211,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected compose_float(protocolVersion int, argIndex int, value ByteBuffer) : float"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/functions/UDFunction.java",
+		"startLine": 214,
+		"endLine": 218,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected compose_double(protocolVersion int, argIndex int, value ByteBuffer) : double"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/functions/UDFunction.java",
+		"startLine": 221,
+		"endLine": 225,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected compose_byte(protocolVersion int, argIndex int, value ByteBuffer) : byte"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/functions/UDFunction.java",
+		"startLine": 228,
+		"endLine": 232,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected compose_short(protocolVersion int, argIndex int, value ByteBuffer) : short"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/functions/UDFunction.java",
+		"startLine": 235,
+		"endLine": 239,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected compose_int(protocolVersion int, argIndex int, value ByteBuffer) : int"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/functions/UDFunction.java",
+		"startLine": 242,
+		"endLine": 246,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected compose_long(protocolVersion int, argIndex int, value ByteBuffer) : long"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/functions/UDFunction.java",
+		"startLine": 249,
+		"endLine": 253,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected compose_boolean(protocolVersion int, argIndex int, value ByteBuffer) : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/java/org/apache/cassandra/cql3/functions/UDFunction.java",
+		"startLine": 59,
+		"endLine": 572,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.cassandra.cql3.functions.UDFunction"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/functions/JavaUDF.java",
+		"startLine": 28,
+		"endLine": 105,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.cassandra.cql3.functions.JavaUDF"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/functions/JavaUDF.java",
+		"startLine": 58,
+		"endLine": 62,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected compose_float(protocolVersion int, argIndex int, value ByteBuffer) : float"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/functions/JavaUDF.java",
+		"startLine": 65,
+		"endLine": 69,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected compose_double(protocolVersion int, argIndex int, value ByteBuffer) : double"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/functions/JavaUDF.java",
+		"startLine": 72,
+		"endLine": 76,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected compose_byte(protocolVersion int, argIndex int, value ByteBuffer) : byte"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/functions/JavaUDF.java",
+		"startLine": 79,
+		"endLine": 83,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected compose_short(protocolVersion int, argIndex int, value ByteBuffer) : short"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/functions/JavaUDF.java",
+		"startLine": 86,
+		"endLine": 90,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected compose_int(protocolVersion int, argIndex int, value ByteBuffer) : int"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/functions/JavaUDF.java",
+		"startLine": 93,
+		"endLine": 97,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected compose_long(protocolVersion int, argIndex int, value ByteBuffer) : long"
+}, {
+		"filePath": "src/java/org/apache/cassandra/cql3/functions/JavaUDF.java",
+		"startLine": 100,
+		"endLine": 104,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected compose_boolean(protocolVersion int, argIndex int, value ByteBuffer) : boolean"
+}]
+}

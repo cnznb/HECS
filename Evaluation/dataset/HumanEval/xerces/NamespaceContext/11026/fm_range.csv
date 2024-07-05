@@ -1,0 +1,6 @@
+0,getURI,101,124,0
+1,getDeclaredPrefixCount,107,124,0
+2,getDeclaredPrefixAt,112,124,0
+3,getParentContext,123,124,0
+4,XML_URI,77,77,1
+5,XMLNS_URI,84,84,1

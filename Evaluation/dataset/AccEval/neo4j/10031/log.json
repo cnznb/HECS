@@ -1,0 +1,70 @@
+001de307492df8f84ad15f6aaa0bd1e748d4ce27
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.neo4j.kernel.impl.transaction.log.LogEntryCursor from class org.neo4j.kernel.impl.transaction.log.PhysicalTransactionCursor",
+	"leftSideLocations": [{
+		"filePath": "community/kernel/src/main/java/org/neo4j/kernel/impl/transaction/log/PhysicalTransactionCursor.java",
+		"startLine": 34,
+		"endLine": 101,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.neo4j.kernel.impl.transaction.log.PhysicalTransactionCursor"
+}, {
+		"filePath": "community/kernel/src/main/java/org/neo4j/kernel/impl/transaction/log/PhysicalTransactionCursor.java",
+		"startLine": 37,
+		"endLine": 37,
+		"startColumn": 21,
+		"endColumn": 28,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private channel : T"
+}, {
+		"filePath": "community/kernel/src/main/java/org/neo4j/kernel/impl/transaction/log/PhysicalTransactionCursor.java",
+		"startLine": 38,
+		"endLine": 38,
+		"startColumn": 37,
+		"endColumn": 48,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private entryReader : LogEntryReader<T>"
+}],
+	"rightSideLocations": [{
+		"filePath": "community/kernel/src/main/java/org/neo4j/kernel/impl/transaction/log/PhysicalTransactionCursor.java",
+		"startLine": 35,
+		"endLine": 139,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.neo4j.kernel.impl.transaction.log.PhysicalTransactionCursor"
+}, {
+		"filePath": "community/kernel/src/main/java/org/neo4j/kernel/impl/transaction/log/LogEntryCursor.java",
+		"startLine": 27,
+		"endLine": 64,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.neo4j.kernel.impl.transaction.log.LogEntryCursor"
+}, {
+		"filePath": "community/kernel/src/main/java/org/neo4j/kernel/impl/transaction/log/LogEntryCursor.java",
+		"startLine": 29,
+		"endLine": 29,
+		"startColumn": 21,
+		"endColumn": 28,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private channel : T"
+}, {
+		"filePath": "community/kernel/src/main/java/org/neo4j/kernel/impl/transaction/log/LogEntryCursor.java",
+		"startLine": 30,
+		"endLine": 30,
+		"startColumn": 37,
+		"endColumn": 48,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private entryReader : LogEntryReader<T>"
+}]
+}

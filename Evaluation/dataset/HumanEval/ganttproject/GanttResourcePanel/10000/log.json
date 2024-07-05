@@ -1,0 +1,88 @@
+273e6a336
+{
+	"type": "Extract Class",
+	"description": "Extract Class net.sourceforge.ganttproject.ChartTabContentPanel from class net.sourceforge.ganttproject.GanttResourcePanel",
+	"leftSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttResourcePanel.java",
+		"startLine": 72,
+		"endLine": 654,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.sourceforge.ganttproject.GanttResourcePanel"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttResourcePanel.java",
+		"startLine": 529,
+		"endLine": 531,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public setDividerLocation(location int) : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttResourcePanel.java",
+		"startLine": 533,
+		"endLine": 535,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getDividerLocation() : int"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttResourcePanel.java",
+		"startLine": 97,
+		"endLine": 97,
+		"startColumn": 24,
+		"endColumn": 42,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private mySplitPane : JSplitPane"
+}],
+	"rightSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttResourcePanel.java",
+		"startLine": 62,
+		"endLine": 559,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "net.sourceforge.ganttproject.GanttResourcePanel"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/ChartTabContentPanel.java",
+		"startLine": 22,
+		"endLine": 106,
+		"startColumn": 0,
+		"endColumn": 0,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "net.sourceforge.ganttproject.ChartTabContentPanel"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/ChartTabContentPanel.java",
+		"startLine": 84,
+		"endLine": 86,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected setDividerLocation(location int) : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/ChartTabContentPanel.java",
+		"startLine": 80,
+		"endLine": 82,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected getDividerLocation() : int"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/ChartTabContentPanel.java",
+		"startLine": 24,
+		"endLine": 24,
+		"startColumn": 24,
+		"endColumn": 35,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private mySplitPane : JSplitPane"
+}]
+}

@@ -1,0 +1,52 @@
+ab98bcacf6e5bf1c3a06f6bcca68f178f880ffc9
+{
+	"type": "Extract Class",
+	"description": "Extract Class com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming.testHAMT from class com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming",
+	"leftSideLocations": [{
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 35,
+		"endLine": 2253,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming"
+}, {
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 1041,
+		"endLine": 1041,
+		"startColumn": 62,
+		"endColumn": 110,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private hamt : HashArrayMappedTrie<Integer,String>"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 36,
+		"endLine": 1863,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming"
+}, {
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 443,
+		"endLine": 458,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "com.jwetherell.algorithms.data_structures.timing.DataStructuresTiming.testHAMT"
+}, {
+		"filePath": "src/com/jwetherell/algorithms/data_structures/timing/DataStructuresTiming.java",
+		"startLine": 444,
+		"endLine": 444,
+		"startColumn": 45,
+		"endColumn": 93,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "package hamt : HashArrayMappedTrie<Integer,String>"
+}]
+}

@@ -1,0 +1,88 @@
+23a216b08
+{
+	"type": "Extract Class",
+	"description": "Extract Class net.sourceforge.ganttproject.task.algorithm.DependencyGraph.NodeData from class net.sourceforge.ganttproject.task.algorithm.DependencyGraph.Node",
+	"leftSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/task/algorithm/DependencyGraph.java",
+		"startLine": 327,
+		"endLine": 402,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.sourceforge.ganttproject.task.algorithm.DependencyGraph.Node"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/task/algorithm/DependencyGraph.java",
+		"startLine": 329,
+		"endLine": 329,
+		"startColumn": 17,
+		"endColumn": 28,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myLevel : int"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/task/algorithm/DependencyGraph.java",
+		"startLine": 330,
+		"endLine": 330,
+		"startColumn": 40,
+		"endColumn": 73,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myIncoming : List<DependencyEdge>"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/task/algorithm/DependencyGraph.java",
+		"startLine": 331,
+		"endLine": 331,
+		"startColumn": 40,
+		"endColumn": 73,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myOutgoing : List<DependencyEdge>"
+}],
+	"rightSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/task/algorithm/DependencyGraph.java",
+		"startLine": 437,
+		"endLine": 517,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "net.sourceforge.ganttproject.task.algorithm.DependencyGraph.Node"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/task/algorithm/DependencyGraph.java",
+		"startLine": 354,
+		"endLine": 435,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "net.sourceforge.ganttproject.task.algorithm.DependencyGraph.NodeData"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/task/algorithm/DependencyGraph.java",
+		"startLine": 355,
+		"endLine": 355,
+		"startColumn": 17,
+		"endColumn": 28,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myLevel : int"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/task/algorithm/DependencyGraph.java",
+		"startLine": 356,
+		"endLine": 356,
+		"startColumn": 40,
+		"endColumn": 50,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myIncoming : List<DependencyEdge>"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/task/algorithm/DependencyGraph.java",
+		"startLine": 357,
+		"endLine": 357,
+		"startColumn": 40,
+		"endColumn": 50,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myOutgoing : List<DependencyEdge>"
+}]
+}

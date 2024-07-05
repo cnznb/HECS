@@ -1,0 +1,70 @@
+6fec9ee0c
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.impl.XMLScanner from class org.apache.xerces.utils.StringPool",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/utils/StringPool.java",
+		"startLine": 60,
+		"endLine": 711,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.utils.StringPool"
+}, {
+		"filePath": "src/org/apache/xerces/utils/StringPool.java",
+		"startLine": 108,
+		"endLine": 108,
+		"startColumn": 24,
+		"endColumn": 67,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fString : String[][]"
+}, {
+		"filePath": "src/org/apache/xerces/utils/StringPool.java",
+		"startLine": 124,
+		"endLine": 124,
+		"startColumn": 21,
+		"endColumn": 61,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fSymbolTable : int[][]"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/util/SymbolTable.java",
+		"startLine": 60,
+		"endLine": 328,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.util.SymbolTable"
+}, {
+		"filePath": "src/org/apache/xerces/impl/XMLScanner.java",
+		"startLine": 76,
+		"endLine": 1415,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.impl.XMLScanner"
+}, {
+		"filePath": "src/org/apache/xerces/impl/XMLScanner.java",
+		"startLine": 130,
+		"endLine": 130,
+		"startColumn": 25,
+		"endColumn": 50,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "protected fString : XMLString"
+}, {
+		"filePath": "src/org/apache/xerces/impl/XMLScanner.java",
+		"startLine": 116,
+		"endLine": 116,
+		"startColumn": 27,
+		"endColumn": 39,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "protected fSymbolTable : SymbolTable"
+}]
+}

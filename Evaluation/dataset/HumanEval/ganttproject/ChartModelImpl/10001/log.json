@@ -1,0 +1,70 @@
+273e6a336
+{
+	"type": "Extract Class",
+	"description": "Extract Class net.sourceforge.ganttproject.chart.TaskLabelsRendererImpl from class net.sourceforge.ganttproject.chart.ChartModelImpl",
+	"leftSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/ChartModelImpl.java",
+		"startLine": 34,
+		"endLine": 503,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.sourceforge.ganttproject.chart.ChartModelImpl"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/ChartModelImpl.java",
+		"startLine": 426,
+		"endLine": 428,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public isOnlyUp() : boolean"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/ChartModelImpl.java",
+		"startLine": 430,
+		"endLine": 432,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public isOnlyDown() : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/ChartModelImpl.java",
+		"startLine": 36,
+		"endLine": 386,
+		"startColumn": 0,
+		"endColumn": 0,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "net.sourceforge.ganttproject.chart.ChartModelImpl"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskLabelsRendererImpl.java",
+		"startLine": 27,
+		"endLine": 264,
+		"startColumn": 0,
+		"endColumn": 0,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "net.sourceforge.ganttproject.chart.TaskLabelsRendererImpl"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskLabelsRendererImpl.java",
+		"startLine": 207,
+		"endLine": 209,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "package isOnlyUp() : boolean"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskLabelsRendererImpl.java",
+		"startLine": 211,
+		"endLine": 213,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "package isOnlyDown() : boolean"
+}]
+}

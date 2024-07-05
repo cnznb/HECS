@@ -1,0 +1,27 @@
+AccEval: [Tsantalis et al's dataset](https://refactoring.encs.concordia.ca/oracle/tool-refactorings/*All%20Refactorings/TP/Extract%20Class) 
+
+HumanEval: [Xerces](https://github.com/apache/xerces2-j), [GanttProjects](https://github.com/bardsoftware/ganttproject)
+
+THERE ARE 6 DIRECTORIES:
+
+bert: the dataset use embedding technique CodeBERT
+codet5: the dataset use embedding technique CodeT5
+cotext: the dataset use embedding technique CoTexT
+gpt: the dataset use embedding technique CodeGPT
+graph: the dataset use embedding technique GraphCodeBERT
+plbart: the dataset use embedding technique PLBART
+
+EACH DIRECTORY CONTAINS TWO FILES:
+
+The .content file contains descriptions of each graph node in the following format:
+
+		<node_id> <node_vector> <label>
+
+The first entry in each line contains the unique string ID of the graph node followed by vector presentations using embedding technique. Finally, the last entry in the line contains the label of the node.
+Due to the actual generated file being too large, only part of the content has been retained here.
+
+The .cites file contains the set of relationships between methods and fields in the Intra-class Dependency Graph for each class. Each line describes a link in the following format:
+
+		<ID of graph node> <ID of graph node>
+
+Each row contains two graph node IDs, indicating that the former has a relationship with the latter.

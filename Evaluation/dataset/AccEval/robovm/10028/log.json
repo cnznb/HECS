@@ -1,0 +1,178 @@
+bf5ee44b3b576e01ab09cae9f50300417b01dc07
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.robovm.apple.imageio.CGImageSourceOptions.Keys from class org.robovm.apple.imageio.CGImageSourceOptions",
+	"leftSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageSourceOptions.java",
+		"startLine": 37,
+		"endLine": 264,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.robovm.apple.imageio.CGImageSourceOptions"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageSourceOptions.java",
+		"startLine": 218,
+		"endLine": 222,
+		"startColumn": 5,
+		"endColumn": 62,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected TypeIdentifierHintKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageSourceOptions.java",
+		"startLine": 223,
+		"endLine": 227,
+		"startColumn": 5,
+		"endColumn": 55,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ShouldCacheKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageSourceOptions.java",
+		"startLine": 228,
+		"endLine": 232,
+		"startColumn": 5,
+		"endColumn": 66,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ShouldCacheImmediatelyKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageSourceOptions.java",
+		"startLine": 233,
+		"endLine": 237,
+		"startColumn": 5,
+		"endColumn": 60,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ShouldAllowFloatKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageSourceOptions.java",
+		"startLine": 238,
+		"endLine": 242,
+		"startColumn": 5,
+		"endColumn": 76,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected CreateThumbnailFromImageIfAbsentKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageSourceOptions.java",
+		"startLine": 243,
+		"endLine": 247,
+		"startColumn": 5,
+		"endColumn": 74,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected CreateThumbnailFromImageAlwaysKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageSourceOptions.java",
+		"startLine": 248,
+		"endLine": 252,
+		"startColumn": 5,
+		"endColumn": 65,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ThumbnailMaxPixelSizeKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageSourceOptions.java",
+		"startLine": 253,
+		"endLine": 257,
+		"startColumn": 5,
+		"endColumn": 72,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected CreateThumbnailWithTransformKey() : CFString"
+}],
+	"rightSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageSourceOptions.java",
+		"startLine": 37,
+		"endLine": 278,
+		"startColumn": 18,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.robovm.apple.imageio.CGImageSourceOptions"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageSourceOptions.java",
+		"startLine": 233,
+		"endLine": 276,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.robovm.apple.imageio.CGImageSourceOptions.Keys"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageSourceOptions.java",
+		"startLine": 236,
+		"endLine": 240,
+		"startColumn": 9,
+		"endColumn": 60,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public TypeIdentifierHint() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageSourceOptions.java",
+		"startLine": 241,
+		"endLine": 245,
+		"startColumn": 9,
+		"endColumn": 53,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ShouldCache() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageSourceOptions.java",
+		"startLine": 246,
+		"endLine": 250,
+		"startColumn": 9,
+		"endColumn": 64,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ShouldCacheImmediately() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageSourceOptions.java",
+		"startLine": 251,
+		"endLine": 255,
+		"startColumn": 9,
+		"endColumn": 58,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ShouldAllowFloat() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageSourceOptions.java",
+		"startLine": 256,
+		"endLine": 260,
+		"startColumn": 9,
+		"endColumn": 74,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public CreateThumbnailFromImageIfAbsent() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageSourceOptions.java",
+		"startLine": 261,
+		"endLine": 265,
+		"startColumn": 9,
+		"endColumn": 72,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public CreateThumbnailFromImageAlways() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageSourceOptions.java",
+		"startLine": 266,
+		"endLine": 270,
+		"startColumn": 9,
+		"endColumn": 63,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ThumbnailMaxPixelSize() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageSourceOptions.java",
+		"startLine": 271,
+		"endLine": 275,
+		"startColumn": 9,
+		"endColumn": 70,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public CreateThumbnailWithTransform() : CFString"
+}]
+}

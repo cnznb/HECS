@@ -1,0 +1,70 @@
+6fec9ee0c
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.impl.XMLDTDScannerImpl from class org.apache.xerces.parsers.DOMParser",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/parsers/DOMParser.java",
+		"startLine": 107,
+		"endLine": 3260,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.parsers.DOMParser"
+}, {
+		"filePath": "src/org/apache/xerces/parsers/DOMParser.java",
+		"startLine": 138,
+		"endLine": 146,
+		"startColumn": 33,
+		"endColumn": 6,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private RECOGNIZED_FEATURES : String[]"
+}, {
+		"filePath": "src/org/apache/xerces/parsers/DOMParser.java",
+		"startLine": 149,
+		"endLine": 154,
+		"startColumn": 33,
+		"endColumn": 6,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private RECOGNIZED_PROPERTIES : String[]"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/parsers/DOMParser.java",
+		"startLine": 82,
+		"endLine": 458,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.parsers.DOMParser"
+}, {
+		"filePath": "src/org/apache/xerces/impl/XMLDTDScannerImpl.java",
+		"startLine": 83,
+		"endLine": 1858,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.impl.XMLDTDScannerImpl"
+}, {
+		"filePath": "src/org/apache/xerces/impl/XMLDTDScannerImpl.java",
+		"startLine": 126,
+		"endLine": 128,
+		"startColumn": 35,
+		"endColumn": 6,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private RECOGNIZED_FEATURES : String[]"
+}, {
+		"filePath": "src/org/apache/xerces/impl/XMLDTDScannerImpl.java",
+		"startLine": 131,
+		"endLine": 133,
+		"startColumn": 35,
+		"endColumn": 6,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private RECOGNIZED_PROPERTIES : String[]"
+}]
+}

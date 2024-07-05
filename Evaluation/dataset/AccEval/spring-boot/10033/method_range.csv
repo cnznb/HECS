@@ -1,0 +1,16 @@
+0,setApplicationContext,124,127
+1,endpointHandlerMapping,131,147
+2,getCorsConfiguration,149,171
+3,afterSingletonsInstantiated,174,188
+4,mvcEndpoints,192,194
+5,environmentMvcEndpoint,199,201
+6,healthMvcEndpoint,206,215
+7,metricsMvcEndpoint,220,222
+8,logfileMvcEndpoint,226,228
+9,shutdownMvcEndpoint,233,235
+10,createChildManagementContext,237,278
+11,addLocalManagementPortPropertyAlias,285,297
+12,getProperty,290,295
+13,applicationContextIdFilter,305,307
+14,doFilterInternal,326,338
+15,get,346,374

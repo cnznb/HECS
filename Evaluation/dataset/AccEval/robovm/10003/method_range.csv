@@ -1,0 +1,10 @@
+0,toObject,46,52
+1,toNative,54,59
+2,getDictionary,77,79
+3,isAllowingDuplicates,81,87
+4,setAllowsDuplicates,88,91
+5,getSolicitedServiceUUIDs,96,102
+6,setSolicitedServiceUUIDs,106,109
+7,AllowDuplicatesKey,112,123
+8,SolicitedServiceUUIDsKey,117,123
+9,toString,120,123

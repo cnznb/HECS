@@ -1,0 +1,106 @@
+bf5ee44b3b576e01ab09cae9f50300417b01dc07
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.robovm.apple.imageio.CGImageDestinationProperties.Keys from class org.robovm.apple.imageio.CGImageDestinationProperties",
+	"leftSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationProperties.java",
+		"startLine": 37,
+		"endLine": 164,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.robovm.apple.imageio.CGImageDestinationProperties"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationProperties.java",
+		"startLine": 143,
+		"endLine": 147,
+		"startColumn": 5,
+		"endColumn": 67,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected LossyCompressionQualityKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationProperties.java",
+		"startLine": 148,
+		"endLine": 152,
+		"startColumn": 5,
+		"endColumn": 59,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected BackgroundColorKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationProperties.java",
+		"startLine": 153,
+		"endLine": 157,
+		"startColumn": 5,
+		"endColumn": 61,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ImageMaxPixelSizeKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationProperties.java",
+		"startLine": 158,
+		"endLine": 162,
+		"startColumn": 5,
+		"endColumn": 58,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected EmbedThumbnailKey() : CFString"
+}],
+	"rightSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationProperties.java",
+		"startLine": 37,
+		"endLine": 207,
+		"startColumn": 18,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.robovm.apple.imageio.CGImageDestinationProperties"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationProperties.java",
+		"startLine": 182,
+		"endLine": 205,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.robovm.apple.imageio.CGImageDestinationProperties.Keys"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationProperties.java",
+		"startLine": 185,
+		"endLine": 189,
+		"startColumn": 9,
+		"endColumn": 65,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public LossyCompressionQuality() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationProperties.java",
+		"startLine": 190,
+		"endLine": 194,
+		"startColumn": 9,
+		"endColumn": 57,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public BackgroundColor() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationProperties.java",
+		"startLine": 195,
+		"endLine": 199,
+		"startColumn": 9,
+		"endColumn": 59,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ImageMaxPixelSize() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationProperties.java",
+		"startLine": 200,
+		"endLine": 204,
+		"startColumn": 9,
+		"endColumn": 56,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public EmbedThumbnail() : CFString"
+}]
+}

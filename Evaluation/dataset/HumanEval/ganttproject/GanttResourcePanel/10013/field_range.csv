@@ -1,0 +1,17 @@
+55,model,67,67
+56,table,69,69
+57,appli,71,71
+58,lang,73,73
+59,myResourceActionSet,75,75
+60,area,77,77
+61,clipboard,79,79
+62,isCut,80,80
+63,myMoveUpAction,82,92
+64,myMoveDownAction,94,104
+65,myPropertiesAction,106,128
+66,myNewArtifactAction,130,134
+67,myContextListener,136,136
+68,myResourcePropertiesAction,138,138
+69,myTaskPropertiesAction,140,140
+70,myUIFacade,142,142
+71,myDeleteAssignmentAction,144,144

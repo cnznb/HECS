@@ -1,0 +1,286 @@
+bf5ee44b3b576e01ab09cae9f50300417b01dc07
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.robovm.apple.corebluetooth.CBUUIDIdentifier.Values from class org.robovm.apple.corebluetooth.CBUUIDIdentifier",
+	"leftSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 37,
+		"endLine": 214,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.robovm.apple.corebluetooth.CBUUIDIdentifier"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 145,
+		"endLine": 146,
+		"startColumn": 5,
+		"endColumn": 76,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected CharacteristicExtendedPropertiesValue() : String"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 147,
+		"endLine": 148,
+		"startColumn": 5,
+		"endColumn": 73,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected CharacteristicUserDescriptionValue() : String"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 149,
+		"endLine": 150,
+		"startColumn": 5,
+		"endColumn": 77,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ClientCharacteristicConfigurationValue() : String"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 151,
+		"endLine": 152,
+		"startColumn": 5,
+		"endColumn": 77,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ServerCharacteristicConfigurationValue() : String"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 153,
+		"endLine": 154,
+		"startColumn": 5,
+		"endColumn": 64,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected CharacteristicFormatValue() : String"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 155,
+		"endLine": 156,
+		"startColumn": 5,
+		"endColumn": 73,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected CharacteristicAggregateFormatValue() : String"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 157,
+		"endLine": 163,
+		"startColumn": 5,
+		"endColumn": 64,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected GenericAccessProfileValue() : String"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 164,
+		"endLine": 170,
+		"startColumn": 5,
+		"endColumn": 67,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected GenericAttributeProfileValue() : String"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 171,
+		"endLine": 177,
+		"startColumn": 5,
+		"endColumn": 54,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected DeviceNameValue() : String"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 178,
+		"endLine": 184,
+		"startColumn": 5,
+		"endColumn": 54,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected AppearanceValue() : String"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 185,
+		"endLine": 191,
+		"startColumn": 5,
+		"endColumn": 65,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected PeripheralPrivacyFlagValue() : String"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 192,
+		"endLine": 198,
+		"startColumn": 5,
+		"endColumn": 63,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ReconnectionAddressValue() : String"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 199,
+		"endLine": 205,
+		"startColumn": 5,
+		"endColumn": 83,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected PeripheralPreferredConnectionParametersValue() : String"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 206,
+		"endLine": 212,
+		"startColumn": 5,
+		"endColumn": 58,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected ServiceChangedValue() : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 37,
+		"endLine": 241,
+		"startColumn": 18,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.robovm.apple.corebluetooth.CBUUIDIdentifier"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 166,
+		"endLine": 240,
+		"startColumn": 22,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.robovm.apple.corebluetooth.CBUUIDIdentifier.Values"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 171,
+		"endLine": 172,
+		"startColumn": 9,
+		"endColumn": 74,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public CharacteristicExtendedProperties() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 173,
+		"endLine": 174,
+		"startColumn": 9,
+		"endColumn": 71,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public CharacteristicUserDescription() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 175,
+		"endLine": 176,
+		"startColumn": 9,
+		"endColumn": 75,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ClientCharacteristicConfiguration() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 177,
+		"endLine": 178,
+		"startColumn": 9,
+		"endColumn": 75,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ServerCharacteristicConfiguration() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 179,
+		"endLine": 180,
+		"startColumn": 9,
+		"endColumn": 62,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public CharacteristicFormat() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 181,
+		"endLine": 182,
+		"startColumn": 9,
+		"endColumn": 71,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public CharacteristicAggregateFormat() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 183,
+		"endLine": 189,
+		"startColumn": 9,
+		"endColumn": 62,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public GenericAccessProfile() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 190,
+		"endLine": 196,
+		"startColumn": 9,
+		"endColumn": 65,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public GenericAttributeProfile() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 197,
+		"endLine": 203,
+		"startColumn": 9,
+		"endColumn": 52,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public DeviceName() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 204,
+		"endLine": 210,
+		"startColumn": 9,
+		"endColumn": 52,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public Appearance() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 211,
+		"endLine": 217,
+		"startColumn": 9,
+		"endColumn": 63,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public PeripheralPrivacyFlag() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 218,
+		"endLine": 224,
+		"startColumn": 9,
+		"endColumn": 61,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ReconnectionAddress() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 225,
+		"endLine": 231,
+		"startColumn": 9,
+		"endColumn": 81,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public PeripheralPreferredConnectionParameters() : NSString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/corebluetooth/CBUUIDIdentifier.java",
+		"startLine": 232,
+		"endLine": 238,
+		"startColumn": 9,
+		"endColumn": 56,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public ServiceChanged() : NSString"
+}]
+}

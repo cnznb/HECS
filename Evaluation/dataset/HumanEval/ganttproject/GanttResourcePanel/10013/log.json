@@ -1,0 +1,70 @@
+66035ca96
+{
+	"type": "Extract Class",
+	"description": "Extract Class net.sourceforge.ganttproject.ProjectEventListener.Stub from class net.sourceforge.ganttproject.GanttResourcePanel",
+	"leftSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttResourcePanel.java",
+		"startLine": 64,
+		"endLine": 540,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.sourceforge.ganttproject.GanttResourcePanel"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttResourcePanel.java",
+		"startLine": 431,
+		"endLine": 433,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public projectModified() : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttResourcePanel.java",
+		"startLine": 435,
+		"endLine": 437,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public projectSaved() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttResourcePanel.java",
+		"startLine": 64,
+		"endLine": 528,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "net.sourceforge.ganttproject.GanttResourcePanel"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/ProjectEventListener.java",
+		"startLine": 12,
+		"endLine": 21,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "net.sourceforge.ganttproject.ProjectEventListener.Stub"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/ProjectEventListener.java",
+		"startLine": 13,
+		"endLine": 14,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public projectModified() : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/ProjectEventListener.java",
+		"startLine": 15,
+		"endLine": 16,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public projectSaved() : void"
+}]
+}

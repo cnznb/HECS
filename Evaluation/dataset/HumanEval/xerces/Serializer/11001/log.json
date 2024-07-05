@@ -1,0 +1,70 @@
+b655c36a7
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xml.serialize.SerializerFactoryImpl from class org.apache.xml.serialize.Serializer",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xml/serialize/Serializer.java",
+		"startLine": 72,
+		"endLine": 292,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xml.serialize.Serializer"
+}, {
+		"filePath": "src/org/apache/xml/serialize/Serializer.java",
+		"startLine": 133,
+		"endLine": 149,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public makeSerializer(writer Writer, format OutputFormat) : Serializer"
+}, {
+		"filePath": "src/org/apache/xml/serialize/Serializer.java",
+		"startLine": 152,
+		"endLine": 171,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public makeSerializer(output OutputStream, format OutputFormat) : Serializer"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xml/serialize/Serializer.java",
+		"startLine": 72,
+		"endLine": 156,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xml.serialize.Serializer"
+}, {
+		"filePath": "src/org/apache/xml/serialize/SerializerFactoryImpl.java",
+		"startLine": 67,
+		"endLine": 151,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xml.serialize.SerializerFactoryImpl"
+}, {
+		"filePath": "src/org/apache/xml/serialize/SerializerFactoryImpl.java",
+		"startLine": 106,
+		"endLine": 114,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public makeSerializer(writer Writer, format OutputFormat) : Serializer"
+}, {
+		"filePath": "src/org/apache/xml/serialize/SerializerFactoryImpl.java",
+		"startLine": 117,
+		"endLine": 126,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public makeSerializer(output OutputStream, format OutputFormat) : Serializer"
+}]
+}

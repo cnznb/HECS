@@ -1,0 +1,106 @@
+293754a57
+{
+	"type": "Extract Class",
+	"description": "Extract Class net.sourceforge.ganttproject.chart.OffsetManager from class net.sourceforge.ganttproject.chart.ChartModelBase",
+	"leftSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/ChartModelBase.java",
+		"startLine": 37,
+		"endLine": 517,
+		"startColumn": 0,
+		"endColumn": 0,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.sourceforge.ganttproject.chart.ChartModelBase"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/ChartModelBase.java",
+		"startLine": 227,
+		"endLine": 235,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private constructOffsets() : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/ChartModelBase.java",
+		"startLine": 195,
+		"endLine": 195,
+		"startColumn": 26,
+		"endColumn": 68,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myTopUnitOffsets : List<Offset>"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/ChartModelBase.java",
+		"startLine": 196,
+		"endLine": 196,
+		"startColumn": 24,
+		"endColumn": 62,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myBottomUnitOffsets : OffsetList"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/ChartModelBase.java",
+		"startLine": 198,
+		"endLine": 198,
+		"startColumn": 26,
+		"endColumn": 72,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myDefaultUnitOffsets : List<Offset>"
+}],
+	"rightSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/ChartModelBase.java",
+		"startLine": 38,
+		"endLine": 545,
+		"startColumn": 0,
+		"endColumn": 0,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "net.sourceforge.ganttproject.chart.ChartModelBase"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/OffsetManager.java",
+		"startLine": 25,
+		"endLine": 83,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "net.sourceforge.ganttproject.chart.OffsetManager"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/OffsetManager.java",
+		"startLine": 51,
+		"endLine": 61,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "package constructOffsets() : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/OffsetManager.java",
+		"startLine": 37,
+		"endLine": 37,
+		"startColumn": 30,
+		"endColumn": 65,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myTopUnitOffsets : OffsetList"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/OffsetManager.java",
+		"startLine": 38,
+		"endLine": 38,
+		"startColumn": 30,
+		"endColumn": 68,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myBottomUnitOffsets : OffsetList"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/OffsetManager.java",
+		"startLine": 39,
+		"endLine": 39,
+		"startColumn": 30,
+		"endColumn": 69,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myDefaultUnitOffsets : OffsetList"
+}]
+}

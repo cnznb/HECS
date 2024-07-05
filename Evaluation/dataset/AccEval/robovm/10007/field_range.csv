@@ -1,0 +1,16 @@
+18,CharacteristicExtendedProperties,65,65
+19,CharacteristicUserDescription,66,66
+20,ClientCharacteristicConfiguration,67,67
+21,ServerCharacteristicConfiguration,68,68
+22,CharacteristicFormat,69,69
+23,CharacteristicAggregateFormat,70,70
+24,GenericAccessProfile,76,76
+25,GenericAttributeProfile,82,82
+26,DeviceName,88,88
+27,Appearance,94,94
+28,PeripheralPrivacyFlag,100,100
+29,ReconnectionAddress,106,106
+30,PeripheralPreferredConnectionParameters,112,112
+31,ServiceChanged,118,118
+32,values,120,122
+33,lazyGlobalValue,123,123

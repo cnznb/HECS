@@ -1,0 +1,286 @@
+039228b49
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.validators.schema.SchemaSymbols from class org.apache.xerces.validators.schema.SchemaImporter",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaImporter.java",
+		"startLine": 102,
+		"endLine": 1682,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.validators.schema.SchemaImporter"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaImporter.java",
+		"startLine": 142,
+		"endLine": 142,
+		"startColumn": 33,
+		"endColumn": 62,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private ELT_ANNOTATION : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaImporter.java",
+		"startLine": 143,
+		"endLine": 143,
+		"startColumn": 33,
+		"endColumn": 48,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private ELT_ANY : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaImporter.java",
+		"startLine": 144,
+		"endLine": 144,
+		"startColumn": 33,
+		"endColumn": 50,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private ATT_NAME : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaImporter.java",
+		"startLine": 145,
+		"endLine": 145,
+		"startColumn": 33,
+		"endColumn": 56,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private ATT_CONTENT : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaImporter.java",
+		"startLine": 148,
+		"endLine": 148,
+		"startColumn": 33,
+		"endColumn": 50,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private ATT_TYPE : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaImporter.java",
+		"startLine": 149,
+		"endLine": 149,
+		"startColumn": 33,
+		"endColumn": 56,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private ATT_DEFAULT : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaImporter.java",
+		"startLine": 150,
+		"endLine": 150,
+		"startColumn": 33,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private ATT_FIXED : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaImporter.java",
+		"startLine": 152,
+		"endLine": 152,
+		"startColumn": 33,
+		"endColumn": 48,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private ATT_REF : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaImporter.java",
+		"startLine": 156,
+		"endLine": 156,
+		"startColumn": 33,
+		"endColumn": 60,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private ATT_MINOCCURS : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaImporter.java",
+		"startLine": 157,
+		"endLine": 157,
+		"startColumn": 33,
+		"endColumn": 60,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private ATT_MAXOCCURS : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaImporter.java",
+		"startLine": 160,
+		"endLine": 160,
+		"startColumn": 33,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private ATT_VALUE : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaImporter.java",
+		"startLine": 162,
+		"endLine": 162,
+		"startColumn": 33,
+		"endColumn": 55,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private ATTVAL_MIXED : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaImporter.java",
+		"startLine": 163,
+		"endLine": 163,
+		"startColumn": 33,
+		"endColumn": 55,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private ATTVAL_EMPTY : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaImporter.java",
+		"startLine": 168,
+		"endLine": 168,
+		"startColumn": 33,
+		"endColumn": 61,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private ATTVAL_TEXTONLY : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaImporter.java",
+		"startLine": 108,
+		"endLine": 866,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.validators.schema.SchemaImporter"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaSymbols.java",
+		"startLine": 61,
+		"endLine": 188,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.validators.schema.SchemaSymbols"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaSymbols.java",
+		"startLine": 76,
+		"endLine": 76,
+		"startColumn": 32,
+		"endColumn": 62,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public ELT_ANNOTATION : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaSymbols.java",
+		"startLine": 77,
+		"endLine": 77,
+		"startColumn": 32,
+		"endColumn": 48,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public ELT_ANY : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaSymbols.java",
+		"startLine": 126,
+		"endLine": 126,
+		"startColumn": 32,
+		"endColumn": 50,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public ATT_NAME : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaSymbols.java",
+		"startLine": 115,
+		"endLine": 115,
+		"startColumn": 32,
+		"endColumn": 56,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public ATT_CONTENT : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaSymbols.java",
+		"startLine": 135,
+		"endLine": 135,
+		"startColumn": 32,
+		"endColumn": 50,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public ATT_TYPE : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaSymbols.java",
+		"startLine": 116,
+		"endLine": 116,
+		"startColumn": 32,
+		"endColumn": 56,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public ATT_DEFAULT : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaSymbols.java",
+		"startLine": 122,
+		"endLine": 122,
+		"startColumn": 32,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public ATT_FIXED : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaSymbols.java",
+		"startLine": 130,
+		"endLine": 130,
+		"startColumn": 32,
+		"endColumn": 48,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public ATT_REF : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaSymbols.java",
+		"startLine": 125,
+		"endLine": 125,
+		"startColumn": 32,
+		"endColumn": 60,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public ATT_MINOCCURS : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaSymbols.java",
+		"startLine": 124,
+		"endLine": 124,
+		"startColumn": 32,
+		"endColumn": 60,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public ATT_MAXOCCURS : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaSymbols.java",
+		"startLine": 137,
+		"endLine": 137,
+		"startColumn": 32,
+		"endColumn": 51,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public ATT_VALUE : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaSymbols.java",
+		"startLine": 155,
+		"endLine": 155,
+		"startColumn": 32,
+		"endColumn": 55,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public ATTVAL_MIXED : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaSymbols.java",
+		"startLine": 146,
+		"endLine": 146,
+		"startColumn": 32,
+		"endColumn": 55,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public ATTVAL_EMPTY : String"
+}, {
+		"filePath": "src/org/apache/xerces/validators/schema/SchemaSymbols.java",
+		"startLine": 165,
+		"endLine": 165,
+		"startColumn": 32,
+		"endColumn": 61,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public ATTVAL_TEXTONLY : String"
+}]
+}

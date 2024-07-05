@@ -1,0 +1,14 @@
+0,toObject,45,51,0
+1,toNative,53,58,0
+2,value,91,93,0
+3,valueOf,95,103,0
+4,RGBValue,109,125,1
+5,GrayValue,114,125,1
+6,CMYKValue,119,125,1
+7,LabValue,124,125,0
+8,RGB,68,68,0
+9,Gray,72,72,0
+10,CMYK,76,76,0
+11,Lab,80,80,0
+12,values,82,82,0
+13,lazyGlobalValue,83,83,0

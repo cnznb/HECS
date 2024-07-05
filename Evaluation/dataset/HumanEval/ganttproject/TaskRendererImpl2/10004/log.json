@@ -1,0 +1,106 @@
+c43c601f8
+{
+	"type": "Extract Class",
+	"description": "Extract Class net.sourceforge.ganttproject.chart.TaskActivityRenderer from class net.sourceforge.ganttproject.chart.TaskRendererImpl2",
+	"leftSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 36,
+		"endLine": 609,
+		"startColumn": 0,
+		"endColumn": 0,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.sourceforge.ganttproject.chart.TaskRendererImpl2"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 196,
+		"endLine": 204,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private processActivityLaterThanViewport(rowNum int, nextActivity TaskActivity) : Rectangle"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 206,
+		"endLine": 214,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private processActivityEarlierThanViewport(rowNum int, nextActivity TaskActivity) : Rectangle"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 241,
+		"endLine": 251,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private getBoundingRectangle(rowNum int, activity TaskActivity, offsets List<Offset>) : Rectangle"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 253,
+		"endLine": 321,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private processRegularActivity(rowNum int, nextStarted TaskActivity, offsets List<Offset>) : Rectangle"
+}],
+	"rightSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 40,
+		"endLine": 552,
+		"startColumn": 0,
+		"endColumn": 0,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "net.sourceforge.ganttproject.chart.TaskRendererImpl2"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskActivityRenderer.java",
+		"startLine": 29,
+		"endLine": 200,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "net.sourceforge.ganttproject.chart.TaskActivityRenderer"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskActivityRenderer.java",
+		"startLine": 78,
+		"endLine": 86,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private processActivityLaterThanViewport(rowNum int, nextActivity TaskActivity) : Rectangle"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskActivityRenderer.java",
+		"startLine": 92,
+		"endLine": 100,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private processActivityEarlierThanViewport(rowNum int, nextActivity TaskActivity) : Rectangle"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskActivityRenderer.java",
+		"startLine": 173,
+		"endLine": 183,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private getBoundingRectangle(rowNum int, activity TaskActivity, offsets List<Offset>) : Rectangle"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskActivityRenderer.java",
+		"startLine": 103,
+		"endLine": 171,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private processRegularActivity(rowNum int, nextStarted TaskActivity, offsets List<Offset>) : Rectangle"
+}]
+}

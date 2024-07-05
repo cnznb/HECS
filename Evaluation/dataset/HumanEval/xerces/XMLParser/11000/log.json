@@ -1,0 +1,106 @@
+7410c313e
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.readers.DefaultReaderFactory from class org.apache.xerces.framework.XMLParser",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/framework/XMLParser.java",
+		"startLine": 103,
+		"endLine": 2953,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.framework.XMLParser"
+}, {
+		"filePath": "src/org/apache/xerces/framework/XMLParser.java",
+		"startLine": 2144,
+		"endLine": 2149,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private setAllowJavaEncodingName(flag boolean) : void"
+}, {
+		"filePath": "src/org/apache/xerces/framework/XMLParser.java",
+		"startLine": 2150,
+		"endLine": 2155,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private getAllowJavaEncodingName() : boolean"
+}, {
+		"filePath": "src/org/apache/xerces/framework/XMLParser.java",
+		"startLine": 2107,
+		"endLine": 2107,
+		"startColumn": 21,
+		"endColumn": 51,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fAllowJavaEncodingName : boolean"
+}, {
+		"filePath": "src/org/apache/xerces/framework/XMLParser.java",
+		"startLine": 2108,
+		"endLine": 2108,
+		"startColumn": 19,
+		"endColumn": 45,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fRecognizers : Stack"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/framework/XMLParser.java",
+		"startLine": 104,
+		"endLine": 2920,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.framework.XMLParser"
+}, {
+		"filePath": "src/org/apache/xerces/readers/DefaultReaderFactory.java",
+		"startLine": 70,
+		"endLine": 247,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.readers.DefaultReaderFactory"
+}, {
+		"filePath": "src/org/apache/xerces/readers/DefaultReaderFactory.java",
+		"startLine": 110,
+		"endLine": 115,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public setAllowJavaEncodingName(flag boolean) : void"
+}, {
+		"filePath": "src/org/apache/xerces/readers/DefaultReaderFactory.java",
+		"startLine": 117,
+		"endLine": 122,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public getAllowJavaEncodingName() : boolean"
+}, {
+		"filePath": "src/org/apache/xerces/readers/DefaultReaderFactory.java",
+		"startLine": 81,
+		"endLine": 81,
+		"startColumn": 21,
+		"endColumn": 51,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fAllowJavaEncodingName : boolean"
+}, {
+		"filePath": "src/org/apache/xerces/readers/DefaultReaderFactory.java",
+		"startLine": 82,
+		"endLine": 82,
+		"startColumn": 19,
+		"endColumn": 38,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fRecognizers : Stack"
+}]
+}

@@ -1,0 +1,88 @@
+b555c73f3
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.ganttproject.impex.htmlpdf.HtmlSerializer from class org.ganttproject.impex.htmlpdf.ExporterToHTML",
+	"leftSideLocations": [{
+		"filePath": "org.ganttproject.impex.htmlpdf/src/org/ganttproject/impex/htmlpdf/ExporterToHTML.java",
+		"startLine": 48,
+		"endLine": 392,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.ganttproject.impex.htmlpdf.ExporterToHTML"
+}, {
+		"filePath": "org.ganttproject.impex.htmlpdf/src/org/ganttproject/impex/htmlpdf/ExporterToHTML.java",
+		"startLine": 205,
+		"endLine": 266,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private serialize(handler TransformerHandler, outputFile File) : void"
+}, {
+		"filePath": "org.ganttproject.impex.htmlpdf/src/org/ganttproject/impex/htmlpdf/ExporterToHTML.java",
+		"startLine": 268,
+		"endLine": 271,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected getAssignedResourcesDelimiter() : String"
+}, {
+		"filePath": "org.ganttproject.impex.htmlpdf/src/org/ganttproject/impex/htmlpdf/ExporterToHTML.java",
+		"startLine": 386,
+		"endLine": 388,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private getFilenameWithoutExtension(f File) : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "org.ganttproject.impex.htmlpdf/src/org/ganttproject/impex/htmlpdf/ExporterToHTML.java",
+		"startLine": 46,
+		"endLine": 320,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.ganttproject.impex.htmlpdf.ExporterToHTML"
+}, {
+		"filePath": "org.ganttproject.impex.htmlpdf/src/org/ganttproject/impex/htmlpdf/HtmlSerializer.java",
+		"startLine": 36,
+		"endLine": 127,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.ganttproject.impex.htmlpdf.HtmlSerializer"
+}, {
+		"filePath": "org.ganttproject.impex.htmlpdf/src/org/ganttproject/impex/htmlpdf/HtmlSerializer.java",
+		"startLine": 48,
+		"endLine": 109,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "package serialize(handler TransformerHandler, outputFile File) : void"
+}, {
+		"filePath": "org.ganttproject.impex.htmlpdf/src/org/ganttproject/impex/htmlpdf/HtmlSerializer.java",
+		"startLine": 119,
+		"endLine": 122,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected getAssignedResourcesDelimiter() : String"
+}, {
+		"filePath": "org.ganttproject.impex.htmlpdf/src/org/ganttproject/impex/htmlpdf/HtmlSerializer.java",
+		"startLine": 124,
+		"endLine": 126,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private getFilenameWithoutExtension(f File) : String"
+}]
+}

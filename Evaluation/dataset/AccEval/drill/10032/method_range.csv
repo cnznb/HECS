@@ -1,0 +1,16 @@
+0,load,106,114
+1,load,121,132
+2,load,138,140
+3,load,154,185
+4,registerSchemas,190,194
+5,getSubSchema,206,225
+6,setHolder,228,232
+7,showInInformationSchema,235,237
+8,getSubSchemaNames,240,248
+9,getTable,251,256
+10,getTableNames,259,264
+11,getTableNames,266,273
+12,getDrillTable,275,286
+13,getSelectionBaseOnName,288,298
+14,getDefaultSchema,301,303
+15,getTypeName,306,308

@@ -1,0 +1,88 @@
+c1b847acdc8cb90a1498b236b3bb5c81ca75c044
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.drill.exec.store.hive.DrillHiveMetaStoreClient.NonCloseableHiveClientWithCaching from class org.apache.drill.exec.store.hive.schema.HiveSchemaFactory",
+	"leftSideLocations": [{
+		"filePath": "contrib/storage-hive/core/src/main/java/org/apache/drill/exec/store/hive/schema/HiveSchemaFactory.java",
+		"startLine": 55,
+		"endLine": 312,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.drill.exec.store.hive.schema.HiveSchemaFactory"
+}, {
+		"filePath": "contrib/storage-hive/core/src/main/java/org/apache/drill/exec/store/hive/schema/HiveSchemaFactory.java",
+		"startLine": 61,
+		"endLine": 61,
+		"startColumn": 46,
+		"endColumn": 55,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private databases : LoadingCache<String,List<String>>"
+}, {
+		"filePath": "contrib/storage-hive/core/src/main/java/org/apache/drill/exec/store/hive/schema/HiveSchemaFactory.java",
+		"startLine": 62,
+		"endLine": 62,
+		"startColumn": 46,
+		"endColumn": 61,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private tableNameLoader : LoadingCache<String,List<String>>"
+}, {
+		"filePath": "contrib/storage-hive/core/src/main/java/org/apache/drill/exec/store/hive/schema/HiveSchemaFactory.java",
+		"startLine": 63,
+		"endLine": 63,
+		"startColumn": 69,
+		"endColumn": 81,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private tableLoaders : LoadingCache<String,LoadingCache<String,HiveReadEntry>>"
+}],
+	"rightSideLocations": [{
+		"filePath": "contrib/storage-hive/core/src/main/java/org/apache/drill/exec/store/hive/schema/HiveSchemaFactory.java",
+		"startLine": 46,
+		"endLine": 229,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.drill.exec.store.hive.schema.HiveSchemaFactory"
+}, {
+		"filePath": "contrib/storage-hive/core/src/main/java/org/apache/drill/exec/store/hive/DrillHiveMetaStoreClient.java",
+		"startLine": 268,
+		"endLine": 374,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.drill.exec.store.hive.DrillHiveMetaStoreClient.NonCloseableHiveClientWithCaching"
+}, {
+		"filePath": "contrib/storage-hive/core/src/main/java/org/apache/drill/exec/store/hive/DrillHiveMetaStoreClient.java",
+		"startLine": 272,
+		"endLine": 272,
+		"startColumn": 54,
+		"endColumn": 63,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private databases : LoadingCache<String,List<String>>"
+}, {
+		"filePath": "contrib/storage-hive/core/src/main/java/org/apache/drill/exec/store/hive/DrillHiveMetaStoreClient.java",
+		"startLine": 273,
+		"endLine": 273,
+		"startColumn": 54,
+		"endColumn": 69,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private tableNameLoader : LoadingCache<String,List<String>>"
+}, {
+		"filePath": "contrib/storage-hive/core/src/main/java/org/apache/drill/exec/store/hive/DrillHiveMetaStoreClient.java",
+		"startLine": 274,
+		"endLine": 274,
+		"startColumn": 77,
+		"endColumn": 89,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private tableLoaders : LoadingCache<String,LoadingCache<String,HiveReadEntry>>"
+}]
+}

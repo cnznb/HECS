@@ -1,0 +1,52 @@
+4a9812e0d
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.impl.xpath.regex.RegularExpression.ClosureContext from class org.apache.xerces.impl.xpath.regex.RegularExpression.Context",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/impl/xpath/regex/RegularExpression.java",
+		"startLine": 1981,
+		"endLine": 2048,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.impl.xpath.regex.RegularExpression.Context"
+}, {
+		"filePath": "src/org/apache/xerces/impl/xpath/regex/RegularExpression.java",
+		"startLine": 1987,
+		"endLine": 1987,
+		"startColumn": 15,
+		"endColumn": 22,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "package offsets : int[]"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/impl/xpath/regex/RegularExpression.java",
+		"startLine": 2010,
+		"endLine": 2085,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.impl.xpath.regex.RegularExpression.Context"
+}, {
+		"filePath": "src/org/apache/xerces/impl/xpath/regex/RegularExpression.java",
+		"startLine": 1974,
+		"endLine": 2008,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.impl.xpath.regex.RegularExpression.ClosureContext"
+}, {
+		"filePath": "src/org/apache/xerces/impl/xpath/regex/RegularExpression.java",
+		"startLine": 1976,
+		"endLine": 1976,
+		"startColumn": 15,
+		"endColumn": 35,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "package offsets : int[]"
+}]
+}

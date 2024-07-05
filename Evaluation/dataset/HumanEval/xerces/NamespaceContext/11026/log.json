@@ -1,0 +1,70 @@
+7ff1ee2bf
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.util.XMLSymbols from class org.apache.xerces.xni.NamespaceContext",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/xni/NamespaceContext.java",
+		"startLine": 60,
+		"endLine": 125,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.xni.NamespaceContext"
+}, {
+		"filePath": "src/org/apache/xerces/xni/NamespaceContext.java",
+		"startLine": 77,
+		"endLine": 77,
+		"startColumn": 32,
+		"endColumn": 89,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "public XML_URI : String"
+}, {
+		"filePath": "src/org/apache/xerces/xni/NamespaceContext.java",
+		"startLine": 84,
+		"endLine": 84,
+		"startColumn": 32,
+		"endColumn": 84,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "public XMLNS_URI : String"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/xni/NamespaceContext.java",
+		"startLine": 60,
+		"endLine": 108,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.xni.NamespaceContext"
+}, {
+		"filePath": "src/org/apache/xerces/util/XMLSymbols.java",
+		"startLine": 60,
+		"endLine": 154,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.util.XMLSymbols"
+}, {
+		"filePath": "src/org/apache/xerces/util/XMLSymbols.java",
+		"startLine": 93,
+		"endLine": 93,
+		"startColumn": 32,
+		"endColumn": 89,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public XML_URI : String"
+}, {
+		"filePath": "src/org/apache/xerces/util/XMLSymbols.java",
+		"startLine": 105,
+		"endLine": 105,
+		"startColumn": 32,
+		"endColumn": 84,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public XMLNS_URI : String"
+}]
+}

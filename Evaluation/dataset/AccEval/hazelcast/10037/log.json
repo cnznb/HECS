@@ -1,0 +1,70 @@
+30c4ae09745d6062077925a54f27205b7401d8df
+{
+	"type": "Extract Class",
+	"description": "Extract Class com.hazelcast.internal.monitors.PerformanceMonitor.MonitorThread from class com.hazelcast.internal.monitors.PerformanceMonitor",
+	"leftSideLocations": [{
+		"filePath": "hazelcast/src/main/java/com/hazelcast/internal/monitors/PerformanceMonitor.java",
+		"startLine": 27,
+		"endLine": 77,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.hazelcast.internal.monitors.PerformanceMonitor"
+}, {
+		"filePath": "hazelcast/src/main/java/com/hazelcast/internal/monitors/PerformanceMonitor.java",
+		"startLine": 56,
+		"endLine": 76,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public run() : void"
+}, {
+		"filePath": "hazelcast/src/main/java/com/hazelcast/internal/monitors/PerformanceMonitor.java",
+		"startLine": 40,
+		"endLine": 40,
+		"startColumn": 23,
+		"endColumn": 35,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private delaySeconds : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "hazelcast/src/main/java/com/hazelcast/internal/monitors/PerformanceMonitor.java",
+		"startLine": 28,
+		"endLine": 126,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "com.hazelcast.internal.monitors.PerformanceMonitor"
+}, {
+		"filePath": "hazelcast/src/main/java/com/hazelcast/internal/monitors/PerformanceMonitor.java",
+		"startLine": 86,
+		"endLine": 125,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "com.hazelcast.internal.monitors.PerformanceMonitor.MonitorThread"
+}, {
+		"filePath": "hazelcast/src/main/java/com/hazelcast/internal/monitors/PerformanceMonitor.java",
+		"startLine": 95,
+		"endLine": 108,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public run() : void"
+}, {
+		"filePath": "hazelcast/src/main/java/com/hazelcast/internal/monitors/PerformanceMonitor.java",
+		"startLine": 88,
+		"endLine": 88,
+		"startColumn": 27,
+		"endColumn": 39,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private delaySeconds : int"
+}]
+}

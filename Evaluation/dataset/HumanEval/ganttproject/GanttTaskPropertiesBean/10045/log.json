@@ -1,0 +1,196 @@
+8f61821b4
+{
+	"type": "Extract Class",
+	"description": "Extract Class net.sourceforge.ganttproject.gui.taskproperties.TaskScheduleDatesPanel from class net.sourceforge.ganttproject.gui.GanttTaskPropertiesBean",
+	"leftSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/GanttTaskPropertiesBean.java",
+		"startLine": 78,
+		"endLine": 768,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.sourceforge.ganttproject.gui.GanttTaskPropertiesBean"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/GanttTaskPropertiesBean.java",
+		"startLine": 567,
+		"endLine": 570,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private enableMilestoneUnfriendlyControls(enable boolean) : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/GanttTaskPropertiesBean.java",
+		"startLine": 597,
+		"endLine": 605,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private fireDurationChanged() : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/GanttTaskPropertiesBean.java",
+		"startLine": 607,
+		"endLine": 617,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private changeLength(length int) : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/GanttTaskPropertiesBean.java",
+		"startLine": 683,
+		"endLine": 689,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private adjustLength() : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/GanttTaskPropertiesBean.java",
+		"startLine": 85,
+		"endLine": 85,
+		"startColumn": 24,
+		"endColumn": 41,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myStartDatePicker : JXDatePicker"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/GanttTaskPropertiesBean.java",
+		"startLine": 86,
+		"endLine": 86,
+		"startColumn": 24,
+		"endColumn": 39,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myEndDatePicker : JXDatePicker"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/GanttTaskPropertiesBean.java",
+		"startLine": 93,
+		"endLine": 93,
+		"startColumn": 25,
+		"endColumn": 32,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myStart : GanttCalendar"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/GanttTaskPropertiesBean.java",
+		"startLine": 95,
+		"endLine": 95,
+		"startColumn": 25,
+		"endColumn": 30,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myEnd : GanttCalendar"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/GanttTaskPropertiesBean.java",
+		"startLine": 112,
+		"endLine": 112,
+		"startColumn": 22,
+		"endColumn": 36,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private durationField1 : JTextField"
+}],
+	"rightSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/GanttTaskPropertiesBean.java",
+		"startLine": 81,
+		"endLine": 708,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "net.sourceforge.ganttproject.gui.GanttTaskPropertiesBean"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/taskproperties/TaskScheduleDatesPanel.java",
+		"startLine": 49,
+		"endLine": 273,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "net.sourceforge.ganttproject.gui.taskproperties.TaskScheduleDatesPanel"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/taskproperties/TaskScheduleDatesPanel.java",
+		"startLine": 269,
+		"endLine": 272,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public enableMilestoneUnfriendlyControls(enable boolean) : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/taskproperties/TaskScheduleDatesPanel.java",
+		"startLine": 217,
+		"endLine": 225,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private fireDurationChanged() : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/taskproperties/TaskScheduleDatesPanel.java",
+		"startLine": 227,
+		"endLine": 244,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private changeLength(length int) : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/taskproperties/TaskScheduleDatesPanel.java",
+		"startLine": 246,
+		"endLine": 259,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private adjustLength() : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/taskproperties/TaskScheduleDatesPanel.java",
+		"startLine": 56,
+		"endLine": 56,
+		"startColumn": 24,
+		"endColumn": 41,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myStartDatePicker : JXDatePicker"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/taskproperties/TaskScheduleDatesPanel.java",
+		"startLine": 57,
+		"endLine": 57,
+		"startColumn": 24,
+		"endColumn": 39,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myEndDatePicker : JXDatePicker"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/taskproperties/TaskScheduleDatesPanel.java",
+		"startLine": 60,
+		"endLine": 60,
+		"startColumn": 25,
+		"endColumn": 32,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myStart : GanttCalendar"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/taskproperties/TaskScheduleDatesPanel.java",
+		"startLine": 62,
+		"endLine": 62,
+		"startColumn": 25,
+		"endColumn": 30,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myEnd : GanttCalendar"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/taskproperties/TaskScheduleDatesPanel.java",
+		"startLine": 58,
+		"endLine": 58,
+		"startColumn": 22,
+		"endColumn": 36,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private durationField1 : JTextField"
+}]
+}

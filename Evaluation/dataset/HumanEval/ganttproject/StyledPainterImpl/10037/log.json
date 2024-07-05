@@ -1,0 +1,88 @@
+0325800f6
+{
+	"type": "Extract Class",
+	"description": "Extract Class net.sourceforge.ganttproject.chart.TextPainter from class net.sourceforge.ganttproject.chart.StyledPainterImpl",
+	"leftSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/StyledPainterImpl.java",
+		"startLine": 48,
+		"endLine": 691,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.sourceforge.ganttproject.chart.StyledPainterImpl"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/StyledPainterImpl.java",
+		"startLine": 594,
+		"endLine": 630,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public paint(next Text) : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/StyledPainterImpl.java",
+		"startLine": 662,
+		"endLine": 690,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private paintTextLine(textGroup TextGroup, lineNum int) : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/StyledPainterImpl.java",
+		"startLine": 59,
+		"endLine": 59,
+		"startColumn": 42,
+		"endColumn": 64,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myTextLengthCalculator : TextLengthCalculatorImpl"
+}],
+	"rightSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/StyledPainterImpl.java",
+		"startLine": 42,
+		"endLine": 603,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "net.sourceforge.ganttproject.chart.StyledPainterImpl"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TextPainter.java",
+		"startLine": 35,
+		"endLine": 162,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "net.sourceforge.ganttproject.chart.TextPainter"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TextPainter.java",
+		"startLine": 56,
+		"endLine": 75,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "package paint(next Text) : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TextPainter.java",
+		"startLine": 131,
+		"endLine": 160,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private paintTextLine(textGroup TextGroup, lineNum int) : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TextPainter.java",
+		"startLine": 44,
+		"endLine": 44,
+		"startColumn": 42,
+		"endColumn": 64,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myTextLengthCalculator : TextLengthCalculatorImpl"
+}]
+}

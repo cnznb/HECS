@@ -1,0 +1,12 @@
+0,clone,96,127
+1,emptiable,133,135
+2,isEmpty,137,147
+3,minEffectiveTotalRange,156,166
+4,minEffectiveTotalRangeAllSeq,168,173
+5,minEffectiveTotalRangeChoice,175,183
+6,maxEffectiveTotalRange,185,195
+7,maxEffectiveTotalRangeAllSeq,197,212
+8,maxEffectiveTotalRangeChoice,214,230
+9,toString,236,252
+10,appendParticle,258,289
+11,reset,292,299

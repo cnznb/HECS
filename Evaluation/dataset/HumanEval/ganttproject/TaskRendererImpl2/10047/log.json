@@ -1,0 +1,106 @@
+0e0311e7f
+{
+	"type": "Extract Class",
+	"description": "Extract Class net.sourceforge.ganttproject.chart.TaskDependencyRenderer from class net.sourceforge.ganttproject.chart.TaskRendererImpl2",
+	"leftSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 41,
+		"endLine": 531,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.sourceforge.ganttproject.chart.TaskRendererImpl2"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 269,
+		"endLine": 272,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private createDependencyLines() : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 274,
+		"endLine": 360,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private drawDependencies(dependencyDrawData List<DependencyDrawData>) : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 369,
+		"endLine": 378,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private prepareDependencyDrawData() : List<DependencyDrawData>"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 380,
+		"endLine": 431,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private prepareDependencyDrawData(task Task, result List<DependencyDrawData>) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskRendererImpl2.java",
+		"startLine": 38,
+		"endLine": 289,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "net.sourceforge.ganttproject.chart.TaskRendererImpl2"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskDependencyRenderer.java",
+		"startLine": 35,
+		"endLine": 300,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "net.sourceforge.ganttproject.chart.TaskDependencyRenderer"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskDependencyRenderer.java",
+		"startLine": 52,
+		"endLine": 55,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "package createDependencyLines() : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskDependencyRenderer.java",
+		"startLine": 57,
+		"endLine": 134,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private drawDependencies(dependencyDrawData List<DependencyDrawData>) : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskDependencyRenderer.java",
+		"startLine": 136,
+		"endLine": 144,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private prepareDependencyDrawData() : List<DependencyDrawData>"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/chart/TaskDependencyRenderer.java",
+		"startLine": 146,
+		"endLine": 204,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private prepareDependencyDrawData(task Task, result List<DependencyDrawData>) : void"
+}]
+}

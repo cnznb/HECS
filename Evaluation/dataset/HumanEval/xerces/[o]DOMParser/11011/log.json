@@ -1,0 +1,106 @@
+6fec9ee0c
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.impl.XMLDTDValidator from class org.apache.xerces.parsers.DOMParser",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/parsers/DOMParser.java",
+		"startLine": 107,
+		"endLine": 3260,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.parsers.DOMParser"
+}, {
+		"filePath": "src/org/apache/xerces/parsers/DOMParser.java",
+		"startLine": 342,
+		"endLine": 383,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected init() : void"
+}, {
+		"filePath": "src/org/apache/xerces/parsers/DOMParser.java",
+		"startLine": 1627,
+		"endLine": 1643,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public endDTD() : void"
+}, {
+		"filePath": "src/org/apache/xerces/parsers/DOMParser.java",
+		"startLine": 184,
+		"endLine": 184,
+		"startColumn": 23,
+		"endColumn": 29,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected fInDTD : boolean"
+}, {
+		"filePath": "src/org/apache/xerces/parsers/DOMParser.java",
+		"startLine": 208,
+		"endLine": 208,
+		"startColumn": 21,
+		"endColumn": 37,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fSeenRootElement : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/parsers/DOMParser.java",
+		"startLine": 82,
+		"endLine": 458,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.parsers.DOMParser"
+}, {
+		"filePath": "src/org/apache/xerces/impl/XMLDTDValidator.java",
+		"startLine": 101,
+		"endLine": 2699,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.impl.XMLDTDValidator"
+}, {
+		"filePath": "src/org/apache/xerces/impl/XMLDTDValidator.java",
+		"startLine": 2393,
+		"endLine": 2456,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private init() : void"
+}, {
+		"filePath": "src/org/apache/xerces/impl/XMLDTDValidator.java",
+		"startLine": 1532,
+		"endLine": 1590,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public endDTD() : void"
+}, {
+		"filePath": "src/org/apache/xerces/impl/XMLDTDValidator.java",
+		"startLine": 257,
+		"endLine": 257,
+		"startColumn": 23,
+		"endColumn": 29,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "protected fInDTD : boolean"
+}, {
+		"filePath": "src/org/apache/xerces/impl/XMLDTDValidator.java",
+		"startLine": 326,
+		"endLine": 326,
+		"startColumn": 21,
+		"endColumn": 45,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fSeenRootElement : boolean"
+}]
+}

@@ -1,0 +1,70 @@
+f5dccb92b
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.impl.v2.XSWildcardDecl from class org.apache.xerces.impl.v2.XSParticleDecl",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/impl/v2/XSParticleDecl.java",
+		"startLine": 60,
+		"endLine": 252,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.impl.v2.XSParticleDecl"
+}, {
+		"filePath": "src/org/apache/xerces/impl/v2/XSParticleDecl.java",
+		"startLine": 97,
+		"endLine": 97,
+		"startColumn": 31,
+		"endColumn": 56,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "public WILDCARD_LAX : short"
+}, {
+		"filePath": "src/org/apache/xerces/impl/v2/XSParticleDecl.java",
+		"startLine": 100,
+		"endLine": 100,
+		"startColumn": 31,
+		"endColumn": 56,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "public WILDCARD_SKIP : short"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/impl/v2/XSParticleDecl.java",
+		"startLine": 60,
+		"endLine": 95,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.impl.v2.XSParticleDecl"
+}, {
+		"filePath": "src/org/apache/xerces/impl/v2/XSWildcardDecl.java",
+		"startLine": 60,
+		"endLine": 94,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.impl.v2.XSWildcardDecl"
+}, {
+		"filePath": "src/org/apache/xerces/impl/v2/XSWildcardDecl.java",
+		"startLine": 81,
+		"endLine": 81,
+		"startColumn": 31,
+		"endColumn": 50,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public WILDCARD_LAX : short"
+}, {
+		"filePath": "src/org/apache/xerces/impl/v2/XSWildcardDecl.java",
+		"startLine": 83,
+		"endLine": 83,
+		"startColumn": 31,
+		"endColumn": 50,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public WILDCARD_SKIP : short"
+}]
+}

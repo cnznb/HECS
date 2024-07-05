@@ -1,0 +1,142 @@
+bf5ee44b3b576e01ab09cae9f50300417b01dc07
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.robovm.apple.imageio.CGImageDestinationCopySourceOptions.Keys from class org.robovm.apple.imageio.CGImageDestinationCopySourceOptions",
+	"leftSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationCopySourceOptions.java",
+		"startLine": 37,
+		"endLine": 226,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.robovm.apple.imageio.CGImageDestinationCopySourceOptions"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationCopySourceOptions.java",
+		"startLine": 190,
+		"endLine": 194,
+		"startColumn": 5,
+		"endColumn": 63,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected DestinationMetadataKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationCopySourceOptions.java",
+		"startLine": 195,
+		"endLine": 199,
+		"startColumn": 5,
+		"endColumn": 68,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected DestinationMergeMetadataKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationCopySourceOptions.java",
+		"startLine": 200,
+		"endLine": 204,
+		"startColumn": 5,
+		"endColumn": 68,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected MetadataShouldExcludeXMPKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationCopySourceOptions.java",
+		"startLine": 205,
+		"endLine": 209,
+		"startColumn": 5,
+		"endColumn": 68,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected MetadataShouldExcludeGPSKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationCopySourceOptions.java",
+		"startLine": 210,
+		"endLine": 214,
+		"startColumn": 5,
+		"endColumn": 63,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected DestinationDateTimeKey() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationCopySourceOptions.java",
+		"startLine": 215,
+		"endLine": 219,
+		"startColumn": 5,
+		"endColumn": 66,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected DestinationOrientationKey() : CFString"
+}],
+	"rightSideLocations": [{
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationCopySourceOptions.java",
+		"startLine": 37,
+		"endLine": 258,
+		"startColumn": 18,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.robovm.apple.imageio.CGImageDestinationCopySourceOptions"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationCopySourceOptions.java",
+		"startLine": 223,
+		"endLine": 256,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.robovm.apple.imageio.CGImageDestinationCopySourceOptions.Keys"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationCopySourceOptions.java",
+		"startLine": 226,
+		"endLine": 230,
+		"startColumn": 9,
+		"endColumn": 61,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public DestinationMetadata() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationCopySourceOptions.java",
+		"startLine": 231,
+		"endLine": 235,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public DestinationMergeMetadata() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationCopySourceOptions.java",
+		"startLine": 236,
+		"endLine": 240,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public MetadataShouldExcludeXMP() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationCopySourceOptions.java",
+		"startLine": 241,
+		"endLine": 245,
+		"startColumn": 9,
+		"endColumn": 66,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public MetadataShouldExcludeGPS() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationCopySourceOptions.java",
+		"startLine": 246,
+		"endLine": 250,
+		"startColumn": 9,
+		"endColumn": 61,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public DestinationDateTime() : CFString"
+}, {
+		"filePath": "cocoatouch/src/main/java/org/robovm/apple/imageio/CGImageDestinationCopySourceOptions.java",
+		"startLine": 251,
+		"endLine": 255,
+		"startColumn": 9,
+		"endColumn": 64,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public DestinationOrientation() : CFString"
+}]
+}

@@ -1,0 +1,6 @@
+0,validate,141,192
+1,clone,198,200
+2,setBasetype,206,208
+3,addId,211,231
+4,setLocale,237,239
+5,getErrorString,242,248

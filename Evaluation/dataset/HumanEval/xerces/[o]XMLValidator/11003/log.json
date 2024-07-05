@@ -1,0 +1,106 @@
+039228b49
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.validators.common.Grammar from class org.apache.xerces.validators.common.XMLValidator",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/validators/common/XMLValidator.java",
+		"startLine": 91,
+		"endLine": 3625,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.validators.common.XMLValidator"
+}, {
+		"filePath": "src/org/apache/xerces/validators/common/XMLValidator.java",
+		"startLine": 2083,
+		"endLine": 2181,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private createChildModel(elementIndex int) : XMLContentModel"
+}, {
+		"filePath": "src/org/apache/xerces/validators/common/XMLValidator.java",
+		"startLine": 139,
+		"endLine": 139,
+		"startColumn": 17,
+		"endColumn": 38,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fElementDeclCount : int"
+}, {
+		"filePath": "src/org/apache/xerces/validators/common/XMLValidator.java",
+		"startLine": 2341,
+		"endLine": 2341,
+		"startColumn": 17,
+		"endColumn": 31,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fLeafCount : int"
+}, {
+		"filePath": "src/org/apache/xerces/validators/common/XMLValidator.java",
+		"startLine": 2550,
+		"endLine": 2550,
+		"startColumn": 21,
+		"endColumn": 70,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fContentSpecType : int[][]"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/validators/common/XMLValidator.java",
+		"startLine": 105,
+		"endLine": 4924,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.validators.common.XMLValidator"
+}, {
+		"filePath": "src/org/apache/xerces/validators/common/Grammar.java",
+		"startLine": 71,
+		"endLine": 816,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.validators.common.Grammar"
+}, {
+		"filePath": "src/org/apache/xerces/validators/common/Grammar.java",
+		"startLine": 476,
+		"endLine": 562,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private createChildModel(contentSpecIndex int) : XMLContentModel"
+}, {
+		"filePath": "src/org/apache/xerces/validators/common/Grammar.java",
+		"startLine": 101,
+		"endLine": 101,
+		"startColumn": 17,
+		"endColumn": 38,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fElementDeclCount : int"
+}, {
+		"filePath": "src/org/apache/xerces/validators/common/Grammar.java",
+		"startLine": 612,
+		"endLine": 612,
+		"startColumn": 17,
+		"endColumn": 31,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fLeafCount : int"
+}, {
+		"filePath": "src/org/apache/xerces/validators/common/Grammar.java",
+		"startLine": 113,
+		"endLine": 113,
+		"startColumn": 17,
+		"endColumn": 70,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fContentSpecType : int[][]"
+}]
+}

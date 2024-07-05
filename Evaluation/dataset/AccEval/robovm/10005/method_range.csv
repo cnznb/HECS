@@ -1,0 +1,10 @@
+0,toObject,46,52
+1,toNative,54,59
+2,getDictionary,77,79
+3,isShowingPowerAlert,85,91
+4,setShowPowerAlert,95,98
+5,getRestoreIdentifier,102,108
+6,setRestoreIdentifier,112,115
+7,ShowPowerAlertKey,121,132
+8,RestoreIdentifierKey,126,132
+9,toString,129,132

@@ -1,0 +1,8 @@
+0,toObject,45,51
+1,toNative,53,58
+2,value,91,93
+3,valueOf,95,103
+4,RGBValue,109,125
+5,GrayValue,114,125
+6,CMYKValue,119,125
+7,LabValue,124,125

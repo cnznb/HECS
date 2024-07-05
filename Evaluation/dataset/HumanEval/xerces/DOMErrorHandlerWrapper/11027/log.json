@@ -1,0 +1,52 @@
+5fa54eb54
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.util.DOMErrorHandlerWrapper.DOMErrorTypeMap from class org.apache.xerces.util.DOMErrorHandlerWrapper",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/util/DOMErrorHandlerWrapper.java",
+		"startLine": 34,
+		"endLine": 284,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.util.DOMErrorHandlerWrapper"
+}, {
+		"filePath": "src/org/apache/xerces/util/DOMErrorHandlerWrapper.java",
+		"startLine": 54,
+		"endLine": 54,
+		"startColumn": 30,
+		"endColumn": 49,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fgDOMErrorTypeTable : Hashtable"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/util/DOMErrorHandlerWrapper.java",
+		"startLine": 34,
+		"endLine": 414,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.util.DOMErrorHandlerWrapper"
+}, {
+		"filePath": "src/org/apache/xerces/util/DOMErrorHandlerWrapper.java",
+		"startLine": 277,
+		"endLine": 412,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.util.DOMErrorHandlerWrapper.DOMErrorTypeMap"
+}, {
+		"filePath": "src/org/apache/xerces/util/DOMErrorHandlerWrapper.java",
+		"startLine": 284,
+		"endLine": 284,
+		"startColumn": 34,
+		"endColumn": 53,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fgDOMErrorTypeTable : Hashtable"
+}]
+}

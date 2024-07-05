@@ -1,0 +1,70 @@
+54fa811a5
+{
+	"type": "Extract Class",
+	"description": "Extract Class net.sourceforge.ganttproject.gui.ProjectOpenStrategy.Step1 from class net.sourceforge.ganttproject.gui.ProjectUIFacadeImpl",
+	"leftSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/ProjectUIFacadeImpl.java",
+		"startLine": 73,
+		"endLine": 471,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.sourceforge.ganttproject.gui.ProjectUIFacadeImpl"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/ProjectUIFacadeImpl.java",
+		"startLine": 379,
+		"endLine": 397,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private adjustTasks(taskManager TaskManager) : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/ProjectUIFacadeImpl.java",
+		"startLine": 399,
+		"endLine": 436,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private tryPatchMilestones(project IGanttProject, taskManager TaskManager) : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/ProjectUIFacadeImpl.java",
+		"startLine": 72,
+		"endLine": 315,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "net.sourceforge.ganttproject.gui.ProjectUIFacadeImpl"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/ProjectOpenStrategy.java",
+		"startLine": 135,
+		"endLine": 224,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "net.sourceforge.ganttproject.gui.ProjectOpenStrategy.Step1"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/ProjectOpenStrategy.java",
+		"startLine": 217,
+		"endLine": 223,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private adjustTasks(taskManager TaskManager) : void"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/ProjectOpenStrategy.java",
+		"startLine": 178,
+		"endLine": 215,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private tryPatchMilestones(project IGanttProject, taskManager TaskManager) : void"
+}]
+}

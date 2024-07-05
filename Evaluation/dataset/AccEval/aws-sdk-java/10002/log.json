@@ -1,0 +1,160 @@
+4baf0a4de8d03022df48d696d210cc8b3117d38a
+{
+	"type": "Extract Class",
+	"description": "Extract Class com.amazonaws.util.EC2MetadataUtilsServer from class com.amazonaws.util.EC2MetadataUtilsTest",
+	"leftSideLocations": [{
+		"filePath": "aws-java-sdk-core/src/test/java/com/amazonaws/util/EC2MetadataUtilsTest.java",
+		"startLine": 29,
+		"endLine": 274,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "com.amazonaws.util.EC2MetadataUtilsTest"
+}, {
+		"filePath": "aws-java-sdk-core/src/test/java/com/amazonaws/util/EC2MetadataUtilsTest.java",
+		"startLine": 134,
+		"endLine": 169,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private handleConnection(input BufferedReader, output PrintWriter) : void"
+}, {
+		"filePath": "aws-java-sdk-core/src/test/java/com/amazonaws/util/EC2MetadataUtilsTest.java",
+		"startLine": 171,
+		"endLine": 182,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private ignoreRequest(input BufferedReader) : void"
+}, {
+		"filePath": "aws-java-sdk-core/src/test/java/com/amazonaws/util/EC2MetadataUtilsTest.java",
+		"startLine": 184,
+		"endLine": 202,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private outputIamInfo(output PrintWriter) : void"
+}, {
+		"filePath": "aws-java-sdk-core/src/test/java/com/amazonaws/util/EC2MetadataUtilsTest.java",
+		"startLine": 204,
+		"endLine": 216,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private outputIamCredList(output PrintWriter) : void"
+}, {
+		"filePath": "aws-java-sdk-core/src/test/java/com/amazonaws/util/EC2MetadataUtilsTest.java",
+		"startLine": 218,
+		"endLine": 238,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private outputIamCred(output PrintWriter) : void"
+}, {
+		"filePath": "aws-java-sdk-core/src/test/java/com/amazonaws/util/EC2MetadataUtilsTest.java",
+		"startLine": 240,
+		"endLine": 267,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private outputInstanceInfo(output PrintWriter) : void"
+}, {
+		"filePath": "aws-java-sdk-core/src/test/java/com/amazonaws/util/EC2MetadataUtilsTest.java",
+		"startLine": 31,
+		"endLine": 31,
+		"startColumn": 33,
+		"endColumn": 39,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private server : ServerSocket"
+}],
+	"rightSideLocations": [{
+		"filePath": "aws-java-sdk-core/src/test/java/com/amazonaws/util/EC2MetadataUtilsTest.java",
+		"startLine": 31,
+		"endLine": 107,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "com.amazonaws.util.EC2MetadataUtilsTest"
+}, {
+		"filePath": "aws-java-sdk-core/src/test/java/com/amazonaws/util/EC2MetadataUtilsServer.java",
+		"startLine": 31,
+		"endLine": 229,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "com.amazonaws.util.EC2MetadataUtilsServer"
+}, {
+		"filePath": "aws-java-sdk-core/src/test/java/com/amazonaws/util/EC2MetadataUtilsServer.java",
+		"startLine": 90,
+		"endLine": 125,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private handleConnection(input BufferedReader, output PrintWriter) : void"
+}, {
+		"filePath": "aws-java-sdk-core/src/test/java/com/amazonaws/util/EC2MetadataUtilsServer.java",
+		"startLine": 127,
+		"endLine": 138,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private ignoreRequest(input BufferedReader) : void"
+}, {
+		"filePath": "aws-java-sdk-core/src/test/java/com/amazonaws/util/EC2MetadataUtilsServer.java",
+		"startLine": 140,
+		"endLine": 158,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private outputIamInfo(output PrintWriter) : void"
+}, {
+		"filePath": "aws-java-sdk-core/src/test/java/com/amazonaws/util/EC2MetadataUtilsServer.java",
+		"startLine": 160,
+		"endLine": 172,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private outputIamCredList(output PrintWriter) : void"
+}, {
+		"filePath": "aws-java-sdk-core/src/test/java/com/amazonaws/util/EC2MetadataUtilsServer.java",
+		"startLine": 174,
+		"endLine": 194,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private outputIamCred(output PrintWriter) : void"
+}, {
+		"filePath": "aws-java-sdk-core/src/test/java/com/amazonaws/util/EC2MetadataUtilsServer.java",
+		"startLine": 196,
+		"endLine": 208,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private outputInstanceInfo(output PrintWriter) : void"
+}, {
+		"filePath": "aws-java-sdk-core/src/test/java/com/amazonaws/util/EC2MetadataUtilsServer.java",
+		"startLine": 37,
+		"endLine": 37,
+		"startColumn": 26,
+		"endColumn": 32,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private server : ServerSocket"
+}]
+}

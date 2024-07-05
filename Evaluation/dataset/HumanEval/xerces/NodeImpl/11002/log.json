@@ -1,0 +1,88 @@
+de0b4fb86
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xerces.dom.ChildAndParentNode from class org.apache.xerces.dom.NodeImpl",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xerces/dom/NodeImpl.java",
+		"startLine": 71,
+		"endLine": 1290,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xerces.dom.NodeImpl"
+}, {
+		"filePath": "src/org/apache/xerces/dom/NodeImpl.java",
+		"startLine": 1256,
+		"endLine": 1263,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "protected changed() : void"
+}, {
+		"filePath": "src/org/apache/xerces/dom/NodeImpl.java",
+		"startLine": 123,
+		"endLine": 123,
+		"startColumn": 25,
+		"endColumn": 38,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected ownerDocument : DocumentImpl"
+}, {
+		"filePath": "src/org/apache/xerces/dom/NodeImpl.java",
+		"startLine": 172,
+		"endLine": 172,
+		"startColumn": 6,
+		"endColumn": 17,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "package changes : int"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xerces/dom/NodeImpl.java",
+		"startLine": 71,
+		"endLine": 1362,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xerces.dom.NodeImpl"
+}, {
+		"filePath": "src/org/apache/xerces/dom/ChildAndParentNode.java",
+		"startLine": 69,
+		"endLine": 918,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xerces.dom.ChildAndParentNode"
+}, {
+		"filePath": "src/org/apache/xerces/dom/ChildAndParentNode.java",
+		"startLine": 867,
+		"endLine": 877,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "protected changed() : void"
+}, {
+		"filePath": "src/org/apache/xerces/dom/ChildAndParentNode.java",
+		"startLine": 82,
+		"endLine": 82,
+		"startColumn": 28,
+		"endColumn": 41,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "protected ownerDocument : DocumentImpl"
+}, {
+		"filePath": "src/org/apache/xerces/dom/ChildAndParentNode.java",
+		"startLine": 110,
+		"endLine": 110,
+		"startColumn": 19,
+		"endColumn": 30,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "protected changes : int"
+}]
+}

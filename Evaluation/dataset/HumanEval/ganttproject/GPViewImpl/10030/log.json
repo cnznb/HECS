@@ -1,0 +1,88 @@
+299cf5872
+{
+	"type": "Extract Class",
+	"description": "Extract Class net.sourceforge.ganttproject.action.view.ViewMenu.GPViewImpl from class net.sourceforge.ganttproject.GanttProjectBase.GPViewImpl",
+	"leftSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttProjectBase.java",
+		"startLine": 368,
+		"endLine": 437,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.sourceforge.ganttproject.GanttProjectBase.GPViewImpl"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttProjectBase.java",
+		"startLine": 428,
+		"endLine": 430,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public getChart() : Chart"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttProjectBase.java",
+		"startLine": 373,
+		"endLine": 373,
+		"startColumn": 27,
+		"endColumn": 38,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myComponent : Container"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/GanttProjectBase.java",
+		"startLine": 379,
+		"endLine": 379,
+		"startColumn": 29,
+		"endColumn": 36,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private myChart : Chart"
+}],
+	"rightSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/gui/view/ViewHolder.java",
+		"startLine": 28,
+		"endLine": 92,
+		"startColumn": 0,
+		"endColumn": 0,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "net.sourceforge.ganttproject.gui.view.ViewHolder"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/action/view/ViewMenu.java",
+		"startLine": 55,
+		"endLine": 76,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "net.sourceforge.ganttproject.action.view.ViewMenu.GPViewImpl"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/action/view/ViewMenu.java",
+		"startLine": 67,
+		"endLine": 70,
+		"startColumn": 9,
+		"endColumn": 10,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public getChart() : Chart"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/action/view/ViewMenu.java",
+		"startLine": 57,
+		"endLine": 57,
+		"startColumn": 27,
+		"endColumn": 38,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myComponent : Component"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/action/view/ViewMenu.java",
+		"startLine": 56,
+		"endLine": 56,
+		"startColumn": 29,
+		"endColumn": 36,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private myChart : Chart"
+}]
+}

@@ -1,0 +1,214 @@
+5790b4a44ba85e7e8ece64613d9e6a1b737a6cde
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.cassandra.cql3.validation.entities.UFPureScriptTest from class org.apache.cassandra.cql3.validation.entities.UFTest",
+	"leftSideLocations": [{
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFTest.java",
+		"startLine": 58,
+		"endLine": 2594,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.cassandra.cql3.validation.entities.UFTest"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFTest.java",
+		"startLine": 1524,
+		"endLine": 1567,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public testJavascriptSimpleCollections() : void"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFTest.java",
+		"startLine": 1569,
+		"endLine": 1590,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public testJavascriptTupleType() : void"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFTest.java",
+		"startLine": 1592,
+		"endLine": 1680,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public testJavascriptTupleTypeCollection() : void"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFTest.java",
+		"startLine": 1682,
+		"endLine": 1719,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public testJavascriptUserType() : void"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFTest.java",
+		"startLine": 1721,
+		"endLine": 1776,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public testJavascriptUTCollections() : void"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFTest.java",
+		"startLine": 1778,
+		"endLine": 1807,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public testJavascriptFunction() : void"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFTest.java",
+		"startLine": 1809,
+		"endLine": 1824,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public testJavascriptBadReturnType() : void"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFTest.java",
+		"startLine": 1826,
+		"endLine": 1842,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public testJavascriptThrow() : void"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFTest.java",
+		"startLine": 1877,
+		"endLine": 1917,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public testScriptReturnTypeCasting() : void"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFTest.java",
+		"startLine": 1919,
+		"endLine": 1982,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "public testScriptParamReturnTypes() : void"
+}],
+	"rightSideLocations": [{
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFTest.java",
+		"startLine": 58,
+		"endLine": 2377,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.cassandra.cql3.validation.entities.UFTest"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFPureScriptTest.java",
+		"startLine": 45,
+		"endLine": 478,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.cassandra.cql3.validation.entities.UFPureScriptTest"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFPureScriptTest.java",
+		"startLine": 52,
+		"endLine": 95,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public testJavascriptSimpleCollections() : void"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFPureScriptTest.java",
+		"startLine": 97,
+		"endLine": 118,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public testJavascriptTupleType() : void"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFPureScriptTest.java",
+		"startLine": 120,
+		"endLine": 208,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public testJavascriptTupleTypeCollection() : void"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFPureScriptTest.java",
+		"startLine": 210,
+		"endLine": 247,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public testJavascriptUserType() : void"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFPureScriptTest.java",
+		"startLine": 249,
+		"endLine": 304,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public testJavascriptUTCollections() : void"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFPureScriptTest.java",
+		"startLine": 306,
+		"endLine": 335,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public testJavascriptFunction() : void"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFPureScriptTest.java",
+		"startLine": 337,
+		"endLine": 352,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public testJavascriptBadReturnType() : void"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFPureScriptTest.java",
+		"startLine": 354,
+		"endLine": 370,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public testJavascriptThrow() : void"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFPureScriptTest.java",
+		"startLine": 372,
+		"endLine": 412,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public testScriptReturnTypeCasting() : void"
+}, {
+		"filePath": "test/unit/org/apache/cassandra/cql3/validation/entities/UFPureScriptTest.java",
+		"startLine": 414,
+		"endLine": 477,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "public testScriptParamReturnTypes() : void"
+}]
+}

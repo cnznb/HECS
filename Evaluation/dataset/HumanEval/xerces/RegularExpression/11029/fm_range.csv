@@ -1,0 +1,15 @@
+0,resetCommon,1998,2005,0
+1,reset,2007,2018,0
+2,reset,2020,2031,0
+3,reset,2033,2044,0
+4,setInUse,2045,2047,0
+5,start,1982,1982,0
+6,limit,1983,1983,0
+7,length,1984,1984,0
+8,match,1985,1985,0
+9,inuse,1986,1986,0
+10,offsets,1987,1987,1
+11,stringTarget,1989,1989,0
+12,charArrayTarget,1990,1990,0
+13,characterIteratorTarget,1991,1991,0
+14,target,1993,1993,0

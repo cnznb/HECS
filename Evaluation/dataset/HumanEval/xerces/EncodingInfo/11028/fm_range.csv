@@ -1,0 +1,13 @@
+0,getIANAName,71,73,0
+1,getWriter,83,93,0
+2,isPrintable,100,132,0
+3,testJavaEncodingName,136,139,0
+4,fgGetConverterMethod,34,34,1
+5,fgCanConvertMethod,37,37,1
+6,fgConvertersAvailable,40,40,1
+7,fArgsForMethod,43,43,0
+8,ianaName,47,47,0
+9,javaName,48,48,0
+10,lastPrintable,49,49,0
+11,fCharToByteConverter,52,52,0
+12,fHaveTriedCToB,57,57,0

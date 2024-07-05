@@ -1,0 +1,6 @@
+0,putItem,88,91,0
+1,getItem,102,104,0
+2,removeItem,112,114,0
+3,keys,120,122,0
+4,clear,127,129,0
+5,fAugmentations,77,77,1

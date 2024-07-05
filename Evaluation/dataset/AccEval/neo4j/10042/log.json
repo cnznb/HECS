@@ -1,0 +1,88 @@
+e0072aac53b3b88de787e7ca653c7e17f9499018
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.neo4j.ndp.messaging.v1.Neo4jPack from class org.neo4j.ndp.messaging.v1.PackStreamMessageFormatV1",
+	"leftSideLocations": [{
+		"filePath": "community/ndp/messaging-v1/src/main/java/org/neo4j/ndp/messaging/v1/PackStreamMessageFormatV1.java",
+		"startLine": 53,
+		"endLine": 705,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.neo4j.ndp.messaging.v1.PackStreamMessageFormatV1"
+}, {
+		"filePath": "community/ndp/messaging-v1/src/main/java/org/neo4j/ndp/messaging/v1/PackStreamMessageFormatV1.java",
+		"startLine": 57,
+		"endLine": 57,
+		"startColumn": 30,
+		"endColumn": 40,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "public NODE : byte"
+}, {
+		"filePath": "community/ndp/messaging-v1/src/main/java/org/neo4j/ndp/messaging/v1/PackStreamMessageFormatV1.java",
+		"startLine": 58,
+		"endLine": 58,
+		"startColumn": 30,
+		"endColumn": 48,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "public RELATIONSHIP : byte"
+}, {
+		"filePath": "community/ndp/messaging-v1/src/main/java/org/neo4j/ndp/messaging/v1/PackStreamMessageFormatV1.java",
+		"startLine": 59,
+		"endLine": 59,
+		"startColumn": 30,
+		"endColumn": 40,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "public PATH : byte"
+}],
+	"rightSideLocations": [{
+		"filePath": "community/ndp/messaging-v1/src/main/java/org/neo4j/ndp/messaging/v1/PackStreamMessageFormatV1.java",
+		"startLine": 34,
+		"endLine": 350,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.neo4j.ndp.messaging.v1.PackStreamMessageFormatV1"
+}, {
+		"filePath": "community/ndp/messaging-v1/src/main/java/org/neo4j/ndp/messaging/v1/Neo4jPack.java",
+		"startLine": 45,
+		"endLine": 377,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.neo4j.ndp.messaging.v1.Neo4jPack"
+}, {
+		"filePath": "community/ndp/messaging-v1/src/main/java/org/neo4j/ndp/messaging/v1/Neo4jPack.java",
+		"startLine": 53,
+		"endLine": 53,
+		"startColumn": 30,
+		"endColumn": 40,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public NODE : byte"
+}, {
+		"filePath": "community/ndp/messaging-v1/src/main/java/org/neo4j/ndp/messaging/v1/Neo4jPack.java",
+		"startLine": 54,
+		"endLine": 54,
+		"startColumn": 30,
+		"endColumn": 48,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public RELATIONSHIP : byte"
+}, {
+		"filePath": "community/ndp/messaging-v1/src/main/java/org/neo4j/ndp/messaging/v1/Neo4jPack.java",
+		"startLine": 56,
+		"endLine": 56,
+		"startColumn": 30,
+		"endColumn": 40,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public PATH : byte"
+}]
+}

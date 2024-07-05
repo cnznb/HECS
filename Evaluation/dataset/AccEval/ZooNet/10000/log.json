@@ -1,0 +1,358 @@
+3fd77b419673ce6ec41e06cdc27558b1d8f4ca06
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.zookeeper.server.command.FourLetterCommands from class org.apache.zookeeper.server.ServerCnxn",
+	"leftSideLocations": [{
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 43,
+		"endLine": 489,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.zookeeper.server.ServerCnxn"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 126,
+		"endLine": 127,
+		"startColumn": 32,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected confCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 133,
+		"endLine": 134,
+		"startColumn": 32,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected consCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 140,
+		"endLine": 141,
+		"startColumn": 32,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected crstCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 147,
+		"endLine": 148,
+		"startColumn": 32,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected dumpCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 154,
+		"endLine": 155,
+		"startColumn": 32,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected enviCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 161,
+		"endLine": 162,
+		"startColumn": 32,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected getTraceMaskCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 168,
+		"endLine": 169,
+		"startColumn": 32,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected ruokCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 174,
+		"endLine": 175,
+		"startColumn": 32,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected setTraceMaskCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 181,
+		"endLine": 182,
+		"startColumn": 32,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected srvrCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 188,
+		"endLine": 189,
+		"startColumn": 32,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected srstCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 195,
+		"endLine": 196,
+		"startColumn": 32,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected statCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 202,
+		"endLine": 203,
+		"startColumn": 32,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected wchcCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 209,
+		"endLine": 210,
+		"startColumn": 32,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected wchpCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 216,
+		"endLine": 217,
+		"startColumn": 32,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected wchsCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 223,
+		"endLine": 224,
+		"startColumn": 32,
+		"endColumn": 22,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected mntrCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 230,
+		"endLine": 231,
+		"startColumn": 32,
+		"endColumn": 22,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected isroCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 239,
+		"endLine": 239,
+		"startColumn": 32,
+		"endColumn": 59,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected telnetCloseCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 241,
+		"endLine": 242,
+		"startColumn": 53,
+		"endColumn": 39,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "protected cmd2String : HashMap<Integer,String>"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/java/main/org/apache/zookeeper/server/ServerCnxn.java",
+		"startLine": 44,
+		"endLine": 372,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.zookeeper.server.ServerCnxn"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/command/FourLetterCommands.java",
+		"startLine": 24,
+		"endLine": 170,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.zookeeper.server.command.FourLetterCommands"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/command/FourLetterCommands.java",
+		"startLine": 32,
+		"endLine": 33,
+		"startColumn": 29,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public confCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/command/FourLetterCommands.java",
+		"startLine": 39,
+		"endLine": 40,
+		"startColumn": 29,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public consCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/command/FourLetterCommands.java",
+		"startLine": 46,
+		"endLine": 47,
+		"startColumn": 29,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public crstCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/command/FourLetterCommands.java",
+		"startLine": 53,
+		"endLine": 54,
+		"startColumn": 29,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public dumpCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/command/FourLetterCommands.java",
+		"startLine": 60,
+		"endLine": 61,
+		"startColumn": 29,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public enviCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/command/FourLetterCommands.java",
+		"startLine": 67,
+		"endLine": 68,
+		"startColumn": 29,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public getTraceMaskCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/command/FourLetterCommands.java",
+		"startLine": 74,
+		"endLine": 75,
+		"startColumn": 29,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public ruokCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/command/FourLetterCommands.java",
+		"startLine": 80,
+		"endLine": 81,
+		"startColumn": 29,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public setTraceMaskCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/command/FourLetterCommands.java",
+		"startLine": 87,
+		"endLine": 88,
+		"startColumn": 29,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public srvrCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/command/FourLetterCommands.java",
+		"startLine": 94,
+		"endLine": 95,
+		"startColumn": 29,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public srstCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/command/FourLetterCommands.java",
+		"startLine": 101,
+		"endLine": 102,
+		"startColumn": 29,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public statCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/command/FourLetterCommands.java",
+		"startLine": 108,
+		"endLine": 109,
+		"startColumn": 29,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public wchcCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/command/FourLetterCommands.java",
+		"startLine": 115,
+		"endLine": 116,
+		"startColumn": 29,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public wchpCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/command/FourLetterCommands.java",
+		"startLine": 122,
+		"endLine": 123,
+		"startColumn": 29,
+		"endColumn": 52,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public wchsCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/command/FourLetterCommands.java",
+		"startLine": 129,
+		"endLine": 130,
+		"startColumn": 29,
+		"endColumn": 22,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public mntrCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/command/FourLetterCommands.java",
+		"startLine": 136,
+		"endLine": 137,
+		"startColumn": 29,
+		"endColumn": 22,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public isroCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/command/FourLetterCommands.java",
+		"startLine": 145,
+		"endLine": 145,
+		"startColumn": 29,
+		"endColumn": 56,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public telnetCloseCmd : int"
+}, {
+		"filePath": "src/java/main/org/apache/zookeeper/server/command/FourLetterCommands.java",
+		"startLine": 147,
+		"endLine": 148,
+		"startColumn": 50,
+		"endColumn": 39,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "public cmd2String : HashMap<Integer,String>"
+}]
+}

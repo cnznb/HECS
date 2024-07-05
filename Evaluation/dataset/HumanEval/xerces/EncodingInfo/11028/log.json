@@ -1,0 +1,88 @@
+586de9cf8
+{
+	"type": "Extract Class",
+	"description": "Extract Class org.apache.xml.serialize.EncodingInfo.CharToByteConverterMethods from class org.apache.xml.serialize.EncodingInfo",
+	"leftSideLocations": [{
+		"filePath": "src/org/apache/xml/serialize/EncodingInfo.java",
+		"startLine": 26,
+		"endLine": 158,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "org.apache.xml.serialize.EncodingInfo"
+}, {
+		"filePath": "src/org/apache/xml/serialize/EncodingInfo.java",
+		"startLine": 34,
+		"endLine": 34,
+		"startColumn": 45,
+		"endColumn": 72,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fgGetConverterMethod : Method"
+}, {
+		"filePath": "src/org/apache/xml/serialize/EncodingInfo.java",
+		"startLine": 37,
+		"endLine": 37,
+		"startColumn": 45,
+		"endColumn": 70,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fgCanConvertMethod : Method"
+}, {
+		"filePath": "src/org/apache/xml/serialize/EncodingInfo.java",
+		"startLine": 40,
+		"endLine": 40,
+		"startColumn": 28,
+		"endColumn": 57,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "original attribute declaration",
+		"codeElement": "private fgConvertersAvailable : boolean"
+}],
+	"rightSideLocations": [{
+		"filePath": "src/org/apache/xml/serialize/EncodingInfo.java",
+		"startLine": 25,
+		"endLine": 267,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "org.apache.xml.serialize.EncodingInfo"
+}, {
+		"filePath": "src/org/apache/xml/serialize/EncodingInfo.java",
+		"startLine": 234,
+		"endLine": 266,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "org.apache.xml.serialize.EncodingInfo.CharToByteConverterMethods"
+}, {
+		"filePath": "src/org/apache/xml/serialize/EncodingInfo.java",
+		"startLine": 240,
+		"endLine": 240,
+		"startColumn": 49,
+		"endColumn": 76,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fgGetConverterMethod : Method"
+}, {
+		"filePath": "src/org/apache/xml/serialize/EncodingInfo.java",
+		"startLine": 243,
+		"endLine": 243,
+		"startColumn": 49,
+		"endColumn": 74,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fgCanConvertMethod : Method"
+}, {
+		"filePath": "src/org/apache/xml/serialize/EncodingInfo.java",
+		"startLine": 246,
+		"endLine": 246,
+		"startColumn": 32,
+		"endColumn": 61,
+		"codeElementType": "FIELD_DECLARATION",
+		"description": "extracted attribute declaration",
+		"codeElement": "private fgConvertersAvailable : boolean"
+}]
+}

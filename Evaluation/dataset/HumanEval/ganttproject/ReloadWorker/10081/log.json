@@ -1,0 +1,52 @@
+3c0bbbf40
+{
+	"type": "Extract Class",
+	"description": "Extract Class biz.ganttproject.storage.webdav.WebdavLoadWorker from class net.sourceforge.ganttproject.document.webdav.GanttURLChooser.ReloadWorker",
+	"leftSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/document/webdav/GanttURLChooser.java",
+		"startLine": 240,
+		"endLine": 297,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "original type declaration",
+		"codeElement": "net.sourceforge.ganttproject.document.webdav.GanttURLChooser.ReloadWorker"
+}, {
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/document/webdav/GanttURLChooser.java",
+		"startLine": 265,
+		"endLine": 278,
+		"startColumn": 5,
+		"endColumn": 6,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "original method declaration",
+		"codeElement": "private readChildren(parent WebDavResource) : List<WebDavResource>"
+}],
+	"rightSideLocations": [{
+		"filePath": "ganttproject/src/net/sourceforge/ganttproject/document/webdav/GanttURLChooser.java",
+		"startLine": 241,
+		"endLine": 275,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "type declaration after extraction",
+		"codeElement": "net.sourceforge.ganttproject.document.webdav.GanttURLChooser.ReloadWorker"
+}, {
+		"filePath": "ganttproject/src/biz/ganttproject/storage/webdav/WebdavLoadWorker.java",
+		"startLine": 12,
+		"endLine": 47,
+		"startColumn": 0,
+		"endColumn": 2,
+		"codeElementType": "TYPE_DECLARATION",
+		"description": "extracted type declaration",
+		"codeElement": "biz.ganttproject.storage.webdav.WebdavLoadWorker"
+}, {
+		"filePath": "ganttproject/src/biz/ganttproject/storage/webdav/WebdavLoadWorker.java",
+		"startLine": 34,
+		"endLine": 46,
+		"startColumn": 3,
+		"endColumn": 4,
+		"codeElementType": "METHOD_DECLARATION",
+		"description": "extracted method declaration",
+		"codeElement": "private readChildren(parent WebDavResource) : List<WebDavResource>"
+}]
+}

@@ -1,0 +1,14 @@
+0,setActive,393,400,0
+1,reset,402,404,0
+2,setVisible,406,418,0
+3,isVisible,420,422,0
+4,selectionChanged,424,426,0
+5,getChart,428,430,1
+6,languageChanged,432,436,0
+7,myTabs,369,369,0
+8,myIndex,371,371,0
+9,myComponent,373,373,1
+10,isVisible,375,375,0
+11,myIcon,377,377,0
+12,myChart,379,379,1
+13,myManager,381,381,0

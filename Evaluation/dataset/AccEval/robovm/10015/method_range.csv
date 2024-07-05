@@ -1,0 +1,12 @@
+0,toObject,45,51
+1,toNative,53,58
+2,value,108,110
+3,valueOf,112,120
+4,OwnerNameKey,126,162
+5,CameraSerialNumberKey,131,162
+6,ImageSerialNumberKey,136,162
+7,FlashExposureCompKey,141,162
+8,ContinuousDriveKey,146,162
+9,LensModelKey,151,162
+10,FirmwareKey,156,162
+11,AspectRatioInfoKey,161,162
