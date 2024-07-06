@@ -2,7 +2,9 @@
 
 ## Plugin Overview
 
-![1720263309164](C:\Users\rain_n\AppData\Roaming\Typora\typora-user-images\1720263309164.png)
+<center>
+  <img src="https://github.com/cnznb/HECS/blob/master/Implementation/vscode/fig/workflow.png" alt="1720263309164" width="50%">
+</center>
 
 The HECS Intelligent Refactoring Plugin is an extension for performing intelligent code refactoring in Visual Studio Code. It provides a set of prediction and refactoring tools to help developers improve code quality and readability. Our prototype implementation adopts a two-layer C/S architecture: the client layer for interaction with users and the server layer for refactoring opportunity detection. It is worth noting that in the server layer, we have deployed a large model for automated verification of the legitimacy of refactoring candidates.
 
@@ -35,10 +37,10 @@ You can find the HECS icon in the bottom-right corner of VS Code. Click it to op
 
 ## The Client Layer
 
-![1720099505989](C:\Users\rain_n\AppData\Roaming\Typora\typora-user-images\1720099505989.png)
+![1720099505989](https://github.com/cnznb/HECS/blob/master/Implementation/vscode/fig/detection_view.png)
 
 The client layer serves as a Visual Studio Code (VSCode) extension, which accepts user inputs and communicates with the server layer. Once installing this extension, users can access the client layer with a launch button shown in Fig.1 and Fig.2. The client layer has two different views: detection view and refactoring view, which are illustrated as follows: 1) The Detection View. Fig.1 presents a snapshot of the detection view. First, users should click the file selection button to select a source file for detection. Next, when the user clicks the `detection` button (Button 1) to require detection results, the client layer will send an HTTPS request to the server layer and receive the data package simultaneously. The detection results will further be summarized with a table (Extraction Summary Table), where each row presents names, types, and code line ranges of the field or method to be extracted. The detection results will also be highlighted and displayed with the red colour in the window of the source file. The functionality of the `preview`  button (Button 2) and `refactoring` button (Button 3) will be illustrated in the refactoring view. 2) The Refactoring View. 
 
-![1720099563105](C:\Users\rain_n\AppData\Roaming\Typora\typora-user-images\1720099563105.png)
+![1720099563105](https://github.com/cnznb/HECS/blob/master/Implementation/vscode/fig/refactoring_view.png)
 
 Fig.2 presents a snapshot of the detection view. When the user clicks the `preview` button (Button 2) in Fig.1, a new window will be created to demonstrate fine-grained code differences between the target class and extracted class, where differences with the green colour represent the extracted added code and differences with the red colour represent the extracted deleted code. We employ a state-of-the-art tool: diff2html, to support the visualization of code differences in an HTML format. The refactoring view assists users in examining each refactoring operation. Users can further click the `refactoring` button (Button 3) in Fig.1 to automatically and accurately execute detected extract class refactoring opportunities. 
